@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OilSweeper.Engine", "OilSweeper.Engine\OilSweeper.Engine.csproj", "{9052D326-880D-41D1-BACD-EDDAAD19578C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OilSweeper.Engine.Test", "OilSweeper.Engine.Test\OilSweeper.Engine.Test.csproj", "{26B507A1-5BA5-43BD-A8EA-470D97B081B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9052D326-880D-41D1-BACD-EDDAAD19578C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9052D326-880D-41D1-BACD-EDDAAD19578C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9052D326-880D-41D1-BACD-EDDAAD19578C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26B507A1-5BA5-43BD-A8EA-470D97B081B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B507A1-5BA5-43BD-A8EA-470D97B081B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B507A1-5BA5-43BD-A8EA-470D97B081B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B507A1-5BA5-43BD-A8EA-470D97B081B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
