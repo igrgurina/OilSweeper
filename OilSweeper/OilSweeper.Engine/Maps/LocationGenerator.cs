@@ -17,22 +17,19 @@ namespace OilSweeper.Engine.Maps
             public double Latitude { get; set; }
         }
         /// <summary>
-        /// Generates multiple ( 50 ) random coordinates.
+        /// Generates 1 random coordinate.
         /// </summary>
         /// <returns></returns>
         public static IEnumerable<ILocation> GenerateCoordinates()
         {
             Random seedRandom = new Random();
             List<ILocation> coordinateList = new List<ILocation>();
-            for (int i = 0; i < 50; i++)
+            Coordinates randomCoordinates = new Coordinates
             {
-                Coordinates randomCoordinates = new Coordinates
-                {
-                    Longitude = (seedRandom.NextDouble()*360) - 180,
-                    Latitude = (seedRandom.NextDouble()*180) - 90
-                };
-                coordinateList.Add(randomCoordinates);
-            }
+                Longitude = (seedRandom.NextDouble()*360) - 180,
+                Latitude = (seedRandom.NextDouble()*180) - 90
+            };
+            coordinateList.Add(randomCoordinates);
 
             return coordinateList;
             
