@@ -2,11 +2,23 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class CameraScript : MonoBehaviour {
+public class CameraScript : MonoBehaviour
+{
 
-    private Renderer test;
-    public IEnumerable<ILocation> koordinate;
+    public const int OIL_FIELDS_COUNT = 10;
+
+    /// <summary>
+    /// Drill prefab.
+    /// </summary>
     public GameObject Pickup;
+    /// <summary>
+    /// OilField prefab.
+    /// </summary>
+    public GameObject Field;
+    /// <summary>
+    /// User prefab.
+    /// </summary>
+    public GameObject User;
 
     public interface ILocation
     {
@@ -21,37 +33,44 @@ public class CameraScript : MonoBehaviour {
         double Latitude { get; set; }
     }
 
-    public class Coordinates : ILocation
+    // Use this for initialization
+    void Start()
     {
-        public double Longitude { get; set; }
-        public double Latitude { get; set; }
+        // TODO: Remove this lines when multiplayer over network is done
+        var userOne = Instantiate(User);
+        userOne.transform.parent = GameObject.Find("Users").transform;
+        Debug.Log("User 1 created.");
+        var userTwo = Instantiate(User);
+        userTwo.transform.parent = GameObject.Find("Users").transform;
+        Debug.Log("User 2 created.");
+        
+
+        System.Random seedRandom = new System.Random();
+        for (int i = 0; i < OIL_FIELDS_COUNT; i++)
+        {
+
+            double Longitude = (seedRandom.NextDouble() * 87) - 87;
+            double Latitude = (seedRandom.NextDouble() * 49) - 49;
+
+            var newField = Instantiate(Field);
+            newField.transform.position = new Vector3((float)Longitude, (float)Latitude);
+            newField.transform.parent = GameObject.Find("OilFields").transform;
+
+            Debug.Log("New oil field created at (" + Longitude + ", " + Latitude + ").");
+
+        }
     }
 
-	// Use this for initialization
-	void Start () {
-        test = GetComponent<Renderer>();
-        System.Random seedRandom = new System.Random();
-        List<ILocation> coordinateList = new List<ILocation>();
-        for (int i = 1; i < 2; i++)
-        {
-            Coordinates randomCoordinates = new Coordinates();
-            randomCoordinates.Longitude = (seedRandom.NextDouble() * 87) - 87;
-            randomCoordinates.Latitude = (seedRandom.NextDouble() * 49) - 49;
-            coordinateList.Add(randomCoordinates);
-        }
-
-        koordinate = coordinateList;
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    // Update is called once per frame
+    void Update()
+    {
         if (Input.GetMouseButtonDown(0))
         {
 
-            foreach (ILocation one in koordinate)
-            {
-                Debug.Log("Koordinate svih tocaka: " + one.Longitude + " y " + one.Latitude + " ");
-            }
+            //foreach (ILocation one in koordinate)
+            //{
+            //    Debug.Log("Koordinate svih tocaka: " + one.Longitude + " y " + one.Latitude + " ");
+            //}
 
             Vector2 MousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Debug.Log("Mouse position: " + MousePosition.x + " y " + MousePosition.y + " ");
@@ -65,6 +84,7 @@ public class CameraScript : MonoBehaviour {
             {
                 var newPickup = Instantiate(Pickup);
                 newPickup.transform.position = MousePosition;
+                newPickup.transform.parent = GameObject.Find("Drills").transform;
             }
             //newPickup.transform.localScale += new Vector3(1F, 1F, 0F);
             /*Circle(tex, Convert.ToInt32(MousePosition.x), Convert.ToInt32(MousePosition.y), 1,
@@ -72,5 +92,5 @@ public class CameraScript : MonoBehaviour {
             tex.Apply();
             test.material.mainTexture = tex;*/
         }
-	}
+    }
 }

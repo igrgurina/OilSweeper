@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.OilSweeper.CSharp.Plugins", "UnityVS.OilSweeper.CSharp.Plugins.csproj", "{3F7E6365-5E73-DE14-475A-7898FC9914F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.OilSweeper.CSharp", "UnityVS.OilSweeper.CSharp.csproj", "{14C3D4C3-2AB2-1A36-54AB-63250341A283}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.OilSweeper.CSharp.Editor", "UnityVS.OilSweeper.CSharp.Editor.csproj", "{B1A429BC-CD25-BFE5-388D-AE8A607A6CDE}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{3F7E6365-5E73-DE14-475A-7898FC9914F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F7E6365-5E73-DE14-475A-7898FC9914F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F7E6365-5E73-DE14-475A-7898FC9914F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14C3D4C3-2AB2-1A36-54AB-63250341A283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C3D4C3-2AB2-1A36-54AB-63250341A283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C3D4C3-2AB2-1A36-54AB-63250341A283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C3D4C3-2AB2-1A36-54AB-63250341A283}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B1A429BC-CD25-BFE5-388D-AE8A607A6CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B1A429BC-CD25-BFE5-388D-AE8A607A6CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1A429BC-CD25-BFE5-388D-AE8A607A6CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
