@@ -181,3 +181,7 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+# Unity libraries
+OilSweeper.Game/OilSweeper/Library/
+OilSweeper.Game/OilSweeper/Temp/
