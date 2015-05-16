@@ -14,6 +14,8 @@ public class NetworkManager : MonoBehaviour
     private HostData[] hostList;
     private string gameName = "OilSweeping";
 
+    public GameObject Player; // player prefab
+
     private void Start()
     {
         ClearLog();
@@ -106,7 +108,10 @@ public class NetworkManager : MonoBehaviour
         
     }
 
+    
+
     void OnServerInitialized() {
+        DontDestroyOnLoad(transform.gameObject);
         Debug.Log("Server Initializied");
     }
 
