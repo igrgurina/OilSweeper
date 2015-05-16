@@ -6,15 +6,14 @@ using UnityEngine.UI;
 
 public class NetworkManager : MonoBehaviour
 {
+    public Text StatusText;
+    public GameObject PlayerPrefab;
 
-    private const string typeName = "OilSweeper";
+    private const string typeName = "OilSweeperDemo";
     private const int ConnectionLimit = 1; // Zero based (2 players)
     private int port = 25000 + (int)(DateTime.Now - DateTime.Today).TotalSeconds % 2000;
-
     private HostData[] hostList;
     private string gameName = "OilSweeping";
-
-    public GameObject Player; // player prefab
 
     private void Start()
     {
@@ -23,61 +22,93 @@ public class NetworkManager : MonoBehaviour
         RefreshHostList();
     }
 
-    #region ServerControl
-
-    private void StartServer()
+    /// <summary>
+    /// Spawns players and starts the game
+    /// </summary>
+    [RPC]
+    private void StartGame()
     {
-        var error = Network.InitializeServer(ConnectionLimit, port, !Network.HavePublicAddress());
+        if (Network.isServer) Network.Instantiate(PlayerPrefab, new Vector3(-3.0F, 0.0F), Quaternion.identity, 0);
+        else Network.Instantiate(PlayerPrefab, new Vector3(3.0F, 0.0F), Quaternion.identity, 0);
+        Log("Starting the game");
 
-        if (error == NetworkConnectionError.NoError)
-        {
-            Network.maxConnections = ConnectionLimit;
-            gameName = "OilSweeping_" + DateTime.UtcNow.Ticks.ToString();
-            MasterServer.RegisterHost(typeName, gameName);
-            Log("Game name: " + gameName);
+        // Relay to other players
+        if (GetComponent<NetworkView>().isMine) {
+            Log("Relaying game start");
+            GetComponent<NetworkView>().RPC("StartGame", RPCMode.OthersBuffered);
         }
-        else
-        {
-            Log("Server creation failed with error " + error.ToString());
-        }
-    }
-
-    private NetworkConnectionError JoinServer(HostData hostData)
-    {
-        var error = Network.Connect(hostData);
-        if (error == NetworkConnectionError.NoError)
-        {
-            gameName = hostData.gameName;
-            Log("Joining server " + gameName + "...");
-        }
-        else
-        {
-            Log("Error connecting to server: " + error.ToString());
-        }
-        return error;
-    }
-
-    private void RefreshHostList()
-    {
-        MasterServer.ClearHostList();
-        MasterServer.RequestHostList(typeName);
-        hostList = MasterServer.PollHostList();
     }
 
     private void OnMasterServerEvent(MasterServerEvent msEvent)
     {
         Log("\t*msEvent[" + msEvent.ToString() + "]");
-        switch (msEvent)
+        if (msEvent == MasterServerEvent.HostListReceived)
         {
-            case MasterServerEvent.HostListReceived:
-                OnHostListRecieved();
-                break;
-            case MasterServerEvent.RegistrationSucceeded:
-                OnRegistrationSucceeded();
-                break;
+            OnHostListRecieved();         
         }
     }
 
+    /// <summary>
+    /// Called on a server after initialization
+    /// </summary>
+    void OnServerInitialized() {
+        Log("Server Initializied");
+    }
+
+    /// <summary>
+    /// Called on a client when connected on server
+    /// </summary>
+    void OnConnectedToServer() {
+        Log("Server Joined");
+        // Start the game on the client
+        StartGame();
+    }
+
+    /// <summary>
+    /// Called on a server when a client connects
+    /// </summary>
+    void OnPlayerConnected(NetworkPlayer player)
+    {
+        Log("Player " + player.ipAddress.ToString() + " connected");
+        // Start the game on the server
+        StartGame();
+    }
+
+    #region ServerConnectionControl
+
+    private void RefreshHostList() {
+        MasterServer.ClearHostList();
+        MasterServer.RequestHostList(typeName);
+        hostList = MasterServer.PollHostList();
+    }
+
+    private void StartServer() {
+        var error = Network.InitializeServer(ConnectionLimit, port, !Network.HavePublicAddress());
+
+        if (error == NetworkConnectionError.NoError) {
+            Network.maxConnections = ConnectionLimit;
+            gameName = "OilSweeping_" + DateTime.UtcNow.Ticks.ToString();
+            MasterServer.RegisterHost(typeName, gameName);
+            Log("Game name: " + gameName);
+        } else {
+            Log("Server creation failed with error " + error.ToString());
+        }
+    }
+
+    private NetworkConnectionError JoinServer(HostData hostData) {
+        var error = Network.Connect(hostData);
+        if (error == NetworkConnectionError.NoError) {
+            gameName = hostData.gameName;
+            Log("Joining server " + gameName + "...");
+        } else {
+            Log("Error connecting to server: " + error.ToString());
+        }
+        return error;
+    }
+
+    /// <summary>
+    /// Called when the host list gets recieved
+    /// </summary>
     private void OnHostListRecieved() {
         hostList = MasterServer.PollHostList();
         ListHosts();
@@ -86,13 +117,10 @@ public class NetworkManager : MonoBehaviour
         foreach (var host in hostList) {
             if (host.AvailableForJoin()) {
                 var error = JoinServer(host);
-                if (error == NetworkConnectionError.NoError)
-                {
+                if (error == NetworkConnectionError.NoError) {
                     connectionSucceeded = true;
                     break;
-                }
-                else
-                {
+                } else {
                     Log(error.ToString());
                 }
             }
@@ -103,33 +131,28 @@ public class NetworkManager : MonoBehaviour
         }
     }
 
-    private void OnRegistrationSucceeded()
-    {
-        
-    }
-
-    
-
-    void OnServerInitialized() {
-        DontDestroyOnLoad(transform.gameObject);
-        Debug.Log("Server Initializied");
-    }
-
-    void OnConnectedToServer() {
-        Debug.Log("Server Joined");
-    }
-
     #endregion
 
     #region Logging
 
-    private void Log(string text)
+    public void Log(string text)
     {
-        Debug.Log(text);
+        if (StatusText != null)
+        {
+            StatusText.text += text + "\n";
+        }
+        else
+        {
+            Debug.Log(text);
+        }
     }
 
     private void ClearLog()
     {
+        if (StatusText != null)
+        {
+            StatusText.text = "";
+        }
     }
 
     private void ListHosts()
@@ -145,6 +168,7 @@ public class NetworkManager : MonoBehaviour
     }
 
     #endregion
+
 }
 
 public static partial class ExtensionMethods
