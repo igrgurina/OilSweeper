@@ -8,21 +8,11 @@ namespace MainScreen
 {
     public class Slide
     {
-        private int slideNumber;
-        private string title;
-        private string thumbnail;
-        private string image;
-        private string text;
-
-        public Slide(int slideNumber, string title, string thumbnail, string image, string text)
-        {
-            this.slideNumber = slideNumber;
-            this.title = title;
-            this.thumbnail = thumbnail;
-            this.image = image;
-            this.text = text;
-        }
+        int slideNumber { get; set; }
+        string title { get; set; }
+        string thumbnail { get; set; }
+        string image { get; set; }
+        string text { get; set; }
 
     }
-
 }

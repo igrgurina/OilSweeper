@@ -8,20 +8,11 @@ namespace MainScreen
 {
     public class Chapter
     {
-        private int chapterNumber;
-        private string title;
-        private string thumbnail;
-        private List<Slide> slides;
-        private List<Question> questions;
-
-        public Chapter(int chapterNumber, string title, string thumbnail, List<Slide> slides, List<Question> questions)
-        {
-            this.chapterNumber = chapterNumber;
-            this.title = title;
-            this.thumbnail = thumbnail;
-            this.slides = slides;
-            this.questions = questions;
-        }	
+        int chapterNumber { get; set; }
+        string title { get; set; }
+        string thumbnail { get; set; }
+        List<Slide> slides { get; set; }
+        List<Question> questions { get; set; }
 
     }
 }

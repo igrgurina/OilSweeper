@@ -6,23 +6,13 @@ using System.Threading.Tasks;
 
 namespace MainScreen
 {
-    class Question
+    public class Question
     {
-        private int questionID;
-        private string text;
-        private string image;
-        private List<string> options;
-        private string correct;
-
-        public Question(int questionID, string text, string image, List<string> options, string correct)
-        {
-            this.questionID = questionID;
-            this.text = text;
-            this.image = image;
-            this.options = options;
-            this.correct = correct;
-        }
+        int questionID { get; set; }
+        string text { get; set; }
+        string image { get; set; }
+        List<string> options { get; set; }
+        string correct { get; set; }
 
     }
-
 }
