@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class NetworkManager : MonoBehaviour
 {
     public Text StatusText;
-    public GameObject PlayerPrefab;
+    public GameObject GamePrefab;
 
     private const string typeName = "OilSweeperDemo";
     private const int ConnectionLimit = 1; // Zero based (2 players)
@@ -18,7 +18,7 @@ public class NetworkManager : MonoBehaviour
     private void Start()
     {
         ClearLog();
-        Log("Chosen port: " + port.ToString());
+        Log("Chosen port: " + port);
         RefreshHostList();
     }
 
@@ -28,15 +28,12 @@ public class NetworkManager : MonoBehaviour
     [RPC]
     private void StartGame()
     {
-        if (Network.isServer) Network.Instantiate(PlayerPrefab, new Vector3(-3.0F, 0.0F), Quaternion.identity, 0);
-        else Network.Instantiate(PlayerPrefab, new Vector3(3.0F, 0.0F), Quaternion.identity, 0);
+        GameObject game = (GameObject)Network.Instantiate(GamePrefab, new Vector3(), Quaternion.identity, 0);
+        game.GetComponent<Game>().LogText = StatusText;
         Log("Starting the game");
 
-        // Relay to other players
-        if (GetComponent<NetworkView>().isMine) {
-            Log("Relaying game start");
-            GetComponent<NetworkView>().RPC("StartGame", RPCMode.OthersBuffered);
-        }
+        // Set the player's color
+        game.GetComponent<Game>().Color = Network.isServer ? Color.green : Color.blue;
     }
 
     private void OnMasterServerEvent(MasterServerEvent msEvent)
@@ -69,7 +66,7 @@ public class NetworkManager : MonoBehaviour
     /// </summary>
     void OnPlayerConnected(NetworkPlayer player)
     {
-        Log("Player " + player.ipAddress.ToString() + " connected");
+        Log("Player " + player.ipAddress + " connected");
         // Start the game on the server
         StartGame();
     }
@@ -169,12 +166,4 @@ public class NetworkManager : MonoBehaviour
 
     #endregion
 
-}
-
-public static partial class ExtensionMethods
-{
-    public static bool AvailableForJoin(this HostData host)
-    {
-        return host.connectedPlayers < host.playerLimit;
-    }
 }
