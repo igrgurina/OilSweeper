@@ -132,11 +132,9 @@
     </Compile>
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Question.cs" />
     <Compile Include="QuizPage.xaml.cs">
       <DependentUpon>QuizPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Slide.cs" />
     <Compile Include="SlidePage.xaml.cs">
       <DependentUpon>SlidePage.xaml</DependentUpon>
     </Compile>

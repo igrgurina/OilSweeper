@@ -14,10 +14,10 @@
     </Page.Background>
 
     <Grid DataContext="{Binding}">
-        <Image x:Name="back_image" HorizontalAlignment="Left" Height="70" Margin="10,560,0,0" VerticalAlignment="Top" Width="70" Source="Assets/back_image.png" Tapped="back_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
+        <Image HorizontalAlignment="Left" Height="70" Margin="10,560,0,0" VerticalAlignment="Top" Width="70" Source="Assets/back_image.png" Tapped="back_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
         <Image Source="{Binding Image}" Margin="117,60,118,457"/>
-        <Image x:Name="quiz_image" HorizontalAlignment="Right" Height="70" Margin="0,560,12,0" VerticalAlignment="Top" Width="77" Source="Assets/quiz_image.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="quiz_image_Tapped"/>
-        <TextBlock x:Name="quiz_txtBlock" HorizontalAlignment="Left" Margin="335,517,0,0" TextWrapping="Wrap" Text="Quiz" VerticalAlignment="Top" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" FontFamily="Comic Sans MS" FontSize="24" RenderTransformOrigin="1.116,1.54"/>
+        <Image HorizontalAlignment="Right" Height="70" Margin="0,560,12,0" VerticalAlignment="Top" Width="77" Source="Assets/quiz_image.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="quiz_image_Tapped"/>
+        <TextBlock Text="Quiz" HorizontalAlignment="Left" Margin="335,517,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" FontFamily="Comic Sans MS" FontSize="24" RenderTransformOrigin="1.116,1.54"/>
         <TextBlock Text="{Binding Title}" Margin="82,23,82,585" FontSize="22" FontWeight="Bold" TextAlignment="Center" />
         <GridView ItemsSource="{Binding Slides}" IsItemClickEnabled="True" ItemClick="Slide_Click" HorizontalAlignment="Left" Height="313" Margin="10,242,0,0" VerticalAlignment="Top" Width="380">
             <GridView.ItemTemplate>
