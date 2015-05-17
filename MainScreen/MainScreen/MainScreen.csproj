@@ -97,7 +97,7 @@
     <Content Include="Assets\play_image.png" />
     <Content Include="Assets\plin_hrvatska.png" />
     <Content Include="Assets\popis polja.png" />
-    <Content Include="Assets\Prezentacija.xml" />
+    <EmbeddedResource Include="Assets\Prezentacija.xml" />
     <Content Include="Assets\quiz_image.png" />
     <Content Include="Assets\refinery.png" />
     <Content Include="Assets\rijeka.png" />

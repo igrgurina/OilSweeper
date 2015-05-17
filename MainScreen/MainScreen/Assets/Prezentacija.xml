@@ -102,30 +102,36 @@
 					<QuestionId>1</QuestionId>
 					<Text>Koje su tri cjeline Hrvatske prema geološkom kriteriju?</Text>
 					<Image>ugljikovodici_podjela.png</Image>
-					<Option>Zagorje, Slavonija i Dalmacija</Option>
-					<Option>Podravina, Lika i Istra</Option>
-					<Option>Hrvatski dio Panonskog bazena, Dinaridi i Jadransko podmorje</Option>
-					<Option>NIti jedan odgovor nije točan</Option>
+					<Options>
+						<Option>Zagorje, Slavonija i Dalmacija</Option>
+						<Option>Podravina, Lika i Istra</Option>
+						<Option>Hrvatski dio Panonskog bazena, Dinaridi i Jadransko podmorje</Option>
+						<Option>NIti jedan odgovor nije točan</Option>
+					</Options>
 					<Correct>Hrvatski dio Panonskog bazena, Dinaridi i Jadransko podmorje</Correct>
 				</Question>
 				<Question>
 					<QuestionId>2</QuestionId>
 					<Text>Četiri depresije hrvatskog dijela Panonskog bazena su:</Text>
 					<Image>strukturne_depresije.png</Image>
-					<Option>Kupska, Neretvanska, Koranska i Sutlanska</Option>
-					<Option>Murska, Dravska, Savska te Slavonsko-srijemska</Option>
-					<Option>Baranjska, Zagorska, Lička i Dunavska</Option>
-					<Option>Niti jedan odgovor nije točan</Option>
+					<Options>
+						<Option>Kupska, Neretvanska, Koranska i Sutlanska</Option>
+						<Option>Murska, Dravska, Savska te Slavonsko-srijemska</Option>
+						<Option>Baranjska, Zagorska, Lička i Dunavska</Option>
+						<Option>Niti jedan odgovor nije točan</Option>
+					</Options>
 					<Correct>Murska, Dravska, Savska te Slavonsko-srijemska</Correct>
 				</Question>
 				<Question>
 					<QuestionId>3</QuestionId>
 					<Text>Koliki dio Jadranskog podmorja pripada Repulici Hrvatskoj?</Text>
 					<Image>ugljikovodici_podjela.png</Image>
-					<Option>Manji od 20.000</Option>
-					<Option>Točno 40.000</Option>
-					<Option>Veći od 54.000</Option>
-					<Option>Veći od 100.000</Option>
+					<Options>
+						<Option>Manji od 20.000</Option>
+						<Option>Točno 40.000</Option>
+						<Option>Veći od 54.000</Option>
+						<Option>Veći od 100.000</Option>
+					</Options>
 					<Correct>Veći od 54.000</Correct>
 				</Question>
 			</Questions>
@@ -229,30 +235,36 @@
 					<QuestionId>4</QuestionId>
 					<Text>Koje su dvije rafinerije nafte u Hrvatskoj?</Text>
 					<Image>sisak.png</Image>
-					<Option>Rijeka i Sisak</Option>
-					<Option>Zadar i Osijek</Option>
-					<Option>Zagreb i Pula</Option>
-					<Option>Slavonski Brod i Šibenik</Option>
+					<Options>
+						<Option>Rijeka i Sisak</Option>
+						<Option>Zadar i Osijek</Option>
+						<Option>Zagreb i Pula</Option>
+						<Option>Slavonski Brod i Šibenik</Option>
+					</Options>
 					<Correct>Rijeka i Sisak</Correct>
 				</Question>
 				<Question>
 					<QuestionId>5</QuestionId>
 					<Text>Koliko postoji rafinerije maziva u Hrvatskoj?</Text>
 					<Image>rijeka.png</Image>
-					<Option>J</Option>
-					<Option>Dvije</Option>
-					<Option>Tri</Option>
-					<Option>Četiri</Option>
+					<Options>
+						<Option>J</Option>
+						<Option>Dvije</Option>
+						<Option>Tri</Option>
+						<Option>Četiri</Option>
+					</Options>
 					<Correct>Dvije</Correct>
 				</Question>
 				<Question>
 					<QuestionId>6</QuestionId>
 					<Text>Koje je godine izgrađen Jadranski naftovor?</Text>
 					<Image>janaf.png</Image>
-					<Option>1959.</Option>
-					<Option>1969.</Option>
-					<Option>1979.</Option>
-					<Option>Č1989.</Option>
+					<Options>
+						<Option>1959.</Option>
+						<Option>1969.</Option>
+						<Option>1979.</Option>
+						<Option>Č1989.</Option>
+					</Options>
 					<Correct>1979.</Correct>
 				</Question>
 			</Questions>
