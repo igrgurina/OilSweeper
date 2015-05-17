@@ -1,17 +1,15 @@
 ﻿using System;
 using UnityEngine;
-using System.Collections;
-using System.Globalization;
 using UnityEngine.UI;
 
 public class NetworkManager : MonoBehaviour
 {
     public Text StatusText;
-    public GameObject GamePrefab;
+    public GameObject User;
 
-    private const string typeName = "OilSweeperDemo";
+    private const string typeName = "OilSweeper";
     private const int ConnectionLimit = 1; // Zero based (2 players)
-    private int port = 25000 + (int)(DateTime.Now - DateTime.Today).TotalSeconds % 2000;
+    private readonly int port = 25000 + (int)(DateTime.Now - DateTime.Today).TotalSeconds % 2000;
     private HostData[] hostList;
     private string gameName = "OilSweeping";
 
@@ -28,12 +26,11 @@ public class NetworkManager : MonoBehaviour
     [RPC]
     private void StartGame()
     {
-        GameObject game = (GameObject)Network.Instantiate(GamePrefab, new Vector3(), Quaternion.identity, 0);
-        game.GetComponent<Game>().LogText = StatusText;
+        GameObject game = (GameObject)Network.Instantiate(User, new Vector3(), Quaternion.identity, 0);
         Log("Starting the game");
 
         // Set the player's color
-        game.GetComponent<Game>().Color = Network.isServer ? Color.green : Color.blue;
+        game.GetComponent<UserController>().Color = Network.isServer ? Color.blue : Color.red;
     }
 
     private void OnMasterServerEvent(MasterServerEvent msEvent)
