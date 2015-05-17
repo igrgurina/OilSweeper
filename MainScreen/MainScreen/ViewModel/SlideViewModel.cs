@@ -8,7 +8,7 @@ using MainScreen.Annotations;
 
 namespace MainScreen.ViewModel
 {
-    class SlideViewModel : INotifyPropertyChanged
+    public class SlideViewModel : INotifyPropertyChanged
     {
         private int _slideNumber;
         private string _title;

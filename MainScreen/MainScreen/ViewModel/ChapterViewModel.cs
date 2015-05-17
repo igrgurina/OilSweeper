@@ -9,7 +9,7 @@ using MainScreen.Annotations;
 
 namespace MainScreen.ViewModel
 {
-    class ChapterViewModel : INotifyPropertyChanged
+    public class ChapterViewModel : INotifyPropertyChanged
     {
         private int _chapterNumber;
         private string _title;

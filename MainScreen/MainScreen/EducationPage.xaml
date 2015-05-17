@@ -18,13 +18,12 @@
         <Image x:Name="quiz_image" HorizontalAlignment="Right" Height="100" Margin="0,455,10,0" VerticalAlignment="Top" Width="100" Source="Assets/quiz_image.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="quiz_image_Tapped"/>
         <TextBlock x:Name="quiz_txtBlock" HorizontalAlignment="Left" Margin="313,417,0,0" TextWrapping="Wrap" Text="Quiz" VerticalAlignment="Top" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" FontFamily="Comic Sans MS" FontSize="24" RenderTransformOrigin="1.116,1.54"/>
         <Image x:Name="oilSweeper_image" HorizontalAlignment="Center" Height="200" Margin="0" VerticalAlignment="Top" Width="200" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" Source="Assets/OilSweeper.png"/>
-        <GridView ItemsSource="{Binding Slides}" HorizontalAlignment="Left" Height="203" Margin="59,204,0,0" VerticalAlignment="Top" Width="282">
+        <GridView IsItemClickEnabled="True" ItemClick="MainPage_Click" ItemsSource="{Binding}" HorizontalAlignment="Left" Height="203" Margin="10,204,0,0" VerticalAlignment="Top" Width="380">
             <GridView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal" Margin="2">
                         <Image Source="{Binding Image}" Height="32" Width="32"/>
                         <TextBlock Text="{Binding Title}" Margin="2" />
-                        <Button Content="Idi" x:Name="btnNavigate" Click="btnNavigate_Click"/>
                     </StackPanel>
                 </DataTemplate>
             </GridView.ItemTemplate>

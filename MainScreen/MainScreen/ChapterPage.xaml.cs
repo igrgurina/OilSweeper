@@ -22,13 +22,14 @@ namespace MainScreen
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class EducationPage : Page
+    public sealed partial class ChapterPage : Page
     {
-        public ObservableCollection<ChapterViewModel> Chapters = new ObservableCollection<ChapterViewModel>();
-        public EducationPage()
+        public ChapterPage()
         {
             this.InitializeComponent();
         }
+
+        public ObservableCollection<ChapterViewModel> Chapters = new ObservableCollection<ChapterViewModel>();
 
         /// <summary>
         /// Invoked when this page is about to be displayed in a Frame.
@@ -55,25 +56,13 @@ namespace MainScreen
 
             Chapters.Add(nesto);
             Chapters.Add(novo);
-            DataContext = Chapters;
+            DataContext = Chapters.SingleOrDefault(c => c.ChapterNumber.Equals(e.Parameter));
+            var x = 0;
         }
 
         private void back_image_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(MainPage));
-        }
-
-        private void quiz_image_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(QuizPage));
-        }
-
-        private void MainPage_Click(object sender, ItemClickEventArgs e)
-        {
-            ChapterViewModel output = e.ClickedItem as ChapterViewModel;
-            int ChapterNumber = output.ChapterNumber;
-            string bfdansdpadpiada = output.Title;
-            this.Frame.Navigate(typeof (ChapterPage), ChapterNumber);
+            this.Frame.Navigate(typeof(EducationPage));
         }
     }
 }

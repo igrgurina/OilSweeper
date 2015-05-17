@@ -8,7 +8,7 @@ using MainScreen.Annotations;
 
 namespace MainScreen.ViewModel
 {
-    class QuestionViewModel : INotifyPropertyChanged
+    public class QuestionViewModel : INotifyPropertyChanged
     {
         private int _questionId;
         private string _text;
