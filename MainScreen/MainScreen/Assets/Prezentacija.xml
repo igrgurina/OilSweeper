@@ -1,43 +1,273 @@
 <EducationalContent>
 	<Chapters>
-		<Chapter>
+			<Chapter>
 			<ChapterNumber>1</ChapterNumber>
-			<Title>Nastanak materijala</Title>
-			<Thumbnail>TMB_Chapter1.jpg</Thumbnail>
-
+			<Title>Naftnogeološke okolnosti Hrvatske</Title>
+			<Thumbnail>oil_pump.png</Thumbnail>
 			<Slides>
 				<Slide>
 					<PageNumber>1</PageNumber>
-					<Title>više od 4.5 milijardi god. p.n.e.</Title>
-					<Thumbnail>TMB_Slide1.jpg</Thumbnail>
-					<Image>IMG_Slide1_I.jpeg</Image>
-					<Text>Razdoblje je ranog Hadija. Oko novonastalog Sunca nalazi se protoplanetarni disk - gusta nakupina plinova i 
-					      izvor svega s čime se srećemo danas. Temperature i količine radijacije previsoke su za pojavu i opstanak 
-						  bilo kakvog oblika života, ali su zato savršene za sintezu ključnih spojeva, pa čak i prvih kompleksnih
-						  organskih molekula.</Text>
+					<Title>Uvod</Title>
+					<Thumbnail>oil_pump.png</Thumbnail>
+					<Image>ugljikovodici_podjela.png</Image>
+					<Text>
+					Područje Republike Hrvatske se prema geološkom kriteriju dijeli na tri cjeline: 
+					na hrvatski dio Panonskoga bazena, Dinaride i na Jadransko podmorje. 
+					Dinaridi su izdignuti dio te u ovom radu neće biti posebno izdvojeni 
+					i prikazani jer ovdje trenutno nema eksploatacije ugljikovodika. 
+					Ostale cjeline obuhvaćaju nekoliko regionalnih strukturnih depresija 
+					u kojima su otkriveni i pridobivaju se ugljikovodici.
+					</Text>
 				</Slide>
 				<Slide>
 					<PageNumber>2</PageNumber>
-					<Title>4.5 milijardi god. p.n.e.</Title>
-					<Thumbnail>TMB_Slide2.jpg</Thumbnail>
-					<Image>IMG_Slide2.jpeg</Image>
-					<Text>Zemlja je formirana, no podliježe ekstremnim vulkanskim aktivnostima i udarima eksplozivnih meteorita koji razaraju gotovo sve novoformirane stijene.</Text>
+					<Title>Hrvatski dio Panonskog bazena</Title>
+					<Thumbnail>oil_pump.png</Thumbnail>
+					<Image>panonski_bazen.png</Image>
+					<Text>
+					Hrvatski dio Panonskoga bazena smješten je na jugozapadu tektonske jedinice 
+					najvećega reda nazvane Panonski bazenski sustav. 
+					Taj prostor smješten je između stare Europske ploče na sjeveru, 
+					Alpi na zapadu, Jadranske ploče na jugu te Mezijske ploče na istoku.
+					Panonski bazenski sustav pripada skupini pozadinskih bazena (engl. “back-arc basins”). 
+					Njegovo stvaranje započelo je u otnangu subdukcijom i konvergencijom Apulijske ploče pod Dinaride. 
+					Tada je započelo i stvaranje njegove južne granice 
+					(perijadransko-vardarskog lineamenta) i sjeverne granice (Vanjski Karpati).
+					U prostoru između njih otvorene su brojne ekstenzijske strukturne depresije uz desne 
+					i lijeve transkurentne rasjedne sustave (engl. “dextral and sinistral strike-slips”), 
+					a posljedica je nastanak bazena, potonina i uleknina.
+					Danas prostor PBS-a najvećim dijelom prekriva južni rub Europske ploče, 
+					a manjim dijelom dio Unutrašnjih Dinarida.
+					</Text>
 				</Slide>
+				<Slide>
+					<PageNumber>3</PageNumber>
+					<Title>Hrvatski dio Panonskog bazena - strukturne depresije</Title>
+					<Thumbnail>oil_pump.png</Thumbnail>
+					<Image>strukturne_depresije.png</Image>
+					<Text>
+					Hrvatski dio Panonskog bazena, zahvaljujući svojem rubnom položaju 
+					odlikuje se nešto manjim ukupnim debljinama neogenskih taložina. 
+					Ipak, maksimalne debljine u zapadnom dijelu Dravske depresije ponegdje prelaze 7 km. 
+					Cijeli taj prostor, smješten u Sjevernoj Hrvatskoj, obuhvaća četiri depresije 
+					i to od sjeverozapada prema jugoistoku Mursku, Dravsku, Savsku te Slavonsko-srijemsku.
+					Unutar tih depresija smješteno je nekoliko desetaka naftnih, naftno-plinskih te plinskih polja 
+					</Text>
+				</Slide>
+				<Slide>
+					<PageNumber>4</PageNumber>
+					<Title>Hrvatski dio Panonskog bazena - prikaz polja</Title>
+					<Thumbnail>oil_pump.png</Thumbnail>
+					<Image>slika_polja.png</Image>
+					<Text>
+					</Text>
+				</Slide>	
+				<Slide>
+					<PageNumber>5</PageNumber>
+					<Title>Hrvatski dio Panonskog bazena - popis polja</Title>
+					<Thumbnail>oil_pump.png</Thumbnail>
+					<Image>popis_polja.png</Image>
+					<Text>
+					</Text>
+				</Slide>
+				<Slide>
+					<PageNumber>5</PageNumber>
+					<Title>Jadransko podmorje</Title>
+					<Thumbnail>oil_pump.png</Thumbnail>
+					<Image>sjeverni_jadran.png</Image>
+					<Text>
+					Dio Jadranskog mora koje pripada Republici Hrvatskoj je veći od 54 000 km2.
+					Promatrajući dubinu mora područje Jadrana je moguće podijeliti u tri dijela.
+					Prvi je dio izmeñu Istre i ušća rijeke Po. 
+					Ovdje je zbog najveće dubine do 40m moguće korištenje jednostavnih bušećih platformi. 
+					Drugi dio se nalazi izmeñu poteza Ravenna-Pula i poteza Ancona-Zadar. 
+					Dno je razvedenije i dubine je do 70 m. 
+					Treći dio koji ima najveće dubine (200-1000 m) se nalazi 
+					od poteza Monte Gargano-Pelješac i Mljet prema jugu. 
+					Ovdje je izraženija razvedenost dna.
+					Jedina cijela depresija koja se nalazi u hrvatskom dijelu Jadrana 
+					(uvažavajući liniju razgraničenja prema Italiji) je Dugootočna depresija (nastala u miocenu). 
+					Hrvatskom dijelu još pripadaju istočni dijelovi Padske 
+					(najveća depresija uz Južnojadransko-albansku u Jadranskom moru) 
+					i Srednjojadranske depresij koje su nastale u pliocenu.
+					Eksploatacijsko polje Sjeverni Jadran se nalazi zapadno i jugozapadno od Istarskog poluotoka
+					u međunarodnim vodama sve do središnje crte razgraničenja s Republikom Italijom. 
+					Sastoji se od 8 polja, a to su od sjevera prema jugu: 
+					Ivana, Ana, Vesna, Irina, Ida, Ika, Andrea i Annamaria.
+					</Text>
+				</Slide>				
 			</Slides>
-
 			<Questions>
 				<Question>
-					<QuestionId>5</QuestionId>
-					<Text>Koliko lastavica treba za nositi dva kokosa</Text>
-					<Image>blabla.png</Image>
-					<Option>Jedna</Option>
-					<Option>Dvije</Option>
-					<Option>Tri</Option>
-					<Option>Četiri</Option>
-					<Correct>Jedna</Correct>
+					<QuestionId>1</QuestionId>
+					<Text>Koje su tri cjeline Hrvatske prema geološkom kriteriju?</Text>
+					<Image>ugljikovodici_podjela.png</Image>
+					<Options>
+						<Option>Zagorje, Slavonija i Dalmacija</Option>
+						<Option>Podravina, Lika i Istra</Option>
+						<Option>Hrvatski dio Panonskog bazena, Dinaridi i Jadransko podmorje</Option>
+						<Option>NIti jedan odgovor nije točan</Option>
+					</Options>
+					<Correct>Hrvatski dio Panonskog bazena, Dinaridi i Jadransko podmorje</Correct>
+				</Question>
+				<Question>
+					<QuestionId>2</QuestionId>
+					<Text>Četiri depresije hrvatskog dijela Panonskog bazena su:</Text>
+					<Image>strukturne_depresije.png</Image>
+					<Options>
+						<Option>Kupska, Neretvanska, Koranska i Sutlanska</Option>
+						<Option>Murska, Dravska, Savska te Slavonsko-srijemska</Option>
+						<Option>Baranjska, Zagorska, Lička i Dunavska</Option>
+						<Option>Niti jedan odgovor nije točan</Option>
+					</Options>
+					<Correct>Murska, Dravska, Savska te Slavonsko-srijemska</Correct>
+				</Question>
+				<Question>
+					<QuestionId>3</QuestionId>
+					<Text>Koliki dio Jadranskog podmorja pripada Repulici Hrvatskoj?</Text>
+					<Image>ugljikovodici_podjela.png</Image>
+					<Options>
+						<Option>Manji od 20.000</Option>
+						<Option>Točno 40.000</Option>
+						<Option>Veći od 54.000</Option>
+						<Option>Veći od 100.000</Option>
+					</Options>
+					<Correct>Veći od 54.000</Correct>
 				</Question>
 			</Questions>
-
 		</Chapter>
+		<Chapter>
+			<ChapterNumber>2</ChapterNumber>
+			<Title>Gospodarski subjekti koji se bave preradbom i veleprodajom ugljikovodika</Title>
+			<Thumbnail>refinery.png</Thumbnail>
+			<Slides>
+				<Slide>
+					<PageNumber>1</PageNumber>
+					<Title>Rafinerija nafte Rijeka (Urinj)</Title>
+					<Thumbnail>refinery.png</Thumbnail>
+					<Image>rijeka.png</Image>
+					<Text>
+					Osnovna djelatnost ove rafinerije je proizvodnja tekućih ugljikovodičnih goriva.
+					Kapacitet prerade iznosi 4,5 milijuna tona godišnje. 
+					Rafinerija u Rijeci može prerađivati visokosumporne nafte, 
+					ali kvaliteta proizvoda ne zadovoljava sve zahtjeve tržišta. 
+					Riječka rafinerija proizvodi ukapljeni naftni plin (UNP) propan-butan, 
+					primarni benzin, motorne benzine, gorivo za mlazne motore, dizelska goriva i loživa ulja. 
+					Rafinerija raspolaže skladišnim prostorom od 124 spremnika 
+					s više od milijun tona za sirovu naftu, tekuće i ukapljene naftne derivate. 
+					Otpremnitransport se odvija kamionskim, željezničkim i morskim putom.
+					</Text>
+				</Slide>
+				<Slide>
+					<PageNumber>2</PageNumber>
+					<Title>Rafinerija nafte Sisak</Title>
+					<Thumbnail>refinery.png</Thumbnail>
+					<Image>sisak.png</Image>
+					<Text>
+					Rafinerija nafte Sisak nalazi se na geostrateški povoljnom položaju 
+					koji joj omogućuje dobre transportne tokove nafte i derivata. 
+					Smještena je na raskrižju željezničkih i cestovnih putova srednjoeuropskih zemalja. 
+					Sa sredozemnim i istočnoeuropskim izvorima nafte 
+					povezana je naftovodom čime ima osiguranu redovitu dobavu sirovine za preradu. 
+					Nakon reprofiliranja sustava preradbe u rafineriji, 
+					kod kojega je uravnotežena primarna i sekundarna preradba, kapacitet preradbe iznosi 4 milijuna tona godišnje. 
+					Potrebno je napomenuti da proizvodi svojom kvalitetom ne zadovoljavaju u potpunosti zahtjeve tržišta.
+					</Text>
+				</Slide>	
+				<Slide>
+					<PageNumber>3</PageNumber>
+					<Title>Rafinerije maziva</Title>
+					<Thumbnail>refinery.png</Thumbnail>
+					<Image>maziva.png</Image>
+					<Text>
+					Proizvodnja maziva odvija se na postrojenjima Maziva Rijeka (Mlaka) i Maziva Zagreb.
+					Preradbom atmosferskog ostatka iz rafinerije na Urinju na pogonima Maziva Rijeka proizvode se 
+					bazna ulja, motorna i industrijska ulja, parafin, bitumen, loživa ulja i drugi proizvodi. 
+					Proizvodni procesi Maziva Zagreb obuhvaćaju proizvodnju aditiva i derivata te proizvodnju maziva.
+					</Text>
+				</Slide>
+				<Slide>
+					<PageNumber>4</PageNumber>
+					<Title>Gospodarski subjekti koji se bave preradbom i pripremom plina</Title>
+					<Thumbnail>refinery.png</Thumbnail>
+					<Image>plin_hrvatska.png</Image>
+					<Text>
+					Distribucija plina odvija se preko 36 trgovačkih društava 
+					koja su u Republici Hrvatskoj registrirana za djelatnost distribucije plina, 
+					a ukupna duljina distribucijske plinske mreže iznosi preko 16 500 km. 
+					Uz to registrirana su i dva trgovačka društva za distribuciju gradskog i miješanog plina, 
+					s ukupnom duljinom plinske mreže od 380 km.
+					Transport prirodnog plina obavlja kompanija PLINACRO d.o.o. u državnom vlasništvu. 
+					Ukupna duljina transportnog sustava plinovoda obuhvaća 2 034 km. 
+					Transportni sustav plina projektirana je na tlak od 50 bar i djelomično na tlak od 75 bar. 
+					Transport prirodnog plina u vršnoj potrošnji iznosi oko 530 000 metara kubičnih na sat. 
+					U sklopu plinskog transportnog sustava nalazi se 142 mjerno-redukcijske stanice s 210 mjernih linija.
+					</Text>
+				</Slide>	
+				<Slide>
+					<PageNumber>5</PageNumber>
+					<Title>JANAF d.d. Zagreb – transport nafte</Title>
+					<Thumbnail>refinery.png</Thumbnail>
+					<Image>janaf.png</Image>
+					<Text>
+					Jadranski naftovod d.d. Zagreb (JANAF) je kompanija čija je djelatnost 
+					transport domaće i međunarodne nafte, 
+					koji uključuje pretovar i skladištenje nafte u luci i na terminalu Omišalj.
+					Jadranski naftovod izgrađen je 1979. godine kao 
+					međunarodni sustav transporta nafte od tankerske luke i terminala Omišalj 
+					do domaćih i inozemnih rafinerija u istočnoj i središnjoj Europi. 
+					Projektirani kapacitet cjevovoda je 34 milijuna tona nafte godišnje, a instalirani je 20 milijuna tona. 
+					Ukupni kapacitet skladišta na terminalima Omišalj, Sisak i Virje 
+					iznosi 900 000 m3 za naftu i 60 000 m3 za derivate.
+					Sustav JANAF d.d. sastoji se od:
+					- prihvatno - otpremnog terminala u zaljevu Omišalj na Krku s tankerskom lukom Omišalj
+					- cjevovoda duljine 759 km, a područjem Republike Hrvatske prolazi 622 km trase naftovoda
+					- prihvatno - otpremnih terminala u Sisku, Virju i kod Slavonskog Broda
+					- podmorskog naftovoda Omišalj - Urinj, koji povezuje tankersku luku s Rafinerijom Rijeka ukupne duljine 7,2 km.
+					Janaf je trenutno kompanija koja opskrbljuje naftom rafinerije u RH (Rafinerija Rijeka i Rafinerija Sisak), 
+					Bosni i Hercegovini, Srbiji i Crnoj Gori, s mogućnostima opskrbe i ostalih zemalja u okruženju. 
+					Ukupan transport nafte u razdoblju od 1979. do 2004. godine iznosio je 137 milijuna tona.
+					</Text>
+				</Slide>						
+			</Slides>
+			<Questions>
+				<Question>
+					<QuestionId>4</QuestionId>
+					<Text>Koje su dvije rafinerije nafte u Hrvatskoj?</Text>
+					<Image>sisak.png</Image>
+					<Options>
+						<Option>Rijeka i Sisak</Option>
+						<Option>Zadar i Osijek</Option>
+						<Option>Zagreb i Pula</Option>
+						<Option>Slavonski Brod i Šibenik</Option>
+					</Options>
+					<Correct>Rijeka i Sisak</Correct>
+				</Question>
+				<Question>
+					<QuestionId>5</QuestionId>
+					<Text>Koliko postoji rafinerije maziva u Hrvatskoj?</Text>
+					<Image>rijeka.png</Image>
+					<Options>
+						<Option>J</Option>
+						<Option>Dvije</Option>
+						<Option>Tri</Option>
+						<Option>Četiri</Option>
+					</Options>
+					<Correct>Dvije</Correct>
+				</Question>
+				<Question>
+					<QuestionId>6</QuestionId>
+					<Text>Koje je godine izgrađen Jadranski naftovor?</Text>
+					<Image>janaf.png</Image>
+					<Options>
+						<Option>1959.</Option>
+						<Option>1969.</Option>
+						<Option>1979.</Option>
+						<Option>Č1989.</Option>
+					</Options>
+					<Correct>1979.</Correct>
+				</Question>
+			</Questions>
+		</Chapter>		
 	</Chapters>
 </EducationalContent>
