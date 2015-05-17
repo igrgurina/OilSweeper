@@ -14,6 +14,9 @@
     </Page.Background>
 
     <Grid>
-        <Image x:Name="back_image" HorizontalAlignment="Left" Height="70" Margin="10,560,0,0" VerticalAlignment="Top" Width="70" Source="Assets/back_image.png" Tapped="back_image_Tapped"/>
+        <Image x:Name="back_image" HorizontalAlignment="Left" Height="70" Margin="10,560,0,0" VerticalAlignment="Top" Width="70" Source="Assets/back_image.png" Tapped="back_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
+        <Image x:Name="quiz_image" HorizontalAlignment="Right" Height="100" Margin="0,455,10,0" VerticalAlignment="Top" Width="100" Source="Assets/quiz_image.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="quiz_image_Tapped"/>
+        <TextBlock x:Name="quiz_txtBlock" HorizontalAlignment="Left" Margin="313,417,0,0" TextWrapping="Wrap" Text="Quiz" VerticalAlignment="Top" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" FontFamily="Comic Sans MS" FontSize="24" RenderTransformOrigin="1.116,1.54"/>
+        <Image x:Name="oilSweeper_image" HorizontalAlignment="Center" Height="200" Margin="0" VerticalAlignment="Top" Width="200" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" Source="Assets/OilSweeper.png"/>
     </Grid>
 </Page>

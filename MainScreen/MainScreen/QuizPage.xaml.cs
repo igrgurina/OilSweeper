@@ -20,9 +20,9 @@ namespace MainScreen
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class EducationPage : Page
+    public sealed partial class QuizPage : Page
     {
-        public EducationPage()
+        public QuizPage()
         {
             this.InitializeComponent();
         }
@@ -36,14 +36,9 @@ namespace MainScreen
         {
         }
 
-        private void back_image_Tapped(object sender, TappedRoutedEventArgs e)
+        private void Image_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(MainPage));
-        }
-
-        private void quiz_image_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(QuizPage));
+            this.Frame.Navigate(typeof(EducationPage));
         }
     }
 }
