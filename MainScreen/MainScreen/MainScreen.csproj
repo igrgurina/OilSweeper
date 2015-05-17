@@ -97,7 +97,9 @@
     <Content Include="Assets\play_image.png" />
     <Content Include="Assets\plin_hrvatska.png" />
     <Content Include="Assets\popis polja.png" />
-    <EmbeddedResource Include="Assets\Prezentacija.xml" />
+    <Content Include="Assets\Prezentacija.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\quiz_image.png" />
     <Content Include="Assets\refinery.png" />
     <Content Include="Assets\rijeka.png" />
@@ -121,6 +123,7 @@
     <Compile Include="EducationPage.xaml.cs">
       <DependentUpon>EducationPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Extensions\EducationContextExtensions.cs" />
     <Compile Include="GamePage.xaml.cs">
       <DependentUpon>GamePage.xaml</DependentUpon>
     </Compile>
@@ -138,6 +141,7 @@
       <DependentUpon>SlidePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\ChapterViewModel.cs" />
+    <Compile Include="ViewModel\EducationViewModel.cs" />
     <Compile Include="ViewModel\QuestionViewModel.cs" />
     <Compile Include="ViewModel\SlideViewModel.cs" />
   </ItemGroup>
@@ -176,6 +180,23 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Engine\Engine.csproj">
+      <Project>{79798169-10ff-4d19-919e-4cd5c49f4699}</Project>
+      <Name>Engine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\packages\AutoMapper.3.3.1\lib\wpa81\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.WPA81">
+      <HintPath>..\packages\AutoMapper.3.3.1\lib\wpa81\AutoMapper.WPA81.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>
@@ -183,6 +204,7 @@
     <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

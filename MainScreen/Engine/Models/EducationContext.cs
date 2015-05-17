@@ -12,10 +12,10 @@ namespace Engine.Models
         [XmlArrayItem("Chapter")]
         public List<Chapter> Chapters { get; set; }
 
-        public static EducationContext Load(Stream stream)
+        public static EducationContext Load(string file)
         {
             XmlSerializer serializer = new XmlSerializer(typeof(EducationContext));
-            XDocument document = XDocument.Load(stream);
+            XDocument document = XDocument.Load(file);
             return (EducationContext)serializer.Deserialize(document.CreateReader());
         }
     }

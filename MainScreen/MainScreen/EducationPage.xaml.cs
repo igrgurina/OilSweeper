@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -13,6 +15,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Engine.Models;
+using MainScreen.Extensions;
 using MainScreen.ViewModel;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
@@ -37,31 +41,8 @@ namespace MainScreen
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            var nesto = new ChapterViewModel()
-            {
-                ChapterNumber = 1,
-                Image = "Assets/back_image.png",
-                Title = "Prvi test",
-                Thumbnail = "bla.png"
-            };
-
-            var novo = new ChapterViewModel()
-            {
-                ChapterNumber = 2,
-                Image = "Assets/play_image.png",
-                Title = "Drugi test",
-                Thumbnail = "bla.png"
-            };
-
-            Chapters.Add(nesto);
-            Chapters.Add(novo);
-            Chapters.Add(nesto);
-            Chapters.Add(novo);
-            Chapters.Add(nesto);
-            Chapters.Add(novo);
-            Chapters.Add(nesto);
-            Chapters.Add(novo);
-            DataContext = Chapters;
+            var context = EducationContext.Load("Assets/Prezentacija.xml");
+            DataContext = context.ToViewModel();
         }
 
         private void back_image_Tapped(object sender, TappedRoutedEventArgs e)
