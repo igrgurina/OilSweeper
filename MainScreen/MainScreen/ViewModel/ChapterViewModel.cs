@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -15,8 +16,8 @@ namespace MainScreen.ViewModel
         private string _title;
         private string _thumbnail;
         private string _image;
-        private IEnumerable<SlideViewModel> _slides;
-        private IEnumerable<QuestionViewModel> _questions;
+        private List<SlideViewModel> _slides;
+        private List<QuestionViewModel> _questions;
         public event PropertyChangedEventHandler PropertyChanged;
 
         public int ChapterNumber
@@ -63,7 +64,7 @@ namespace MainScreen.ViewModel
             }
         }
 
-        public IEnumerable<SlideViewModel> Slides
+        public List<SlideViewModel> Slides
         {
             get { return _slides; }
             set
@@ -74,7 +75,7 @@ namespace MainScreen.ViewModel
             }
         }
 
-        public IEnumerable<QuestionViewModel> Questions
+        public List<QuestionViewModel> Questions
         {
             get { return _questions; }
             set

@@ -15,8 +15,9 @@
 
     <Grid>
         <Image HorizontalAlignment="Left" Height="70" Margin="10,560,0,0" VerticalAlignment="Top" Width="70" Source="Assets/back_image.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="Image_Tapped"/>
-        <Image x:Name="oilSweeper_image" HorizontalAlignment="Center" Height="200" Margin="0" VerticalAlignment="Top" Width="200" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" Source="Assets/OilSweeper.png"/>
-        <TextBlock x:Name="slide_txtBlock" HorizontalAlignment="Left" Margin="10,310,0,0" TextWrapping="Wrap" Text="{Binding}" VerticalAlignment="Top" FontSize="24" FontFamily="Comic Sans MS" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
+        <ScrollViewer Margin="30,100,30,85" Height="Auto" Grid.Row="1">
+            <TextBlock x:Name="slide_txtBlock" TextWrapping="Wrap" Text="{Binding Text}" FontSize="30" FontFamily="Comic Sans MS" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>    
+        </ScrollViewer>        
         <Image x:Name="slide_image" HorizontalAlignment="Left" Height="100" Margin="10,205,0,0" VerticalAlignment="Top" Width="100" Source="{Binding}" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
 
     </Grid>

@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using MainScreen.ViewModel;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
@@ -34,6 +35,18 @@ namespace MainScreen
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            var bvzz = new SlideViewModel() {
+                SlideNumber = 3,
+                Image = "Assets/learn_image.png",
+                Title = "Nubarsko poglavnje",
+                Text = "Lorem ipsum je glup i jbga sad što ćemo s tim mislim ono stvarno zašto je takav ja nemam blage" +
+                       "Lorem ipsum je glup i jbga sad što ćemo s tim mislim ono stvarno zašto je takav ja nemam blage" +
+                       "Lorem ipsum je glup i jbga sad što ćemo s tim mislim ono stvarno zašto je takav ja nemam blage" +
+                       "Lorem ipsum je glup i jbga sad što ćemo s tim mislim ono stvarno zašto je takav ja nemam blage",
+                Thumbnail = "Assets/learn_image.png"
+            };
+
+            DataContext = bvzz;
         }
 
         private void Image_Tapped(object sender, TappedRoutedEventArgs e)

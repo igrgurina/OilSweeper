@@ -55,6 +55,12 @@ namespace MainScreen
 
             Chapters.Add(nesto);
             Chapters.Add(novo);
+            Chapters.Add(nesto);
+            Chapters.Add(novo);
+            Chapters.Add(nesto);
+            Chapters.Add(novo);
+            Chapters.Add(nesto);
+            Chapters.Add(novo);
             DataContext = Chapters;
         }
 
@@ -72,7 +78,6 @@ namespace MainScreen
         {
             ChapterViewModel output = e.ClickedItem as ChapterViewModel;
             int ChapterNumber = output.ChapterNumber;
-            string bfdansdpadpiada = output.Title;
             this.Frame.Navigate(typeof (ChapterPage), ChapterNumber);
         }
     }
