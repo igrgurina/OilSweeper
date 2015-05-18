@@ -13,7 +13,7 @@ namespace MainScreen.ViewModel
         private string _text;
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public int SlideNumber
+        public int PageNumber
         {
             get { return _slideNumber; }
             set

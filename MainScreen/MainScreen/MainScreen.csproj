@@ -82,10 +82,14 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <Content Include="Assets\back_image.png" />
     <Content Include="Assets\ecology.png" />
+    <Content Include="Assets\front_image.png" />
+    <Content Include="Assets\IMG_Slide1.jpg" />
+    <Content Include="Assets\IMG_Slide2.jpg" />
     <Content Include="Assets\jadran.png" />
     <Content Include="Assets\janaf.png" />
     <Content Include="Assets\learn_image.png" />
     <Content Include="Assets\maziva.png" />
+    <Content Include="Assets\next_image.png" />
     <Content Include="Assets\offshore_platform.png" />
     <Content Include="Assets\OilSweeper.png" />
     <Content Include="Assets\OilSweeper_150x150.scale-100.png" />
@@ -106,11 +110,17 @@
     </Content>
     <Content Include="Assets\quiz_image.png" />
     <Content Include="Assets\refinery.png" />
+    <Content Include="Assets\return.png" />
     <Content Include="Assets\rijeka.png" />
     <Content Include="Assets\sisak.png" />
     <Content Include="Assets\sjeverni_jadran.png" />
     <Content Include="Assets\slika_polja.png" />
     <Content Include="Assets\strukturne_depresije.png" />
+    <Content Include="Assets\TMB_Chapter1.jpg" />
+    <Content Include="Assets\TMB_Slide1.jpg" />
+    <Content Include="Assets\TMB_Slide2.jpg" />
+    <Content Include="Assets\TMB_Slide3.jpg" />
+    <Content Include="Assets\TMB_Slide4.jpg" />
     <Content Include="Assets\ugljikovodici_podjela.png" />
   </ItemGroup>
   <ItemGroup>
@@ -128,6 +138,7 @@
       <DependentUpon>EducationPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Extensions\EducationContextExtensions.cs" />
+    <Compile Include="Extensions\SlideData.cs" />
     <Compile Include="GamePage.xaml.cs">
       <DependentUpon>GamePage.xaml</DependentUpon>
     </Compile>
