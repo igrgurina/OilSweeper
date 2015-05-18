@@ -69,5 +69,11 @@ namespace MainScreen
                 Frame.Navigate(typeof(SlidePage), data);
             }
         }
+
+        private void return_Image_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(ChapterPage), data.Chapter);
+            ClearStack();
+        }
     }
 }
