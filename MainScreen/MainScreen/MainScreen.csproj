@@ -111,6 +111,7 @@
     </Content>
     <Content Include="Assets\quiz_image.png" />
     <Content Include="Assets\refinery.png" />
+    <Content Include="Assets\return.png" />
     <Content Include="Assets\rijeka.png" />
     <Content Include="Assets\sisak.png" />
     <Content Include="Assets\sjeverni_jadran.png" />
