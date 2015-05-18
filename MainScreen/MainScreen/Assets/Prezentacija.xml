@@ -118,7 +118,7 @@
 				<Slide>
 					<PageNumber>2</PageNumber>
 					<Title>Hrvatski dio Panonskog bazena</Title>
-					<Thumbnail>Assets/oil_pump.png</Thumbnail>
+					<Thumbnail>Assets/panonski_bazen.png</Thumbnail>
 					<Image>Assets/panonski_bazen.png</Image>
 					<Text>
 					Hrvatski dio Panonskoga bazena smješten je na jugozapadu tektonske jedinice 
@@ -343,7 +343,7 @@
 					<Text>Koliko postoji rafinerije maziva u Hrvatskoj?</Text>
 					<Image>Assets/rijeka.png</Image>
 					<Options>
-						<Option>J</Option>
+						<Option>Jedna</Option>
 						<Option>Dvije</Option>
 						<Option>Tri</Option>
 						<Option>Četiri</Option>

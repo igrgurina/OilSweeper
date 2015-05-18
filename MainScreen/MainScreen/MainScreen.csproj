@@ -82,6 +82,7 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <Content Include="Assets\back_image.png" />
     <Content Include="Assets\ecology.png" />
+    <Content Include="Assets\jadran.png" />
     <Content Include="Assets\janaf.png" />
     <Content Include="Assets\learn_image.png" />
     <Content Include="Assets\maziva.png" />
@@ -93,10 +94,13 @@
     <Content Include="Assets\OilSweeper_71x71.scale-100.png" />
     <Content Include="Assets\oil_pump.png" />
     <Content Include="Assets\oil_rig.png" />
+    <Content Include="Assets\otkrivena_polja.png" />
+    <Content Include="Assets\panonska_polja.png" />
     <Content Include="Assets\panonski_bazen.png" />
+    <Content Include="Assets\peklenica.png" />
     <Content Include="Assets\play_image.png" />
     <Content Include="Assets\plin_hrvatska.png" />
-    <Content Include="Assets\popis polja.png" />
+    <Content Include="Assets\popis_polja.png" />
     <Content Include="Assets\Prezentacija.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
