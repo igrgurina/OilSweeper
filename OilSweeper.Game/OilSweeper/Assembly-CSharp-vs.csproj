@@ -46,11 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\_Scripts\CameraScript.cs" />
      <Compile Include="Assets\_Scripts\DrillConfig.cs" />
      <Compile Include="Assets\_Scripts\DrillController.cs" />
+     <Compile Include="Assets\_Scripts\ExtensionMethods.cs" />
+     <Compile Include="Assets\_Scripts\GameBoardController.cs" />
      <Compile Include="Assets\_Scripts\NetworkManager.cs" />
      <Compile Include="Assets\_Scripts\OilFieldController.cs" />
+     <Compile Include="Assets\_Scripts\Price.cs" />
      <Compile Include="Assets\_Scripts\UserController.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />

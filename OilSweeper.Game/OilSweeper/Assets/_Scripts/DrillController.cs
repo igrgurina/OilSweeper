@@ -2,10 +2,17 @@
 using System.Collections;
 
 public class DrillController : MonoBehaviour
-{
-    private new Renderer renderer;
-
+{                            
     private DrillConfig Config;
+
+    public Color Color
+    {
+        get { return GetComponent<Renderer>().material.color; }
+        set
+        {
+            SetColor(value.r, value.g, value.b, value.a);
+        }
+    }
 
     /// <summary>
     /// Radius is represented as game object scale.
@@ -21,19 +28,36 @@ public class DrillController : MonoBehaviour
     /// </summary>
     public GameObject User;
 
-    private bool UserTurn
+    /// <summary>
+    /// Defines the prices for everything drill related.
+    /// </summary>
+    private static class Price
+    {
+        public static int NewDrill = global::Price.PRICE_DRILL_NEW;
+        public static int Radius = global::Price.PRICE_DRILL_RADIUS;
+        public static int Speed = global::Price.PRICE_DRILL_SPEED;
+    }
+
+    /// <summary>
+    /// Helper property to manage player' cash
+    /// </summary>
+    private int PlayerCash
     {
         get
         {
-            return User.GetComponent<UserController>().Turn != 0;
+            // TODO: make this real
+            return User.GetComponent<UserController>().Gold; 
         }
+        set { User.GetComponent<UserController>().Gold = value; }
     }
+
 
     private Color UserColor
     {
         get { return User.GetComponent<UserController>().Color; }
     }
 
+    public bool showUpgradePanel;
 
     // klik
     // na klik mu se pojave 2 gumba - trenutno nebitno gdje
@@ -43,24 +67,31 @@ public class DrillController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Config = GetComponent<DrillConfig>();
+        if (!showUpgradePanel)
+        {
 
-        Radius = Config.RADIUS_INITIAL;
-        Speed = Config.SPEED_INITIAL;
+            Debug.Log("[DRILL.Start] kreiram bušotinu.");
+            //showUpgradePanel = false;
 
-        // assign renderer
-        renderer = gameObject.GetComponent<Renderer>();
+            Config = GetComponent<DrillConfig>();
+            Debug.Log("[DRILL.Start] dohvatio drill config.");
 
-        // set color based on user
-        // TODO: Remove this lines when multiplayer over network is done
-        renderer.material.color = UserColor;
+            Radius = Config.RADIUS_INITIAL;
+            Speed = Config.SPEED_INITIAL;
+            Debug.Log("[DRILL.Start] dohvatio drill config: Speed: " + Speed + " | Radius: " + Radius);
 
-        // set initial transparency level
-        renderer.material.SetAlpha(Config.SPEED_INCREMENT);
+            // set initial transparency level
+            Color = new Color(Color.r, Color.g, Color.b, Config.SPEED_INCREMENT);
 
-        // set initial radius
-        gameObject.SetScale(Config.RADIUS_INITIAL);
+            // set initial radius
+            SetScale(Config.RADIUS_INITIAL);
 
+        }
+        else
+        {
+            Debug.Log("[DRILL.Start] uništavam drill");
+            Network.Destroy(gameObject);
+        }
     }
 
     // Update is called once per frame
@@ -71,46 +102,86 @@ public class DrillController : MonoBehaviour
 
     void OnMouseDown()
     {
-        // TODO: comment this line when done with development
-        var tranf = gameObject.GetComponent<Transform>();
-        Debug.Log("User clicked on the drill at (" + tranf.position.x + ", " + tranf.position.y + ").");
-
-        if (Speed < Config.SPEED_MAX)
+        if (GetComponent<NetworkView>().isMine)
         {
-            renderer.material.IncrementAlpha(Config.SPEED_INCREMENT);
-            Speed++;
+            Debug.Log("User clicked on the drill at (" + transform.position.x + ", " + transform.position.y + ").");
+
+            showUpgradePanel = true; // this will show the upgrade pane on the next frame render
+            // and should disable further drill adding
         }
+    }
 
-        if (Radius < Config.RADIUS_MAX)
+    private void OnGUI()
+    {
+        if (GetComponent<NetworkView>().isMine && showUpgradePanel)
         {
-            gameObject.EnlargeObject(Config.RADIUS_INCREMENT);
+            if (GUI.Button(new Rect(0, Screen.height - 20, Screen.width, 20), "Speed"))
+            {
+                showUpgradePanel = false; // hide the upgrade panel
+
+                Debug.Log("Button speed clicked");
+                // TODO: check if user has money for this
+                UpgradeSpeed();
+                Event.current.Use();
+
+            }
+
+
+            if (GUI.Button(new Rect(0, Screen.height - 40, Screen.width, 20), "Size"))
+            {
+                showUpgradePanel = false; // hide the upgrade panel
+
+                Debug.Log("Button size clicked");
+                // TODO: check if user has money for this
+                UpgradeSize();
+                Event.current.Use();
+            }
+
+        }
+    }
+
+    public void UpgradeSize()
+    {
+        if (Radius < Config.RADIUS_MAX && PlayerCash > (Price.Radius * Radius)) // total price = basic radius price * radius level
+        {
+            EnlargeObject(Config.RADIUS_INCREMENT);
             Radius++;
+            Debug.Log("[UPGRADE] Drill radius increased to: " + Radius);
         }
     }
-}
 
-public static partial class ExtensionMethods
-{
-    /// <summary>
-    /// Adjust transparency level of the material.
-    /// </summary>
-    public static void SetAlpha(this Material material, float value) { Color color = material.color; color.a = value; material.color = color; }
-
-    public static void IncrementAlpha(this Material material, float increment)
+    public void UpgradeSpeed()
     {
-        Color color = material.color;
-        color.a = material.color.a + increment;
-        material.color = color;
+        if (Speed < Config.SPEED_MAX && PlayerCash > (Price.Speed * Speed)) // total price = basic speed price * speed level
+        {
+            Color = new Color(Color.r, Color.g, Color.b, Mathf.Min(Color.a + Config.SPEED_INCREMENT, 1.0f));
+            Speed++;
+            Debug.Log("[UPGRADE] Drill speed increased to: " + Speed);
+        }
     }
 
-    public static void SetScale(this GameObject gameObject, float value)
-    {
+    [RPC]
+    private void SetColor(float r, float g, float b, float a) {
+        GetComponent<Renderer>().material.color = new Color(r, g, b, a);
+        if (GetComponent<NetworkView>().isMine)
+        {
+            GetComponent<NetworkView>().RPC("SetColor", RPCMode.OthersBuffered, r, g, b, a);
+        }
+    }
+
+    [RPC]
+    public void SetScale(float value) {
         gameObject.transform.localScale = new Vector3(value, value);
+        if (GetComponent<NetworkView>().isMine) {
+            GetComponent<NetworkView>().RPC("SetScale", RPCMode.OthersBuffered, value);
+        }       
     }
 
-    public static void EnlargeObject(this GameObject gameObject, float increment)
-    {
+    [RPC]
+    public void EnlargeObject(float increment) {
         gameObject.transform.localScale += new Vector3(increment, increment);
+        if (GetComponent<NetworkView>().isMine) {
+            GetComponent<NetworkView>().RPC("EnlargeObject", RPCMode.OthersBuffered, increment);
+        }
     }
-
 }

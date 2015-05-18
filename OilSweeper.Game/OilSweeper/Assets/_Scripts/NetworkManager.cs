@@ -5,9 +5,9 @@ using UnityEngine.UI;
 public class NetworkManager : MonoBehaviour
 {
     public Text StatusText;
-    public GameObject User;
+    public GameObject Player;
 
-    private const string typeName = "OilSweeper";
+    private const string typeName = "OilSweeperGame";
     private const int ConnectionLimit = 1; // Zero based (2 players)
     private readonly int port = 25000 + (int)(DateTime.Now - DateTime.Today).TotalSeconds % 2000;
     private HostData[] hostList;
@@ -26,11 +26,12 @@ public class NetworkManager : MonoBehaviour
     [RPC]
     private void StartGame()
     {
-        GameObject game = (GameObject)Network.Instantiate(User, new Vector3(), Quaternion.identity, 0);
+        GameObject player = (GameObject)Network.Instantiate(Player, new Vector3(), Quaternion.identity, 0);
         Log("Starting the game");
 
         // Set the player's color
-        game.GetComponent<UserController>().Color = Network.isServer ? Color.blue : Color.red;
+        Log(Network.isServer.ToString());
+        player.GetComponent<UserController>().Color = Network.isServer ? Color.blue : Color.red;
     }
 
     private void OnMasterServerEvent(MasterServerEvent msEvent)

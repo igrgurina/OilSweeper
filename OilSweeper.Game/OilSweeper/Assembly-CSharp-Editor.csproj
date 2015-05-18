@@ -59,13 +59,13 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Users/Ivan Grgurina/Documents/GitHub/yolo-octo-happiness/OilSweeper.Game/OilSweeper/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ <HintPath>C:/Users/Ivan/Documents/GitHub/yolo-octo-happiness/OilSweeper.Game/OilSweeper/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>
  <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
- <HintPath>C:/Users/Ivan Grgurina/Documents/GitHub/yolo-octo-happiness/OilSweeper.Game/OilSweeper/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+ <HintPath>C:/Users/Ivan/Documents/GitHub/yolo-octo-happiness/OilSweeper.Game/OilSweeper/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
  </Reference>
  <Reference Include="UnityVS.VersionSpecific">
- <HintPath>C:/Users/Ivan Grgurina/Documents/GitHub/yolo-octo-happiness/OilSweeper.Game/OilSweeper/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
+ <HintPath>C:/Users/Ivan/Documents/GitHub/yolo-octo-happiness/OilSweeper.Game/OilSweeper/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
