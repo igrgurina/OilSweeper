@@ -14,17 +14,17 @@
     </Page.Background>
 
     <Grid DataContext="{Binding}">
-        <Image HorizontalAlignment="Left" Height="70" Margin="10,560,0,0" VerticalAlignment="Top" Width="70" Source="Assets/back_image.png" Tapped="back_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
-        <Image Source="{Binding Image}" Margin="117,60,118,457"/>
-        <Image HorizontalAlignment="Right" Height="70" Margin="0,560,12,0" VerticalAlignment="Top" Width="77" Source="Assets/quiz_image.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="quiz_image_Tapped"/>
-        <TextBlock Text="Quiz" HorizontalAlignment="Left" Margin="335,517,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" FontFamily="Comic Sans MS" FontSize="24" RenderTransformOrigin="1.116,1.54"/>
-        <TextBlock Text="{Binding Title}" Margin="82,23,82,585" FontSize="22" FontWeight="Bold" TextAlignment="Center" />
-        <GridView ItemsSource="{Binding Slides}" IsItemClickEnabled="True" ItemClick="Slide_Click" HorizontalAlignment="Left" Height="313" Margin="10,242,0,0" VerticalAlignment="Top" Width="380">
+        <Image HorizontalAlignment="Left" Height="70" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/back_image.png" Tapped="back_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
+        <Image Source="{Binding Thumbnail}" Margin="110,90,110,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Right" Height="70" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="77" Source="Assets/quiz_image.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="quiz_image_Tapped"/>
+        <TextBlock Text="Quiz" HorizontalAlignment="Right" Margin="0,0,18,80" TextWrapping="Wrap" VerticalAlignment="Bottom" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" FontFamily="Comic Sans MS" FontSize="24" RenderTransformOrigin="1.116,1.54"/>
+        <TextBlock Text="{Binding Title}" Margin="50,20,50,0" FontSize="24" TextAlignment="Center" FontFamily="Comic Sans MS" TextWrapping="Wrap" VerticalAlignment="Top" />
+        <GridView ItemsSource="{Binding Slides}" IsItemClickEnabled="True" ItemClick="Slide_Click" Height="300" Margin="0,300,0,0" VerticalAlignment="Top" Width="380">
             <GridView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Vertical" Margin="4">
-                        <Image Source="{Binding Image}" Height="80" Width="80"/>
-                        <TextBlock Text="{Binding Title}" Width="150" Margin="3" TextAlignment="Center" FontSize="16" />
+                        <Image Source="{Binding Thumbnail}" Height="100" Width="100"/>
+                        <TextBlock Text="{Binding Title}" Width="140" Margin="0" TextAlignment="Center" FontSize="16" TextWrapping="Wrap" FontFamily="Comic Sans MS" IsTextSelectionEnabled="True" />
                     </StackPanel>
                 </DataTemplate>
             </GridView.ItemTemplate>

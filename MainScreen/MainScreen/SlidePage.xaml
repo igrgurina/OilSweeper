@@ -14,11 +14,12 @@
     </Page.Background>
 
     <Grid>
-        <Image HorizontalAlignment="Left" Height="70" Margin="10,560,0,0" VerticalAlignment="Top" Width="70" Source="Assets/back_image.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="Image_Tapped"/>
-        <ScrollViewer Margin="30,100,30,85" Height="Auto" Grid.Row="1">
-            <TextBlock x:Name="slide_txtBlock" TextWrapping="Wrap" Text="{Binding Text}" FontSize="30" FontFamily="Comic Sans MS" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>    
+        <Image HorizontalAlignment="Left" Height="70" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/back_image.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="Image_Tapped"/>
+        <ScrollViewer Margin="30,350,30,0" Height="Auto" Grid.Row="1" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="16">
+            <TextBlock x:Name="slide_txtBlock" TextWrapping="Wrap" Text="{Binding Text}" FontSize="16" FontFamily="Comic Sans MS" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" VerticalAlignment="Top"/>    
         </ScrollViewer>        
-        <Image x:Name="slide_image" HorizontalAlignment="Left" Height="100" Margin="10,205,0,0" VerticalAlignment="Top" Width="100" Source="{Binding}" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
+        <Image x:Name="slide_image" Margin="20,50,20,150" VerticalAlignment="Top" Source="{Binding Image}" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
+        <GridView HorizontalAlignment="Left" Height="100" Margin="80,55,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Page>
