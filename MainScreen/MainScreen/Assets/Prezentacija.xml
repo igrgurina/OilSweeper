@@ -12,8 +12,11 @@
 					<Thumbnail>Assets/TMB_Slide1.jpg</Thumbnail>
 					<Image>Assets/IMG_Slide1.jpg</Image>
 					<Text>
-						Razdoblje je ranog Hadija. Oko novonastalog Sunca nalazi se protoplanetarni disk - gusta nakupina plinova i izvor svega s čime se susrećemo danas. Temperature i količine radijacije previsoke su za pojavu i opstanak 
-						bilo kakvog oblika života, ali su zato savršene za sintezu ključnih spojeva, pa čak i prvih kompleksnih organskih molekula. Isto vrijedi i za mnoge ostale zvijezde zbog čega slobodne organske molekue u svemiru i nisu rijetka pojava.
+						Razdoblje je ranog hadija. Oko novonastalog Sunca nalazi se protoplanetarni disk - gusta nakupina plinova 
+						i izvor svega s čime se susrećemo danas. Temperature i količine radijacije previsoke su za pojavu i opstanak 
+						bilo kakvog oblika života, ali su zato savršene za sintezu ključnih spojeva, pa čak i prvih kompleksnih 
+						organskih molekula. Isto vrijedi i za mnoge ostale zvijezde zbog čega slobodne organske molekule u svemiru 
+						i nisu rijetka pojava.
 					</Text>
 				</Slide>
 				
@@ -23,8 +26,10 @@
 					<Thumbnail>Assets/TMB_Slide2.jpg</Thumbnail>
 					<Image>Assets/IMG_Slide2.jpg</Image>
 					<Text>
-						Zemlja je formirana, no podliježe ekstremnim vulkanskim aktivnostima i udarima eksplozivnih meteorita (bolida) koji razaraju većinu novoformiranih stijena. Teži elementi, posebice željezo tonu u unutrašnjost
-					    dok se lakši plinoviti elementi dižu i stvaraju atmosferu u procesu koji se naziva diferencijacija materijala.
+						Zemlja je formirana, no podliježe ekstremnim vulkanskim aktivnostima i udarima eksplozivnih meteorita (tzv. bolida) 
+						koji razaraju većinu novoformiranih stijena, te oslobađaju ogromne količine plinova kao što su ugljikov monoksid, 
+						ugljikov dioksid i natrijev monoksid. Teži elementi poput željeza tonu u unutrašnjost dok se lakši plinoviti 
+						elementi uzdižu i stvaraju atmosferu u procesu koji se naziva diferencijacija materijala.
 					</Text>
 				</Slide>
 				
@@ -34,8 +39,10 @@
 					<Thumbnail>Assets/TMB_Slide3.jpg</Thumbnail>
 					<Image>Assets/IMG_Slide3.jpg</Image>
 					<Text>
-						Polako se hladeći nastaje tanak, ali dovoljno čvrst plašt za podlogu oceanima nastalima oslobađanjem vodene pare iz hidratnih stijena i ledom bogatih kometa.
-						Temperature iznose i preko 230 C, ali su oceani ipak u tekućem stanju zbog visokog tlaka ugljikovim dioksidom bogate atmosfere.
+						Polako se hladeći nastaje tanak, ali dovoljno čvrst plašt za podlogu oceanima nastalima oslobađanjem vodene pare 
+						iz hidratnih stijena i ledom bogatih kometa. Temperature iznose i preko 230 Celzijevih stupnjeva, ali su oceani 
+						ipak u tekućem stanju zbog visokog tlaka ugljikovim dioksidom bogate atmosfere. Znatan dio ugljikovih spojeva 
+						postaje prisutan u atmosferi zahvaljujući OH skupinom bogatim meteroitima (tzv. ugljeviti hondriti).
 					</Text>
 				</Slide>
 				
@@ -45,9 +52,10 @@
 					<Thumbnail>Assets/TMB_Slide4.jpg</Thumbnail>
 					<Image>Assets/IMG_Slide4.jpg</Image>
 					<Text>
-						Novonastali oceani i atmosfera krajnje su nestabilni i izloženi čestim udarima nailazećih planetoida u razdoblju koje se naziva "kasno teško bombardiranje".
-						Dovoljan je samo jedan udar većeg stranog tijela da prouzroči isparavanje čitavog oceana i oslobodi ogromne količine ugljikovog dioksida i vodene pare iz zemljinih stijena 
-						čija će kondenzacija trajati tisućama godina.
+						Novonastali oceani i atmosfera krajnje su nestabilni i izloženi čestim udarima nailazećih planetoida u razdoblju koje 
+						se naziva "kasno teško bombardiranje". Dovoljan je samo jedan udar većeg stranog tijela da prouzroči isparavanje čitavih 
+						oceana i oslobodi ogromne količine ugljikovog dioksida i vodene pare iz zemljinih stijena čija će kondenzacija potrajati 
+						tisućama godina.
 					</Text>
 				</Slide>
 			
@@ -57,8 +65,10 @@
 					<Thumbnail>Assets/TMB_Slide4.jpg</Thumbnail>
 					<Image>Assets/IMG_Slide4.jpg</Image>
 					<Text>
-						 Počinju padati prve kiše, a raznim plinovima bogata atmosfera kiseli oceane. Većina stijena, ponajviše karbonatne se otapaju zbog čega prevladavaju sedimentne stijene od silicija kao što je rožnjak.
-						 Oceani su pritom bogate mineralima poput magnezija i kalcija, a oslobađanjem natrija i klora nastaje sol - i dan danas ključan i dominantan spoj u oceanima.
+						 Počinju padati prve kiše, a raznim plinovima bogata atmosfera kiseli oceane. Većina stijena, ponajviše karbonatne se otapaju 
+						 zbog čega prevladavaju sedimentne stijene od silicija (primjerice rožnjak). Oceani su pritom bogate mineralima poput magnezija 
+						 i kalcija, a oslobađanjem natrija i klora iz raznih reakcija nastaje sol, jedan od ključnih i dominantnih spojeva na Zemlji i 
+						 dan danas.
 					</Text>
 				</Slide>
 				
@@ -68,8 +78,9 @@
 					<Thumbnail>Assets/TMB_Slide4.jpg</Thumbnail>
 					<Image>Assets/IMG_Slide4.jpg</Image>
 					<Text>
-						Konačno, oceani i atmosfera su stabilni i kiselost oceana se smanjila. Visoke temperature, količine radijacije i iskrenje u atmosferi čine Zemljine oceane ogromnim kemijskim laboratorijima za sintezu
-						organskih spojeva. Novi eon u povijesti Zemlje konačno može početi...
+						Konačno, oceani i atmosfera su stabilni i kiselost oceana se smanjila. Visoke temperature, količine radijacije i iskrenje 
+						u atmosferi čine Zemljine oceane ogromnim kemijskim laboratorijima za sintezu organskih spojeva. Nova faza u povijesti Zemlje 
+						konačno može početi...
 					</Text>
 				</Slide>
 				
@@ -79,60 +90,107 @@
 			
 				<Question>
 					<QuestionId>1</QuestionId>
-					<Text>Prve organske molekule mogle su najranije nastati u...</Text>
+					<Text>Prvi kompleksni organski spojevi mogli su nastati najranije u...</Text>
 					<Image>IMG_Question1.jpg</Image>
 					<Difficulty>2</Difficulty>
 					<Options>
 						<Option>protoplanetarnom disku</Option>
-					    <Option>prvim oceanima</Option>
-					    <Option>atmosferi.</Option>
+					    <Option>oceanima poslije neutralizacije</Option>
+					    <Option>ranoj atmosferi.</Option>
 					</Options>
 					<Correct>protoplanetarnom disku</Correct>
-					<Explanation>Po najnovijim računalnim simulacijama organske molekule mogle su nastati već u protoplanetarnom disku prije same formacije Zemlje.</Explanation>
+					<Explanation>
+					    Prema najnovijim računalnim simulacijama organske molekule mogle su nastati 
+						već u protoplanetarnom disku prije same formacije Zemlje.
+					</Explanation>
 				</Question>
 				
 				<Question>
 					<QuestionId>2</QuestionId>
-					<Text>Razdoblje Hadija ključno je za nastanak nafte jer je u njemu...</Text>
+					<Text>Razdoblje Hadija bitno je za nastanak nafte jer je u njemu nastao...</Text>
 					<Image>IMG_Question1.jpg</Image>
 					<Difficulty>1</Difficulty>
 					<Options>
-						<Option>nastao život</Option>
-					    <Option>nastao svemir</Option>
-					    <Option>nastao organski materijal.</Option>
+						<Option>život</Option>
+					    <Option>svemir</Option>
+					    <Option>organski materijal.</Option>
 					</Options>
-					<Correct>nastao organski materijal.</Correct>
-					<Explanation>Nije točno poznato mjesto na kojem su nastale prve organske molekule, ali je za razdoblje utvrđen srednji Hadij.</Explanation>
+					<Correct>organski materijal.</Correct>
+					<Explanation>
+					    Iako nije točno utvrđen precizan model okoline u kojoj su nastali prvi organski spojevi, 
+						sigurno je da se slučajna sinteza zbila najvjerojatnije pri samom kraju hadija.
+					</Explanation>
 				</Question>
 				
 				<Question>
 					<QuestionId>3</QuestionId>
-					<Text>U ranoj atmosferi nije bilo...</Text>
+					<Text>U ranoj atmosferi nije bilo prisustva...</Text>
 					<Image>IMG_Question1.jpg</Image>
 					<Difficulty>1</Difficulty>
 					<Options>
-						<Option>ugljikovog monoksida</Option>
-					    <Option>vodene pare</Option>
+						<Option>natrijevog monoksida</Option>
+					    <Option>ugljikovog monnoksida</Option>
 					    <Option>klora.</Option>
 					</Options>
 					<Correct>klora.</Correct>
-					<Explanation>Rana atmosfera bila je bogata ugljikovim oksidima i vodenom parom. Klor se oslobađao nakdnadno, reakcijama poslije smanjenja kiselosti oceana.</Explanation>
+					<Explanation>
+					    Rana atmosfera bila je bogata plinovitim oksidima i vodenom parom. Klor se oslobodio 
+					    naknadno, putem raznih reakcija kojima se postupno smanjila kiselost oceana.
+					</Explanation>
 				</Question>
 				
 				<Question>
 					<QuestionId>4</QuestionId>
-					<Text>Najranije razdoblje u Hadiju naziva se...</Text>
+					<Text>Najranija era u Hadiju naziva se...</Text>
 					<Image>IMG_Question1.jpg</Image>
 					<Difficulty>4</Difficulty>
 					<Options>
-						<Option>Donji Imbrij</Option>
-					    <Option>Kriptik</Option>
-					    <Option>Nektarij.</Option>
+						<Option>donji imbrij</Option>
+					    <Option>kriptik</Option>
+					    <Option>nektarij.</Option>
 					</Options>
-					<Correct>Kriptik</Correct>
-					<Explanation>Najranije razdoblje u Hadiju, a samim time i povijesti Zemlje naziva se Kriptik budući da nema geoloških ostataka iz tog razdoblja. Naime, sve stijene s vremenom su transformirane i pomiješane s novijim stijenama.</Explanation>
+					<Correct>kriptik</Correct>
+					<Explanation>
+					    Najranija era u hadiju, a samim time i u čitavoj povijesti Zemlje naziva se kriptik 
+						zbog potpunog odsustva bilo kakvih geoloških ostataka iz tog razdoblja. Naime sve 
+						hadijske stijene s vremenom su bile transformirane i ukomponirane u novije stijene.
+					</Explanation>
 				</Question>
 			
+			    <Question>
+					<QuestionId>5</QuestionId>
+					<Text>OH skupinom bogati meteoriti jesu...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>3</Difficulty>
+					<Options>
+						<Option>bolidi</Option>
+					    <Option>hondriti</Option>
+					    <Option>hidroidi.</Option>
+					</Options>
+					<Correct>hondriti</Correct>
+					<Explanation>
+					    OH skupinom bogati meteoriti nazivaju se ugljevitim hondritima. Bolidi jesu eksplozivni 
+						ledeni meteori, a hidroidi ne postoje.
+					</Explanation>
+				</Question>
+				
+				<Question>
+					<QuestionId>6</QuestionId>
+					<Text>Jednostavne (polu)organske spojeve kao što je etilni alkohol moguće je naći u sastavu...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>3</Difficulty>
+					<Options>
+						<Option>crnih rupa</Option>
+					    <Option>bijelih patuljaka</Option>
+					    <Option>nebula.</Option>
+					</Options>
+					<Correct>nebula.</Correct>
+					<Explanation>
+					    Najnovija otkrića ukazala su na postojanje nebula (maglica) bogatih etanolom. Isto može vrlo lako 
+						vrijediti i za okoline ostalih tijela, primjerice crnih rupa i patuljastih zvijezda, ali naravno 
+						u znatno manjim količinama.
+					</Explanation>
+				</Question>
 			</Questions>
 
 		</Chapter>
