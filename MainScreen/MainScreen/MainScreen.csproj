@@ -138,6 +138,7 @@
       <DependentUpon>EducationPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Extensions\EducationContextExtensions.cs" />
+    <Compile Include="Extensions\SlideData.cs" />
     <Compile Include="GamePage.xaml.cs">
       <DependentUpon>GamePage.xaml</DependentUpon>
     </Compile>

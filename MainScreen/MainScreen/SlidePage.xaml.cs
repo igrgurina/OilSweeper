@@ -1,22 +1,21 @@
 ﻿using System.Diagnostics;
+using System.Linq;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Navigation;
+using MainScreen.Extensions;
 using MainScreen.ViewModel;
 
 namespace MainScreen
 {
     public sealed partial class SlidePage : Page
     {
+
+        private SlideData data = new SlideData();
         public SlidePage()
         {
             this.InitializeComponent();
-            this.ManipulationStarting += MainPage_ManipulationStarting;
-            this.ManipulationStarted += MainPage_ManipulationStarted;
-            this.ManipulationInertiaStarting += MainPage_ManipulationInertiaStarting;
-            this.ManipulationDelta += MainPage_ManipulationDelta;
-            this.ManipulationCompleted += MainPage_ManipulationCompleted;
         }
 
         /// <summary>
@@ -26,44 +25,49 @@ namespace MainScreen
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            DataContext = (SlideViewModel)e.Parameter;
+            data = (SlideData)e.Parameter;
+            DataContext = data.Slide;
+        }
+
+        private void ClearStack()
+        {
+            while (Frame.BackStack.LastOrDefault().SourcePageType == typeof(SlidePage))
+            {
+                Frame.BackStack.RemoveAt(Frame.BackStack.Count - 1);
+            }
+            Frame.BackStack.RemoveAt(Frame.BackStack.Count - 1);
         }
 
         private void back_Image_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            Frame frame = Window.Current.Content as Frame;
-
-            if (frame != null && frame.CanGoBack)
+            var reverse = data.Chapter.Slides.ToList();
+            reverse.Reverse();
+            SlideViewModel next = reverse.SkipWhile(c => c != data.Slide).Skip(1).FirstOrDefault();
+            if (next == null)
             {
-                frame.GoBack();
-                e.Handled = true;
+                Frame.Navigate(typeof(ChapterPage), data.Chapter);
+                ClearStack();
+            }
+            else
+            {
+                data.Slide = next;
+                Frame.Navigate(typeof(SlidePage), data);
             }
         }
 
-        void MainPage_ManipulationStarting(object sender, ManipulationStartingRoutedEventArgs e)
+        private void front_Image_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            Debug.WriteLine("MainPage_ManipulationStarting");
+            SlideViewModel next = data.Chapter.Slides.SkipWhile(c => c != data.Slide).Skip(1).FirstOrDefault();
+            if (next == null)
+            {
+                Frame.Navigate(typeof(ChapterPage), data.Chapter);
+                ClearStack();
+            }
+            else
+            {
+                data.Slide = next;
+                Frame.Navigate(typeof(SlidePage), data);
+            }
         }
-        void MainPage_ManipulationStarted(object sender, ManipulationStartedRoutedEventArgs e)
-        {
-            Debug.WriteLine("MainPage_ManipulationStarted");
-        }
-        void MainPage_ManipulationInertiaStarting(object sender, ManipulationInertiaStartingRoutedEventArgs e)
-        {
-            Debug.WriteLine("MainPage_ManipulationInertiaStarting");
-        }
-        void MainPage_ManipulationDelta(object sender, ManipulationDeltaRoutedEventArgs e)
-        {
-            Debug.WriteLine("MainPage_ManipulationDelta");
-        }
-        void MainPage_ManipulationCompleted(object sender, ManipulationCompletedRoutedEventArgs e)
-        {
-            Debug.WriteLine("MainPage_ManipulationCompleted");
-        }
-
-        /*private void UIElement_OnManipulationInertiaStarting(object sender, ManipulationInertiaStartingRoutedEventArgs e)
-        {
-            throw new System.NotImplementedException();
-        }*/
     }
 }

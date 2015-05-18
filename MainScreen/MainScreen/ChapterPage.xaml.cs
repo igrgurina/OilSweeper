@@ -4,6 +4,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Navigation;
 using MainScreen.ViewModel;
+using MainScreen.Extensions;
 
 namespace MainScreen
 {
@@ -14,7 +15,8 @@ namespace MainScreen
             InitializeComponent();
         }
 
-        public ObservableCollection<ChapterViewModel> Chapters = new ObservableCollection<ChapterViewModel>();
+        private SlideData data = new SlideData();
+        //public ObservableCollection<ChapterViewModel> Chapters = new ObservableCollection<ChapterViewModel>();
 
         /// <summary>
         /// Invoked when this page is about to be displayed in a Frame.
@@ -23,6 +25,7 @@ namespace MainScreen
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            data.Chapter = (ChapterViewModel)e.Parameter;
             DataContext = (ChapterViewModel)e.Parameter;
         }
 
@@ -45,7 +48,8 @@ namespace MainScreen
         {
             if (e.ClickedItem != null)
             {
-                Frame.Navigate(typeof(SlidePage), e.ClickedItem);
+                data.Slide = (SlideViewModel) e.ClickedItem;
+                Frame.Navigate(typeof(SlidePage), data);
             }
         }
     }
