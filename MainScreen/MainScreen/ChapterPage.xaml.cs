@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Navigation;
@@ -27,7 +28,13 @@ namespace MainScreen
 
         private void back_image_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            Frame.Navigate(typeof(EducationPage));
+            Frame frame = Window.Current.Content as Frame;
+
+            if (frame != null && frame.CanGoBack)
+            {
+                frame.GoBack();
+                e.Handled = true;
+            }
         }
 
         private void quiz_image_Tapped(object sender, TappedRoutedEventArgs e) {

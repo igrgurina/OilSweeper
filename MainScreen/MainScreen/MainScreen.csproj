@@ -82,6 +82,11 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <Content Include="Assets\back_image.png" />
     <Content Include="Assets\ecology.png" />
+    <Content Include="Assets\front_image.png" />
+    <Content Include="Assets\IMG_Slide1.jpg" />
+    <Content Include="Assets\IMG_Slide2.jpg" />
+    <Content Include="Assets\IMG_Slide3.png" />
+    <Content Include="Assets\IMG_Slide4.jpg" />
     <Content Include="Assets\jadran.png" />
     <Content Include="Assets\janaf.png" />
     <Content Include="Assets\learn_image.png" />
@@ -111,6 +116,11 @@
     <Content Include="Assets\sjeverni_jadran.png" />
     <Content Include="Assets\slika_polja.png" />
     <Content Include="Assets\strukturne_depresije.png" />
+    <Content Include="Assets\TMB_Chapter1.jpg" />
+    <Content Include="Assets\TMB_Slide1.jpg" />
+    <Content Include="Assets\TMB_Slide2.jpg" />
+    <Content Include="Assets\TMB_Slide3.jpg" />
+    <Content Include="Assets\TMB_Slide4.jpg" />
     <Content Include="Assets\ugljikovodici_podjela.png" />
   </ItemGroup>
   <ItemGroup>
