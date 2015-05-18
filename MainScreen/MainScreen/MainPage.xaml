@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    
+
     <Page.Background>
         <ImageBrush ImageSource="Assets/oil_drip.jpg" Stretch="UniformToFill" Opacity="0.2"/>
     </Page.Background>
@@ -20,6 +20,6 @@
         <TextBlock x:Name="learn_txtBlock" HorizontalAlignment="Left" Margin="263,300,0,0" TextWrapping="Wrap" Text="Learn" VerticalAlignment="Top" FontSize="24" FontFamily="Comic Sans MS" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
         <Image x:Name="play_image" HorizontalAlignment="Left" Height="140" Margin="45,350,0,0" VerticalAlignment="Top" Width="140" Source="Assets/play_image.png" Tapped="play_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
         <Image x:Name="learn_image" HorizontalAlignment="Left" Height="140" Margin="225,350,0,0" VerticalAlignment="Top" Width="140" Source="Assets/learn_image.png" Tapped="learn_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
-
+        
     </Grid>
 </Page>
