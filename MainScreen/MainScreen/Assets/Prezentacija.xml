@@ -10,7 +10,7 @@
 					<PageNumber>1</PageNumber>
 					<Title>više od 4.5 milijardi god. p.n.e.</Title>
 					<Thumbnail>Assets/TMB_Slide1.jpg</Thumbnail>
-					<Image>IMG_Slide1.jpg</Image>
+					<Image>Assets/IMG_Slide1.jpg</Image>
 					<Text>
 						Razdoblje je ranog Hadija. Oko novonastalog Sunca nalazi se protoplanetarni disk - gusta nakupina plinova i izvor svega s čime se susrećemo danas. Temperature i količine radijacije previsoke su za pojavu i opstanak 
 						bilo kakvog oblika života, ali su zato savršene za sintezu ključnih spojeva, pa čak i prvih kompleksnih organskih molekula. Isto vrijedi i za mnoge ostale zvijezde zbog čega slobodne organske molekue u svemiru i nisu rijetka pojava.
@@ -20,8 +20,8 @@
 				<Slide>
 					<PageNumber>2</PageNumber>
 					<Title>4.5 milijardi god. p.n.e.</Title>
-					<Thumbnail>TMB_Slide2.jpg</Thumbnail>
-					<Image>IMG_Slide2.jpg</Image>
+					<Thumbnail>Assets/TMB_Slide2.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide2.jpg</Image>
 					<Text>
 						Zemlja je formirana, no podliježe ekstremnim vulkanskim aktivnostima i udarima eksplozivnih meteorita (bolida) koji razaraju većinu novoformiranih stijena. Teži elementi, posebice željezo tonu u unutrašnjost
 					    dok se lakši plinoviti elementi dižu i stvaraju atmosferu u procesu koji se naziva diferencijacija materijala.
@@ -31,8 +31,8 @@
 				<Slide>
 					<PageNumber>3</PageNumber>
 					<Title>4.4 milijarde god. p.n.e.</Title>
-					<Thumbnail>TMB_Slide3.jpg</Thumbnail>
-					<Image>IMG_Slide3.jpg</Image>
+					<Thumbnail>Assets/TMB_Slide3.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide3.jpg</Image>
 					<Text>
 						Polako se hladeći nastaje tanak, ali dovoljno čvrst plašt za podlogu oceanima nastalima oslobađanjem vodene pare iz hidratnih stijena i ledom bogatih kometa.
 						Temperature iznose i preko 230 C, ali su oceani ipak u tekućem stanju zbog visokog tlaka ugljikovim dioksidom bogate atmosfere.
@@ -42,8 +42,8 @@
 				<Slide>
 					<PageNumber>4</PageNumber>
 					<Title>4.1 milijardi god. p.n.e.</Title>
-					<Thumbnail>TMB_Slide4.jpg</Thumbnail>
-					<Image>IMG_Slide4.jpg</Image>
+					<Thumbnail>Assets/TMB_Slide4.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide4.jpg</Image>
 					<Text>
 						Novonastali oceani i atmosfera krajnje su nestabilni i izloženi čestim udarima nailazećih planetoida u razdoblju koje se naziva "kasno teško bombardiranje".
 						Dovoljan je samo jedan udar većeg stranog tijela da prouzroči isparavanje čitavog oceana i oslobodi ogromne količine ugljikovog dioksida i vodene pare iz zemljinih stijena 
@@ -54,8 +54,8 @@
 				<Slide>
 					<PageNumber>5</PageNumber>
 					<Title>4 milijarde god. p.n.e.</Title>
-					<Thumbnail>TMB_Slide4.jpg</Thumbnail>
-					<Image>IMG_Slide4.jpg</Image>
+					<Thumbnail>Assets/TMB_Slide4.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide4.jpg</Image>
 					<Text>
 						 Počinju padati prve kiše, a raznim plinovima bogata atmosfera kiseli oceane. Većina stijena, ponajviše karbonatne se otapaju zbog čega prevladavaju sedimentne stijene od silicija kao što je rožnjak.
 						 Oceani su pritom bogate mineralima poput magnezija i kalcija, a oslobađanjem natrija i klora nastaje sol - i dan danas ključan i dominantan spoj u oceanima.
@@ -65,8 +65,8 @@
 				<Slide>
 					<PageNumber>6</PageNumber>
 					<Title>4 milijarde god. p.n.e.</Title>
-					<Thumbnail>TMB_Slide4.jpg</Thumbnail>
-					<Image>IMG_Slide4.jpg</Image>
+					<Thumbnail>Assets/TMB_Slide4.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide4.jpg</Image>
 					<Text>
 						Konačno, oceani i atmosfera su stabilni i kiselost oceana se smanjila. Visoke temperature, količine radijacije i iskrenje u atmosferi čine Zemljine oceane ogromnim kemijskim laboratorijima za sintezu
 						organskih spojeva. Novi eon u povijesti Zemlje konačno može početi...
