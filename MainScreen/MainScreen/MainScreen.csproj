@@ -96,6 +96,7 @@
     <Content Include="Assets\OilSweeper_44x44.scale-100.png" />
     <Content Include="Assets\OilSweeper_50x50.scale-100.png" />
     <Content Include="Assets\OilSweeper_71x71.scale-100.png" />
+    <Content Include="Assets\oil_drip.jpg" />
     <Content Include="Assets\oil_pump.png" />
     <Content Include="Assets\oil_rig.png" />
     <Content Include="Assets\otkrivena_polja.png" />

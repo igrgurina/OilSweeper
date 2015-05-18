@@ -6,11 +6,9 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+
     <Page.Background>
-        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-            <GradientStop Color="Black" Offset="0"/>
-            <GradientStop Color="White" Offset="1"/>
-        </LinearGradientBrush>
+        <ImageBrush ImageSource="Assets/oil_drip.jpg" Stretch="UniformToFill" Opacity="0.2"/>
     </Page.Background>
 
     <Grid DataContext="{Binding}">
