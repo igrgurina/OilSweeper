@@ -1,0 +1,140 @@
+<EducationalContent>
+	<Chapters>
+		<Chapter>
+			<ChapterNumber>1</ChapterNumber>
+			<Title>NASTANAK MATERIJALA</Title>
+			<Thumbnail>TMB_Chapter1.jpg</Thumbnail>
+
+			<Slides>
+				<Slide>
+					<PageNumber>1</PageNumber>
+					<Title>više od 4.5 milijardi god. p.n.e.</Title>
+					<Thumbnail>TMB_Slide1.jpg</Thumbnail>
+					<Image>IMG_Slide1.jpg</Image>
+					<Text>
+						Razdoblje je ranog Hadija. Oko novonastalog Sunca nalazi se protoplanetarni disk - gusta nakupina plinova i izvor svega s čime se susrećemo danas. Temperature i količine radijacije previsoke su za pojavu i opstanak 
+						bilo kakvog oblika života, ali su zato savršene za sintezu ključnih spojeva, pa čak i prvih kompleksnih organskih molekula. Isto vrijedi i za mnoge ostale zvijezde zbog čega slobodne organske molekue u svemiru i nisu rijetka pojava.
+					</Text>
+				</Slide>
+				
+				<Slide>
+					<PageNumber>2</PageNumber>
+					<Title>4.5 milijardi god. p.n.e.</Title>
+					<Thumbnail>TMB_Slide2.jpg</Thumbnail>
+					<Image>IMG_Slide2.jpg</Image>
+					<Text>
+						Zemlja je formirana, no podliježe ekstremnim vulkanskim aktivnostima i udarima eksplozivnih meteorita (bolida) koji razaraju većinu novoformiranih stijena. Teži elementi, posebice željezo tonu u unutrašnjost
+					    dok se lakši plinoviti elementi dižu i stvaraju atmosferu u procesu koji se naziva diferencijacija materijala.
+					</Text>
+				</Slide>
+				
+				<Slide>
+					<PageNumber>3</PageNumber>
+					<Title>4.4 milijarde god. p.n.e.</Title>
+					<Thumbnail>TMB_Slide3.jpg</Thumbnail>
+					<Image>IMG_Slide3.jpg</Image>
+					<Text>
+						Polako se hladeći nastaje tanak, ali dovoljno čvrst plašt za podlogu oceanima nastalima oslobađanjem vodene pare iz hidratnih stijena i ledom bogatih kometa.
+						Temperature iznose i preko 230 C, ali su oceani ipak u tekućem stanju zbog visokog tlaka ugljikovim dioksidom bogate atmosfere.
+					</Text>
+				</Slide>
+				
+				<Slide>
+					<PageNumber>4</PageNumber>
+					<Title>4.1 milijardi god. p.n.e.</Title>
+					<Thumbnail>TMB_Slide4.jpg</Thumbnail>
+					<Image>IMG_Slide4.jpg</Image>
+					<Text>
+						Novonastali oceani i atmosfera krajnje su nestabilni i izloženi čestim udarima nailazećih planetoida u razdoblju koje se naziva "kasno teško bombardiranje".
+						Dovoljan je samo jedan udar većeg stranog tijela da prouzroči isparavanje čitavog oceana i oslobodi ogromne količine ugljikovog dioksida i vodene pare iz zemljinih stijena 
+						čija će kondenzacija trajati tisućama godina.
+					</Text>
+				</Slide>
+			
+				<Slide>
+					<PageNumber>5</PageNumber>
+					<Title>4 milijarde god. p.n.e.</Title>
+					<Thumbnail>TMB_Slide4.jpg</Thumbnail>
+					<Image>IMG_Slide4.jpg</Image>
+					<Text>
+						 Počinju padati prve kiše, a raznim plinovima bogata atmosfera kiseli oceane. Većina stijena, ponajviše karbonatne se otapaju zbog čega prevladavaju sedimentne stijene od silicija kao što je rožnjak.
+						 Oceani su pritom bogate mineralima poput magnezija i kalcija, a oslobađanjem natrija i klora nastaje sol - i dan danas ključan i dominantan spoj u oceanima.
+					</Text>
+				</Slide>
+				
+				<Slide>
+					<PageNumber>6</PageNumber>
+					<Title>4 milijarde god. p.n.e.</Title>
+					<Thumbnail>TMB_Slide4.jpg</Thumbnail>
+					<Image>IMG_Slide4.jpg</Image>
+					<Text>
+						Konačno, oceani i atmosfera su stabilni i kiselost oceana se smanjila. Visoke temperature, količine radijacije i iskrenje u atmosferi čine Zemljine oceane ogromnim kemijskim laboratorijima za sintezu
+						organskih spojeva. Novi eon u povijesti Zemlje konačno može početi...
+					</Text>
+				</Slide>
+				
+			</Slides>
+
+			<Questions>
+			
+				<Question>
+					<QuestionId>1</QuestionId>
+					<Text>Prve organske molekule mogle su najranije nastati u...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>2</Difficulty>
+					<Options>
+						<Option>protoplanetarnom disku</Option>
+					    <Option>prvim oceanima</Option>
+					    <Option>atmosferi.</Option>
+					</Options>
+					<Correct>protoplanetarnom disku</Correct>
+					<Explanation>Po najnovijim računalnim simulacijama organske molekule mogle su nastati već u protoplanetarnom disku prije same formacije Zemlje.</Explanation>
+				</Question>
+				
+				<Question>
+					<QuestionId>2</QuestionId>
+					<Text>Razdoblje Hadija ključno je za nastanak nafte jer je u njemu...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>1</Difficulty>
+					<Options>
+						<Option>nastao život</Option>
+					    <Option>nastao svemir</Option>
+					    <Option>nastao organski materijal.</Option>
+					</Options>
+					<Correct>nastao organski materijal.</Correct>
+					<Explanation>Nije točno poznato mjesto na kojem su nastale prve organske molekule, ali je za razdoblje utvrđen srednji Hadij.</Explanation>
+				</Question>
+				
+				<Question>
+					<QuestionId>3</QuestionId>
+					<Text>U ranoj atmosferi nije bilo...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>1</Difficulty>
+					<Options>
+						<Option>ugljikovog monoksida</Option>
+					    <Option>vodene pare</Option>
+					    <Option>klora.</Option>
+					</Options>
+					<Correct>klora.</Correct>
+					<Explanation>Rana atmosfera bila je bogata ugljikovim oksidima i vodenom parom. Klor se oslobađao nakdnadno, reakcijama poslije smanjenja kiselosti oceana.</Explanation>
+				</Question>
+				
+				<Question>
+					<QuestionId>4</QuestionId>
+					<Text>Najranije razdoblje u Hadiju naziva se...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>4</Difficulty>
+					<Options>
+						<Option>Donji Imbrij</Option>
+					    <Option>Kriptik</Option>
+					    <Option>Nektarij.</Option>
+					</Options>
+					<Correct>Kriptik</Correct>
+					<Explanation>Najranije razdoblje u Hadiju, a samim time i povijesti Zemlje naziva se Kriptik budući da nema geoloških ostataka iz tog razdoblja. Naime, sve stijene s vremenom su transformirane i pomiješane s novijim stijenama.</Explanation>
+				</Question>
+			
+			</Questions>
+
+		</Chapter>
+	</Chapters>
+</EducationalContent>
