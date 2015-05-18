@@ -8,7 +8,7 @@
 				<Slide>
 					<PageNumber>1</PageNumber>
 					<Title>Prva polja</Title>
-					<Thumbnail>Assets/oil_rig.png</Thumbnail>
+					<Thumbnail>Assets/peklenica.png</Thumbnail>
 					<Image>Assets/peklenica.png</Image>
 					<Text>
 					Prve naftne bušotine javljaju se na području Međimurja. 
@@ -21,8 +21,8 @@
 				</Slide>
 				<Slide>
 					<PageNumber>2</PageNumber>
-					<Title>Prva polja</Title>
-					<Thumbnail>Assets/oil_rig.png</Thumbnail>
+					<Title>Hrvatski dio Panonskog bazena</Title>
+					<Thumbnail>Assets/panonska_polja.png</Thumbnail>
 					<Image>Assets/panonska_polja.png</Image>
 					<Text>
 					Tijekom posljednjih 70 godina intenzivnog istraživanja i proizvodnje ugljikovodika 
@@ -35,7 +35,7 @@
 				<Slide>
 					<PageNumber>1</PageNumber>
 					<Title>Sjeverni Jadran</Title>
-					<Thumbnail>Assets/oil_rig.png</Thumbnail>
+					<Thumbnail>Assets/jadran.png</Thumbnail>
 					<Image>Assets/jadran.png</Image>
 					<Text>	
 					Istraživanje u hrvatskom dijelu Sjevernog jadrana započelo je 1970. godine 
@@ -49,7 +49,7 @@
 				<Slide>
 					<PageNumber>4</PageNumber>
 					<Title>Pregled otkrivenih polja</Title>
-					<Thumbnail>Assets/oil_rig.png</Thumbnail>
+					<Thumbnail>Assets/otkrivena_polja.png</Thumbnail>
 					<Image>Assets/otkrivena_polja.png</Image>
 					<Text>
 					Broj otkrivenih polja ugljikovodika u razdoblju od 1940.-2005. godine.
@@ -104,7 +104,7 @@
 				<Slide>
 					<PageNumber>1</PageNumber>
 					<Title>Uvod</Title>
-					<Thumbnail>Assets/oil_pump.png</Thumbnail>
+					<Thumbnail>Assets/ugljikovodici_podjela.png</Thumbnail>
 					<Image>Assets/ugljikovodici_podjela.png</Image>
 					<Text>
 					Područje Republike Hrvatske se prema geološkom kriteriju dijeli na tri cjeline: 
@@ -130,8 +130,8 @@
 				</Slide>
 				<Slide>
 					<PageNumber>3</PageNumber>
-					<Title>Hrvatski dio Panonskog bazena - strukturne depresije</Title>
-					<Thumbnail>Assets/oil_pump.png</Thumbnail>
+					<Title>Strukturne depresije</Title>
+					<Thumbnail>Assets/strukturne_depresije.png</Thumbnail>
 					<Image>Assets/strukturne_depresije.png</Image>
 					<Text>
 					Hrvatski dio Panonskog bazena, zahvaljujući svojem rubnom položaju 
@@ -144,16 +144,16 @@
 				</Slide>
 				<Slide>
 					<PageNumber>4</PageNumber>
-					<Title>Hrvatski dio Panonskog bazena - prikaz polja</Title>
-					<Thumbnail>Assets/oil_pump.png</Thumbnail>
+					<Title>Prikaz polja</Title>
+					<Thumbnail>Assets/slika_polja.png</Thumbnail>
 					<Image>Assets/slika_polja.png</Image>
 					<Text>
 					</Text>
 				</Slide>	
 				<Slide>
 					<PageNumber>5</PageNumber>
-					<Title>Hrvatski dio Panonskog bazena - popis polja</Title>
-					<Thumbnail>Assets/oil_pump.png</Thumbnail>
+					<Title>Popis polja</Title>
+					<Thumbnail>Assets/popis_polja.png</Thumbnail>
 					<Image>Assets/popis_polja.png</Image>
 					<Text>
 					</Text>
@@ -161,14 +161,14 @@
 				<Slide>
 					<PageNumber>5</PageNumber>
 					<Title>Jadransko podmorje - 1.dio</Title>
-					<Thumbnail>Assets/oil_pump.png</Thumbnail>
+					<Thumbnail>Assets/sjeverni_jadran.png</Thumbnail>
 					<Image>Assets/sjeverni_jadran.png</Image>
 					<Text>
 					Dio Jadranskog mora koje pripada Republici Hrvatskoj je veći od 54 000 km2.
 					Promatrajući dubinu mora područje Jadrana je moguće podijeliti u tri dijela.
-					Prvi je dio izmeñu Istre i ušća rijeke Po. 
+					Prvi je dio između Istre i ušća rijeke Po. 
 					Ovdje je zbog najveće dubine do 40m moguće korištenje jednostavnih bušećih platformi. 
-					Drugi dio se nalazi izmeñu poteza Ravenna-Pula i poteza Ancona-Zadar. 
+					Drugi dio se nalazi između poteza Ravenna-Pula i poteza Ancona-Zadar. 
 					Dno je razvedenije i dubine je do 70 m. 
 					Treći dio koji ima najveće dubine (200-1000 m) se nalazi 
 					od poteza Monte Gargano-Pelješac i Mljet prema jugu. 
@@ -178,7 +178,7 @@
 				<Slide>
 					<PageNumber>6</PageNumber>
 					<Title>Jadransko podmorje - 2.dio</Title>
-					<Thumbnail>Assets/oil_pump.png</Thumbnail>
+					<Thumbnail>Assets/sjeverni_jadran.png</Thumbnail>
 					<Image>Assets/sjeverni_jadran.png</Image>
 					<Text>
 					Jedina cijela depresija koja se nalazi u hrvatskom dijelu Jadrana 
@@ -237,7 +237,7 @@
 				<Slide>
 					<PageNumber>1</PageNumber>
 					<Title>Rafinerija nafte Rijeka (Urinj)</Title>
-					<Thumbnail>Assets/refinery.png</Thumbnail>
+					<Thumbnail>Assets/rijeka.png</Thumbnail>
 					<Image>Assets/rijeka.png</Image>
 					<Text>
 					Osnovna djelatnost ove rafinerije je proizvodnja tekućih ugljikovodičnih goriva.
@@ -253,7 +253,7 @@
 				<Slide>
 					<PageNumber>2</PageNumber>
 					<Title>Rafinerija nafte Sisak</Title>
-					<Thumbnail>Assets/refinery.png</Thumbnail>
+					<Thumbnail>Assets/sisak.png</Thumbnail>
 					<Image>Assets/sisak.png</Image>
 					<Text>
 					Rafinerija nafte Sisak nalazi se na geostrateški povoljnom položaju 
@@ -266,7 +266,7 @@
 				<Slide>
 					<PageNumber>3</PageNumber>
 					<Title>Rafinerije maziva</Title>
-					<Thumbnail>Assets/refinery.png</Thumbnail>
+					<Thumbnail>Assets/maziva.png</Thumbnail>
 					<Image>Assets/maziva.png</Image>
 					<Text>
 					Proizvodnja maziva odvija se na postrojenjima Maziva Rijeka (Mlaka) i Maziva Zagreb.
@@ -277,8 +277,8 @@
 				</Slide>
 				<Slide>
 					<PageNumber>4</PageNumber>
-					<Title>Gospodarski subjekti koji se bave preradbom i pripremom plina</Title>
-					<Thumbnail>Assets/refinery.png</Thumbnail>
+					<Title>Gospodarski subjekti - prerada plina</Title>
+					<Thumbnail>Assets/plin_hrvatska.png</Thumbnail>
 					<Image>Assets/plin_hrvatska.png</Image>
 					<Text>
 					Distribucija plina odvija se preko 36 trgovačkih društava 
@@ -294,7 +294,7 @@
 				<Slide>
 					<PageNumber>5</PageNumber>
 					<Title>JANAF d.d. Zagreb – transport nafte</Title>
-					<Thumbnail>Assets/refinery.png</Thumbnail>
+					<Thumbnail>Assets/janaf.png</Thumbnail>
 					<Image>Assets/janaf.png</Image>
 					<Text>
 					Jadranski naftovod d.d. Zagreb (JANAF) je kompanija čija je djelatnost 
@@ -311,7 +311,7 @@
 				<Slide>
 					<PageNumber>6</PageNumber>
 					<Title>JANAF d.d. Zagreb – transport nafte</Title>
-					<Thumbnail>Assets/refinery.png</Thumbnail>
+					<Thumbnail>Assets/janaf.png</Thumbnail>
 					<Image>Assets/janaf.png</Image>
 					<Text>
 					Sustav JANAF d.d. sastoji se od:
