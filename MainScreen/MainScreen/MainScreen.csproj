@@ -90,6 +90,8 @@
     <Content Include="Assets\IMG_Slide5.jpg" />
     <Content Include="Assets\IMG_Slide6.JPG" />
     <Content Include="Assets\IMG_Slide7.jpg" />
+    <Content Include="Assets\IMG_Slide8.jpg" />
+    <Content Include="Assets\IMG_Slide9.jpg" />
     <Content Include="Assets\jadran.png" />
     <Content Include="Assets\janaf.png" />
     <Content Include="Assets\learn_image.png" />
@@ -132,6 +134,8 @@
     <Content Include="Assets\TMB_Slide5.jpg" />
     <Content Include="Assets\TMB_Slide6.jpg" />
     <Content Include="Assets\TMB_Slide7.jpg" />
+    <Content Include="Assets\TMB_Slide8.jpg" />
+    <Content Include="Assets\TMB_Slide9.jpg" />
     <Content Include="Assets\ugljikovodici_podjela.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
