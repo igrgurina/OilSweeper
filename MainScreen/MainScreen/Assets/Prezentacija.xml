@@ -557,4 +557,34 @@
 						<Option>Zadar i Osijek</Option>
 						<Option>Zagreb i Pula</Option>
 						<Option>Slavonski Brod i Šibenik</Option>
-					<
+					</Options>
+					<Correct>Rijeka i Sisak</Correct>
+				</Question>
+				<Question>
+					<QuestionId>5</QuestionId>
+					<Text>Koliko postoji rafinerije maziva u Hrvatskoj?</Text>
+					<Image>Assets/rijeka.png</Image>
+					<Options>
+						<Option>Jedna</Option>
+						<Option>Dvije</Option>
+						<Option>Tri</Option>
+						<Option>Četiri</Option>
+					</Options>
+					<Correct>Dvije</Correct>
+				</Question>
+				<Question>
+					<QuestionId>6</QuestionId>
+					<Text>Koje je godine izgrađen Jadranski naftovod?</Text>
+					<Image>Assets/janaf.png</Image>
+					<Options>
+						<Option>1959.</Option>
+						<Option>1969.</Option>
+						<Option>1979.</Option>
+						<Option>1989.</Option>
+					</Options>
+					<Correct>1979.</Correct>
+				</Question>
+			</Questions>
+		</Chapter>		
+	</Chapters>
+</EducationalContent>
