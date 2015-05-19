@@ -12,7 +12,6 @@
     </Page.Background>
 
     <Grid>
-        <Image HorizontalAlignment="Left" Height="70" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/back_image.png" IsRightTapEnabled="False" IsHoldingEnabled="False" IsDoubleTapEnabled="False" Tapped="Image_Tapped"/>
         <Image x:Name="oilSweeper_image" HorizontalAlignment="Center" Height="200" Margin="0" VerticalAlignment="Top" Width="200" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" Source="Assets/OilSweeper.png"/>
         <ContentPresenter HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
         <TextBlock x:Name="question_txtBlock" HorizontalAlignment="Left" Margin="10,205,0,0" TextWrapping="Wrap" Text="{Binding}" VerticalAlignment="Top" FontSize="24" FontFamily="Comic Sans MS" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>

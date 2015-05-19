@@ -6,6 +6,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Navigation;
 using MainScreen.Extensions;
 using MainScreen.ViewModel;
+using Windows.Phone.UI.Input;
 
 namespace MainScreen
 {
@@ -16,6 +17,7 @@ namespace MainScreen
         public SlidePage()
         {
             this.InitializeComponent();
+            HardwareButtons.BackPressed += OnBackPressed;
         }
 
         /// <summary>
@@ -36,6 +38,13 @@ namespace MainScreen
                 Frame.BackStack.RemoveAt(Frame.BackStack.Count - 1);
             }
             Frame.BackStack.RemoveAt(Frame.BackStack.Count - 1);
+        }
+
+        private void OnBackPressed(object sender, Windows.Phone.UI.Input.BackPressedEventArgs e)
+        {
+            e.Handled = true;
+            Frame.Navigate(typeof(ChapterPage), data.Chapter);
+            ClearStack();
         }
 
         private void back_Image_Tapped(object sender, TappedRoutedEventArgs e)
@@ -68,12 +77,6 @@ namespace MainScreen
                 data.Slide = next;
                 Frame.Navigate(typeof(SlidePage), data);
             }
-        }
-
-        private void return_Image_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(ChapterPage), data.Chapter);
-            ClearStack();
         }
     }
 }

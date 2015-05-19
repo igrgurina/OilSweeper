@@ -12,7 +12,6 @@
     </Page.Background>
 
     <Grid>
-        <Image x:Name="back_image" HorizontalAlignment="Left" Height="70" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/back_image.png" Tapped="back_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
         <GridView IsItemClickEnabled="True" ItemClick="MainPage_Click" ItemsSource="{Binding Chapters}" HorizontalAlignment="Center" Height="590" Margin="0,30,0,0" VerticalAlignment="Top" Width="380">
             <GridView.ItemTemplate>
                 <DataTemplate>

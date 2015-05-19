@@ -1,6 +1,7 @@
 ﻿using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Navigation;
+using Windows.Phone.UI.Input;
 
 namespace MainScreen
 {
@@ -9,6 +10,7 @@ namespace MainScreen
         public GamePage()
         {
             this.InitializeComponent();
+            HardwareButtons.BackPressed += OnBackPressed;
         }
 
         /// <summary>
@@ -20,9 +22,11 @@ namespace MainScreen
         {
         }
 
-        private void back_image_Tapped(object sender, TappedRoutedEventArgs e)
+        private void OnBackPressed(object sender, Windows.Phone.UI.Input.BackPressedEventArgs e)
         {
-            this.Frame.Navigate(typeof(MainPage));
+            e.Handled = true;
+            Frame.Navigate(typeof(MainPage));
         }
+
     }
 }

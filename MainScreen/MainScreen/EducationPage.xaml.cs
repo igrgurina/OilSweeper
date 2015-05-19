@@ -2,6 +2,7 @@
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Navigation;
 using MainScreen.ViewModel;
+using Windows.Phone.UI.Input;
 
 namespace MainScreen
 {
@@ -10,6 +11,7 @@ namespace MainScreen
         public EducationPage()
         {
             InitializeComponent();
+            HardwareButtons.BackPressed += OnBackPressed;
         }
 
         /// <summary>
@@ -22,9 +24,10 @@ namespace MainScreen
             DataContext = (EducationViewModel) e.Parameter;
         }
 
-        private void back_image_Tapped(object sender, TappedRoutedEventArgs e)
+        private void OnBackPressed(object sender, Windows.Phone.UI.Input.BackPressedEventArgs e)
         {
-            Frame.Navigate(typeof(MainPage));
+            e.Handled = true;
+            Frame.Navigate(typeof(MainPage));          
         }
 
         private void quiz_image_Tapped(object sender, TappedRoutedEventArgs e)

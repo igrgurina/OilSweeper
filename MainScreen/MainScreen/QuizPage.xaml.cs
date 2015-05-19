@@ -2,6 +2,7 @@
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Navigation;
+using Windows.Phone.UI.Input;
 
 namespace MainScreen
 {
@@ -10,6 +11,7 @@ namespace MainScreen
         public QuizPage()
         {
             InitializeComponent();
+            HardwareButtons.BackPressed += OnBackPressed;
         }
 
         /// <summary>
@@ -21,8 +23,9 @@ namespace MainScreen
         {
         }
 
-        private void Image_Tapped(object sender, TappedRoutedEventArgs e)
+        private void OnBackPressed(object sender, Windows.Phone.UI.Input.BackPressedEventArgs e)
         {
+            e.Handled = true;
             Frame frame = Window.Current.Content as Frame;
 
             if (frame != null && frame.CanGoBack)
@@ -31,5 +34,6 @@ namespace MainScreen
                 e.Handled = true;
             }
         }
+
     }
 }

@@ -5,6 +5,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Navigation;
 using MainScreen.ViewModel;
 using MainScreen.Extensions;
+using Windows.Phone.UI.Input;
 
 namespace MainScreen
 {
@@ -13,6 +14,7 @@ namespace MainScreen
         public ChapterPage()
         {
             InitializeComponent();
+            HardwareButtons.BackPressed += OnBackPressed;
         }
 
         private SlideData data = new SlideData();
@@ -29,8 +31,9 @@ namespace MainScreen
             DataContext = (ChapterViewModel)e.Parameter;
         }
 
-        private void back_image_Tapped(object sender, TappedRoutedEventArgs e)
+        private void OnBackPressed(object sender, Windows.Phone.UI.Input.BackPressedEventArgs e)
         {
+            e.Handled = true;
             Frame frame = Window.Current.Content as Frame;
 
             if (frame != null && frame.CanGoBack)

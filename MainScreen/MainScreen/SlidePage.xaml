@@ -18,10 +18,9 @@
                 <TextBlock x:Name="slide_txtBlock" Margin="20,0,20,50" TextWrapping="Wrap" Text="{Binding Text}" FontSize="22" FontFamily="Comic Sans MS" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" VerticalAlignment="Top"/>
             </StackPanel>
         </ScrollViewer>
-        <Image HorizontalAlignment="Center" Height="70" Margin="20,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/return.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="back_Image_Tapped"/>
+        <Image HorizontalAlignment="Left" Height="70" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/return.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="back_Image_Tapped"/>
         <Image HorizontalAlignment="Right" Height="70" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="70" Source="Assets/next_image.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="front_Image_Tapped"/>
         <GridView HorizontalAlignment="Left" Height="100" Margin="80,55,0,0" VerticalAlignment="Top" Width="100"/>
-        <Image HorizontalAlignment="Left" Height="70" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/back_image.png" Tapped="return_Image_Tapped"/>
 
     </Grid>
 </Page>
