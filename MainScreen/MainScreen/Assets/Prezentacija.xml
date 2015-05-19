@@ -79,13 +79,13 @@
 					<Image>Assets/IMG_Slide6.jpg</Image>
 					<Text>
 						Konačno, oceani i atmosfera su stabilni i kiselost oceana se smanjila. Visoke temperature, količine radijacije i iskrenje 
-						u atmosferi čine Zemljine oceane ogromnim kemijskim laboratorijima za sintezu organskih spojeva. Nova faza u povijesti Zemlje 
-						konačno može početi...
+						u atmosferi čine Zemljine oceane ogromnim kemijskim laboratorijima za nasumičnu sintezu organskih spojeva. Nova revolucionarna 
+						faza u povijesti Zemlje konačno može početi...
 					</Text>
 				</Slide>
 				
 			</Slides>
-
+		
 			<Questions>
 			
 				<Question>
@@ -194,7 +194,33 @@
 			</Questions>
 
 		</Chapter>
-	
+		
+		<Chapter>
+			<ChapterNumber>2</ChapterNumber>
+			<Title>Nastanak života</Title>
+			<Thumbnail>Assets/TMB_Chapter2.jpg</Thumbnail>
+			
+			<Slides>
+				<Slide>
+			    <PageNumber>1</PageNumber>
+					<Title>3.8 milijardi god. p.n.e.</Title>
+					<Thumbnail>Assets/TMB_Slide7.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide7.jpg</Image>
+					<Text>
+						Razdoblje je ranog arhaika. Nastali organski polimeri nakupljaju se u sferne kapljične agregate, tzv koacervate
+						koje na okupu drže hidrofobne sile jednostavnih lipidnih omotača. Iako se ne smatraju živim organizmima koacervati 
+						su u stanju dijeliti se, međusobno se stapati, selektivno apsorbirati druge organske molekule, pa čak formirati 
+						manje građevne jedinice nalik današnjim staničnim komponentama.
+					</Text>
+				</Slide>
+				
+			
+			</Slides>
+			
+			
+			
+		</Chapter>
+		
 		<Chapter>
 			<ChapterNumber>4</ChapterNumber>
 			<Title>Povijest ugljikovodika u Hrvatskoj</Title>
@@ -531,34 +557,4 @@
 						<Option>Zadar i Osijek</Option>
 						<Option>Zagreb i Pula</Option>
 						<Option>Slavonski Brod i Šibenik</Option>
-					</Options>
-					<Correct>Rijeka i Sisak</Correct>
-				</Question>
-				<Question>
-					<QuestionId>5</QuestionId>
-					<Text>Koliko postoji rafinerije maziva u Hrvatskoj?</Text>
-					<Image>Assets/rijeka.png</Image>
-					<Options>
-						<Option>Jedna</Option>
-						<Option>Dvije</Option>
-						<Option>Tri</Option>
-						<Option>Četiri</Option>
-					</Options>
-					<Correct>Dvije</Correct>
-				</Question>
-				<Question>
-					<QuestionId>6</QuestionId>
-					<Text>Koje je godine izgrađen Jadranski naftovod?</Text>
-					<Image>Assets/janaf.png</Image>
-					<Options>
-						<Option>1959.</Option>
-						<Option>1969.</Option>
-						<Option>1979.</Option>
-						<Option>1989.</Option>
-					</Options>
-					<Correct>1979.</Correct>
-				</Question>
-			</Questions>
-		</Chapter>		
-	</Chapters>
-</EducationalContent>
+					<
