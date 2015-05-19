@@ -12,6 +12,7 @@ namespace MainScreen.ViewModel
         private string _image;
         private List<string> _options;
         private string _correct;
+        private string _explanation;
         public event PropertyChangedEventHandler PropertyChanged;
 
         public int QuestionId
@@ -63,6 +64,16 @@ namespace MainScreen.ViewModel
             set
             {
                 _correct = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public string Explanation
+        {
+            get { return _explanation; }
+            set
+            {
+                _explanation = value;
                 OnPropertyChanged();
             }
         }

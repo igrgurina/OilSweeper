@@ -22,7 +22,6 @@
         <Image HorizontalAlignment="Center" Height="70" Margin="30,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/return.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="back_Image_Tapped"/>
         <Image HorizontalAlignment="Right" Height="70" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="70" Source="Assets/next_image.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="front_Image_Tapped"/>
         <GridView HorizontalAlignment="Left" Height="100" Margin="80,55,0,0" VerticalAlignment="Top" Width="100"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="135,560,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="44" Width="138"/>
-
+        <!-- <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="135,560,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="44" Width="138"/> !--> 
     </Grid>
 </Page>

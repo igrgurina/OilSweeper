@@ -25,7 +25,7 @@
                     </ListView.ItemTemplate>
                 </ListView>
                 <TextBlock Visibility="Collapsed" x:Name="Correct" Text="Odgovor je točan!" FontSize="20" Foreground="#FF47EA17" Margin="5,10,0,0"></TextBlock>
-                <TextBlock x:Name="Explanation" TextWrapping="Wrap" MaxHeight="200" Visibility="Collapsed" Text="Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje" FontSize="20" Margin="5,15,0,0"></TextBlock>
+                <TextBlock x:Name="Explanation" TextWrapping="Wrap" MaxHeight="200" Visibility="Collapsed" Text="{Binding Explanation}" FontSize="20" Margin="5,15,0,0" TextAlignment="Justify"></TextBlock>
                 <Button x:Name="Next" Visibility="Collapsed" Click="NextQuestion" FontSize="25" Margin="5,10,0,5" HorizontalAlignment="Right" VerticalAlignment="Bottom" >
                     <TextBlock Text="Iduće pitanje" TextWrapping="Wrap" Margin="10"/>
                 </Button>
