@@ -66,7 +66,7 @@ namespace MainScreen
         }
 
         private void quiz_image_Tapped(object sender, TappedRoutedEventArgs e) {
-            Frame.Navigate(typeof(QuizPage), data.Chapter.Questions);
+            Frame.Navigate(typeof(QuizPage), ((ChapterViewModel)DataContext).Questions);
         }
 
         private void Slide_Click(object sender, ItemClickEventArgs e)

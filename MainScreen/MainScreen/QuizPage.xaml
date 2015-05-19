@@ -11,12 +11,26 @@
         <ImageBrush ImageSource="Assets/oil_drip.jpg" Stretch="UniformToFill" Opacity="0.2"/>
     </Page.Background>
 
-    <Grid>
-        <Image x:Name="oilSweeper_image" HorizontalAlignment="Center" Height="200" Margin="0" VerticalAlignment="Top" Width="200" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" Source="Assets/OilSweeper.png"/>
-        <ContentPresenter HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
-        <TextBlock x:Name="question_txtBlock" HorizontalAlignment="Left" Margin="10,205,0,0" TextWrapping="Wrap" Text="{Binding}" VerticalAlignment="Top" FontSize="24" FontFamily="Comic Sans MS" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
-        <CheckBox x:Name="question_checkBox" Content="{Binding}" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
-        <Button x:Name="submit_btn" Content="Submit" HorizontalAlignment="Left" Margin="10,272,0,0" VerticalAlignment="Top" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
-
+    <Grid DataContext="{Binding}">
+        <ScrollViewer Margin="20,50,20,90">
+            <StackPanel>
+                <TextBlock Text="{Binding Text}" FontSize="30" HorizontalAlignment="Left" TextWrapping="Wrap" MaxHeight="200"/>
+                <ListView Margin="0,40,0,0" FontSize="24" ItemsSource="{Binding Options}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Button Click="Answer_OnClick" FontSize="20" Margin="5,0,0,5" HorizontalAlignment="Stretch" >
+                                <TextBlock Text="{Binding}" TextWrapping="Wrap" Margin="10"/>
+                            </Button>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <TextBlock Visibility="Collapsed" x:Name="Correct" Text="Odgovor je točan!" FontSize="20" Foreground="#FF47EA17" Margin="5,10,0,0"></TextBlock>
+                <TextBlock x:Name="Explanation" TextWrapping="Wrap" MaxHeight="200" Visibility="Collapsed" Text="Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje Objašnjenje" FontSize="20" Margin="5,15,0,0"></TextBlock>
+                <Button x:Name="Next" Visibility="Collapsed" Click="NextQuestion" FontSize="25" Margin="5,10,0,5" HorizontalAlignment="Right" VerticalAlignment="Bottom" >
+                    <TextBlock Text="Iduće pitanje" TextWrapping="Wrap" Margin="10"/>
+                </Button>
+            </StackPanel>
+        </ScrollViewer>
+        <Image HorizontalAlignment="Left" Height="70" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/back_image.png" Tapped="back_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
     </Grid>
 </Page>
