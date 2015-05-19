@@ -82,12 +82,10 @@
 						u atmosferi čine Zemljine oceane ogromnim kemijskim laboratorijima za nasumičnu sintezu organskih spojeva. Nova revolucionarna 
 						faza u povijesti Zemlje konačno može početi...
 					</Text>
-				</Slide>
-				
+				</Slide>	
 			</Slides>
 		
 			<Questions>
-			
 				<Question>
 					<QuestionId>1</QuestionId>
 					<Text>Prvi kompleksni organski spojevi mogli su nastati najranije u...</Text>
@@ -101,7 +99,7 @@
 					<Correct>protoplanetarnom disku</Correct>
 					<Explanation>
 					    Prema najnovijim računalnim simulacijama organske molekule mogle su nastati 
-						već u protoplanetarnom disku prije same formacije Zemlje.
+						već u protoplanetarnom disku i prije same formacije Zemlje.
 					</Explanation>
 				</Question>
 				
@@ -117,7 +115,7 @@
 					</Options>
 					<Correct>organski materijal.</Correct>
 					<Explanation>
-					    Iako nije točno utvrđen precizan model okoline u kojoj su nastali prvi organski spojevi, 
+					    Iako nije točno utvrđen precizan geološki model okoline u kojoj su nastali prvi organski spojevi, 
 						sigurno je da se slučajna sinteza zbila najvjerojatnije pri samom kraju hadija.
 					</Explanation>
 				</Question>
@@ -135,7 +133,7 @@
 					<Correct>klora.</Correct>
 					<Explanation>
 					    Rana atmosfera bila je bogata plinovitim oksidima i vodenom parom. Klor se oslobodio 
-					    naknadno, putem raznih reakcija kojima se postupno smanjila kiselost oceana.
+					    naknadno putem raznih reakcija kojima se postupno smanjila kiselost oceana.
 					</Explanation>
 				</Question>
 				
@@ -169,7 +167,7 @@
 					</Options>
 					<Correct>hondriti</Correct>
 					<Explanation>
-					    OH skupinom bogati meteoriti nazivaju se ugljevitim hondritima. Bolidi jesu eksplozivni 
+					    OH skupinom bogati meteoriti nazivaju se ugljevitim hondritima ili kraće hondritima. Bolidi jesu eksplozivni 
 						ledeni meteori, a hidroidi ne postoje.
 					</Explanation>
 				</Question>
@@ -192,7 +190,6 @@
 					</Explanation>
 				</Question>
 			</Questions>
-
 		</Chapter>
 		
 		<Chapter>
@@ -203,7 +200,7 @@
 			<Slides>
 				<Slide>
 			    <PageNumber>1</PageNumber>
-					<Title>3.8 milijardi god. p.n.e.</Title>
+					<Title>3.9 milijardi god. p.n.e.</Title>
 					<Thumbnail>Assets/TMB_Slide7.jpg</Thumbnail>
 					<Image>Assets/IMG_Slide7.jpg</Image>
 					<Text>
@@ -213,12 +210,31 @@
 						manje građevne jedinice nalik današnjim staničnim komponentama.
 					</Text>
 				</Slide>
+
+				<Slide>
+			    <PageNumber>2</PageNumber>
+					<Title>3.8 milijardi god. p.n.e.</Title>
+					<Thumbnail>Assets/TMB_Slide8.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide8.jpg</Image>
+					<Text>
+						U koacervatima se događa intenzivna kemijska lutrija pri čemu je najvažniji element ugljik. Osim što je lagan za 
+						ekstrakciju iz atmosfere, pogodan je i za formaciju složenih ali stabilnih molekularnih lanaca. Jedini od ostalih 
+						elemenata sa približno istim svojstvima jest silicij. Kao otapalo organskih tvari i sredstvo evolucijskog razvoja 
+						života ključan spoj jest voda zbog izrazite polarnosti molekula i zastupljenosti na Zemljinoj površini.
+					</Text>
+				</Slide>
 				
-			
+				<Slide>
+			    <PageNumber>3</PageNumber>
+					<Title>3.5 milijardi god. p.n.e.</Title>
+					<Thumbnail>Assets/TMB_Slide9.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide9.jpg</Image>
+					<Text>
+						Nastaju prvi proizvođači kisika, preci današnjih cijanobakterija. Količine kisika u atmosferi još uvijek su 
+						ekstremno niske, te i dalje prevladavaju jednostavni anaerobni prokarioti iz domene Archaea.
+					</Text>
+				</Slide>
 			</Slides>
-			
-			
-			
 		</Chapter>
 		
 		<Chapter>
