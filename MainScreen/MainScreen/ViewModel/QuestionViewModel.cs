@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System.Collections.Generic;
+using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using MainScreen.Annotations;
 
@@ -9,6 +10,8 @@ namespace MainScreen.ViewModel
         private int _questionId;
         private string _text;
         private string _image;
+        private List<string> _options;
+        private string _correct;
         public event PropertyChangedEventHandler PropertyChanged;
 
         public int QuestionId
@@ -44,7 +47,25 @@ namespace MainScreen.ViewModel
             }
         }
 
-        //public 
+        public List<string> Options
+        {
+            get { return _options; }
+            set
+            {
+                _options = value;
+                OnPropertyChanged();   
+            }
+        }
+
+        public string Correct
+        {
+            get { return _correct; }
+            set
+            {
+                _correct = value;
+                OnPropertyChanged();
+            }
+        }
 
         [NotifyPropertyChangedInvocator]
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)

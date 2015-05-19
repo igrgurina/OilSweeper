@@ -21,6 +21,7 @@ namespace MainScreen
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+
         }
 
         private void OnBackPressed(object sender, Windows.Phone.UI.Input.BackPressedEventArgs e)

@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using System.Linq;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
@@ -14,11 +15,11 @@ namespace MainScreen
         public ChapterPage()
         {
             InitializeComponent();
-            HardwareButtons.BackPressed += OnBackPressed;
+            NavigationCacheMode = NavigationCacheMode.Enabled;
         }
 
         private SlideData data = new SlideData();
-        //public ObservableCollection<ChapterViewModel> Chapters = new ObservableCollection<ChapterViewModel>();
+        public ObservableCollection<ChapterViewModel> Chapter = new ObservableCollection<ChapterViewModel>();
 
         /// <summary>
         /// Invoked when this page is about to be displayed in a Frame.
@@ -29,11 +30,18 @@ namespace MainScreen
         {
             data.Chapter = (ChapterViewModel)e.Parameter;
             DataContext = (ChapterViewModel)e.Parameter;
+            //HardwareButtons.BackPressed += OnBackPressed;
         }
+
+        /*protected override void OnNavigatedFrom(NavigationEventArgs e)
+        {
+            base.OnNavigatedFrom(e);
+            HardwareButtons.BackPressed -= OnBackPressed;
+        }*/
+
 
         private void OnBackPressed(object sender, Windows.Phone.UI.Input.BackPressedEventArgs e)
         {
-            e.Handled = true;
             Frame frame = Window.Current.Content as Frame;
 
             if (frame != null && frame.CanGoBack)
@@ -43,8 +51,22 @@ namespace MainScreen
             }
         }
 
+        private void back_image_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame frame = Window.Current.Content as Frame;
+
+            if (frame != null && frame.CanGoBack)
+            {
+                //var x = Frame.BackStack.LastOrDefault();
+                e.Handled = true;
+                frame.GoBack();
+                //var y = Frame.BackStack.LastOrDefault();
+                //var a = 2;
+            }
+        }
+
         private void quiz_image_Tapped(object sender, TappedRoutedEventArgs e) {
-            Frame.Navigate(typeof(QuizPage));
+            Frame.Navigate(typeof(QuizPage), data.Chapter.Questions);
         }
 
         private void Slide_Click(object sender, ItemClickEventArgs e)

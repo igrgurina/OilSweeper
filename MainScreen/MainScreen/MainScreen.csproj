@@ -85,9 +85,14 @@
     <Content Include="Assets\front_image.png" />
     <Content Include="Assets\IMG_Slide1.jpg" />
     <Content Include="Assets\IMG_Slide2.jpg" />
+    <Content Include="Assets\IMG_Slide3.jpg" />
+    <Content Include="Assets\IMG_Slide4.jpeg" />
+    <Content Include="Assets\IMG_Slide5.jpg" />
+    <Content Include="Assets\IMG_Slide6.JPG" />
     <Content Include="Assets\jadran.png" />
     <Content Include="Assets\janaf.png" />
     <Content Include="Assets\learn_image.png" />
+    <Content Include="Assets\logo.png" />
     <Content Include="Assets\maziva.png" />
     <Content Include="Assets\next_image.png" />
     <Content Include="Assets\offshore_platform.png" />
@@ -122,6 +127,8 @@
     <Content Include="Assets\TMB_Slide2.jpg" />
     <Content Include="Assets\TMB_Slide3.jpg" />
     <Content Include="Assets\TMB_Slide4.jpg" />
+    <Content Include="Assets\TMB_Slide5.jpg" />
+    <Content Include="Assets\TMB_Slide6.jpg" />
     <Content Include="Assets\ugljikovodici_podjela.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -151,10 +158,12 @@
       <DependentUpon>EducationPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Extensions\EducationContextExtensions.cs" />
+    <Compile Include="Extensions\FrameExtensions.cs" />
     <Compile Include="Extensions\SlideData.cs" />
     <Compile Include="GamePage.xaml.cs">
       <DependentUpon>GamePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\Swiper.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>

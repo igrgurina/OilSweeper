@@ -7,18 +7,33 @@ using Windows.UI.Xaml.Navigation;
 using MainScreen.Extensions;
 using MainScreen.ViewModel;
 using Windows.Phone.UI.Input;
+using MainScreen.Helpers;
 
 namespace MainScreen
 {
     public sealed partial class SlidePage : Page
     {
-
+        private int x1, x2;
         private SlideData data = new SlideData();
         public SlidePage()
         {
             this.InitializeComponent();
-            HardwareButtons.BackPressed += OnBackPressed;
+            this.NavigationCacheMode = NavigationCacheMode.Required;
+            new Swiper(MainPanel, OnSwipedLeft, OnSwipedRight);
+            //HardwareButtons.BackPressed += OnBackPressed;
         }
+
+
+        private void OnSwipedRight()
+        {
+            
+        }
+
+        private void OnSwipedLeft()
+        {
+            
+        }
+
 
         /// <summary>
         /// Invoked when this page is about to be displayed in a Frame.
@@ -31,36 +46,25 @@ namespace MainScreen
             DataContext = data.Slide;
         }
 
-        private void ClearStack()
-        {
-            while (Frame.BackStack.LastOrDefault().SourcePageType == typeof(SlidePage))
-            {
-                Frame.BackStack.RemoveAt(Frame.BackStack.Count - 1);
-            }
-            Frame.BackStack.RemoveAt(Frame.BackStack.Count - 1);
-        }
-
         private void OnBackPressed(object sender, Windows.Phone.UI.Input.BackPressedEventArgs e)
         {
             e.Handled = true;
-            Frame.Navigate(typeof(ChapterPage), data.Chapter);
-            ClearStack();
+            Frame.GoBack();
         }
 
         private void back_Image_Tapped(object sender, TappedRoutedEventArgs e)
         {
             var reverse = data.Chapter.Slides.ToList();
             reverse.Reverse();
-            SlideViewModel next = reverse.SkipWhile(c => c != data.Slide).Skip(1).FirstOrDefault();
-            if (next == null)
+            SlideViewModel previous = reverse.SkipWhile(c => c != data.Slide).Skip(1).FirstOrDefault();
+            if (previous == null)
             {
-                Frame.Navigate(typeof(ChapterPage), data.Chapter);
-                ClearStack();
+                Frame.GoBack();
             }
             else
             {
-                data.Slide = next;
-                Frame.Navigate(typeof(SlidePage), data);
+                data.Slide = previous;
+                Frame.ChangeContext(this, data.Slide);
             }
         }
 
@@ -69,14 +73,19 @@ namespace MainScreen
             SlideViewModel next = data.Chapter.Slides.SkipWhile(c => c != data.Slide).Skip(1).FirstOrDefault();
             if (next == null)
             {
-                Frame.Navigate(typeof(ChapterPage), data.Chapter);
-                ClearStack();
+                Frame.GoBack();
             }
             else
             {
                 data.Slide = next;
-                Frame.Navigate(typeof(SlidePage), data);
+                Frame.ChangeContext(this, data.Slide);
+
             }
+        }
+
+        private void return_Image_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.GoBack();
         }
     }
 }

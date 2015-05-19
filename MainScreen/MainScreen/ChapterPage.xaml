@@ -12,6 +12,7 @@
     </Page.Background>
 
     <Grid DataContext="{Binding}">
+        <Image HorizontalAlignment="Left" Height="70" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/back_image.png" Tapped="back_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
         <Image Source="{Binding Thumbnail}" Margin="110,90,110,0" VerticalAlignment="Top"/>
         <Image HorizontalAlignment="Right" Height="70" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="77" Source="Assets/quiz_image.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="quiz_image_Tapped"/>
         <TextBlock Text="Quiz" HorizontalAlignment="Right" Margin="0,0,18,80" TextWrapping="Wrap" VerticalAlignment="Bottom" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" FontFamily="Comic Sans MS" FontSize="24" RenderTransformOrigin="1.116,1.54"/>
