@@ -470,7 +470,7 @@
 		</Chapter>
 		<Chapter>
 			<ChapterNumber>6</ChapterNumber>
-			<Title>Prerada i veleprodaja ugljikovodika u Hrvatskoj</Title>
+			<Title>Prerada ugljikovodika u Hrvatskoj</Title>
 			<Thumbnail>Assets/refinery.png</Thumbnail>
 			<Slides>
 				<Slide>
@@ -532,7 +532,7 @@
 				</Slide>	
 				<Slide>
 					<PageNumber>5</PageNumber>
-					<Title>JANAF d.d. Zagreb – transport nafte</Title>
+					<Title>JANAF – transport nafte 1.dio</Title>
 					<Thumbnail>Assets/janaf.png</Thumbnail>
 					<Image>Assets/janaf.png</Image>
 					<Text>
@@ -549,7 +549,7 @@
 				</Slide>
 				<Slide>
 					<PageNumber>6</PageNumber>
-					<Title>JANAF d.d. Zagreb – transport nafte</Title>
+					<Title>JANAF – transport nafte 2.dio</Title>
 					<Thumbnail>Assets/janaf.png</Thumbnail>
 					<Image>Assets/janaf.png</Image>
 					<Text>
