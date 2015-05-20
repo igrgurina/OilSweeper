@@ -16,7 +16,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="MainScreen.App">
-      <m3:VisualElements DisplayName="OilSweeper" Square150x150Logo="Assets\OilSweeper_150x150.png" Square44x44Logo="Assets\OilSweeper_44x44.png" Description="MainScreen" ForegroundText="light" BackgroundColor="transparent">
+      <m3:VisualElements DisplayName="OilSweeper" Square150x150Logo="Assets\OilSweeper_150x150.png" Square44x44Logo="Assets\OilSweeper_44x44.png" Description="MainScreen" ForegroundText="light" BackgroundColor="black">
         <m3:DefaultTile Square71x71Logo="Assets\OilSweeper_71x71.png">
         </m3:DefaultTile>
         <m3:InitialRotationPreference>
