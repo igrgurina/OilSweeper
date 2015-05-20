@@ -13,16 +13,16 @@
 
     <Grid DataContext="{Binding}">
         <Image HorizontalAlignment="Left" Height="70" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/back_image.png" Tapped="back_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
-        <Image Source="{Binding Thumbnail}" Margin="110,90,110,0" VerticalAlignment="Top"/>
+        <Image Source="{Binding Thumbnail}" Margin="10,20,0,0" VerticalAlignment="Top" Width="100" Height="100" HorizontalAlignment="Left"/>
         <Image HorizontalAlignment="Right" Height="70" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="77" Source="Assets/quiz_image.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="quiz_image_Tapped"/>
         <TextBlock Text="Quiz" HorizontalAlignment="Right" Margin="0,0,18,80" TextWrapping="Wrap" VerticalAlignment="Bottom" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" FontFamily="Comic Sans MS" FontSize="24" RenderTransformOrigin="1.116,1.54"/>
-        <TextBlock Text="{Binding Title}" Margin="50,20,50,0" FontSize="24" TextAlignment="Center" FontFamily="Comic Sans MS" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" />
-        <GridView ItemsSource="{Binding Slides}" IsItemClickEnabled="True" ItemClick="Slide_Click" Height="300" Margin="0,300,0,0" VerticalAlignment="Top" Width="380">
+        <TextBlock Text="{Binding Title}" Margin="125,20,10,0" FontSize="24" TextAlignment="Center" FontFamily="Comic Sans MS" TextWrapping="Wrap" MaxWidth="300" VerticalAlignment="Top" />
+        <GridView ItemsSource="{Binding Slides}" IsItemClickEnabled="True" ItemClick="Slide_Click" Margin="0,140,0,0" VerticalAlignment="Top" Width="380" Height="430">
             <GridView.ItemTemplate>
                 <DataTemplate>
-                    <StackPanel Orientation="Vertical" Margin="4">
-                        <Image Source="{Binding Thumbnail}" Height="100" Width="100"/>
-                        <TextBlock Text="{Binding Title}" Width="140" Margin="0" TextAlignment="Center" FontSize="16" TextWrapping="Wrap" FontFamily="Comic Sans MS" />
+                    <StackPanel Orientation="Vertical" Margin="5">
+                        <Image Source="{Binding Thumbnail}" Height="160" Width="160" Margin="5,0,0,0"/>
+                        <TextBlock Text="{Binding Title}" Margin="0,0,0,0" TextAlignment="Center" FontSize="16" TextWrapping="Wrap" FontFamily="Comic Sans MS" Width="170" MaxHeight="200" Height="47" />
                     </StackPanel>
                 </DataTemplate>
             </GridView.ItemTemplate>
