@@ -13,7 +13,7 @@
     <Grid>
         <ScrollViewer Margin="0,0,0,100" x:Name="MainPanel">
             <StackPanel>
-                <Image x:Name="slide_image" Margin="20,50,20,10" MaxHeight="300" VerticalAlignment="Top" Source="{Binding Image}" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
+                <Image x:Name="slide_image" Margin="20,20,20,10" MaxHeight="300" VerticalAlignment="Top" Source="{Binding Image}" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
                 <TextBlock x:Name="slide_txtBlock" Margin="20,0,20,50" TextWrapping="Wrap" Text="{Binding Text}" FontSize="22" FontFamily="Comic Sans MS" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" VerticalAlignment="Top"/>
             </StackPanel>
         </ScrollViewer>
