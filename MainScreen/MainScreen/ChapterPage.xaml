@@ -12,9 +12,9 @@
     </Page.Background>
 
     <Grid DataContext="{Binding}">
-        <Image HorizontalAlignment="Left" Height="70" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/back_image.png" Tapped="back_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
+        <Image HorizontalAlignment="Left" Height="70" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/back_button.png" Tapped="back_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
         <Image Source="{Binding Thumbnail}" Margin="10,20,0,0" VerticalAlignment="Top" Width="100" Height="100" HorizontalAlignment="Left"/>
-        <Image HorizontalAlignment="Right" Visibility="{Binding QuestionsAvailable}" Height="70" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="77" Source="Assets/quiz_image.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="quiz_image_Tapped"/>
+        <Image HorizontalAlignment="Right" Visibility="{Binding QuestionsAvailable}" Height="70" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="77" Source="Assets/quiz_button.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="quiz_image_Tapped"/>
         <TextBlock Text="Quiz" Visibility="{Binding QuestionsAvailable}" HorizontalAlignment="Right" Margin="0,0,18,80" TextWrapping="Wrap" VerticalAlignment="Bottom" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" FontFamily="Comic Sans MS" FontSize="24" RenderTransformOrigin="1.116,1.54"/>
         <TextBlock Text="{Binding Title}" Margin="125,20,10,0" FontSize="24" TextAlignment="Center" FontFamily="Comic Sans MS" TextWrapping="Wrap" MaxWidth="300" VerticalAlignment="Top" />
         <GridView ItemsSource="{Binding Slides}" IsItemClickEnabled="True" ItemClick="Slide_Click" Margin="0,140,0,0" VerticalAlignment="Top" Width="380" Height="430">
