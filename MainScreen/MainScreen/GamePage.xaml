@@ -11,8 +11,5 @@
         <ImageBrush ImageSource="Assets/oil_drip.jpg" Stretch="UniformToFill" Opacity="0.2"/>
     </Page.Background>
 
-    <Grid>
-        <Image x:Name="oilSweeper_image" HorizontalAlignment="Center" Height="200" Margin="0" VerticalAlignment="Top" Width="200" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" Source="Assets/OilSweeper.png"/>
-
-    </Grid>
+    <Grid/>
 </Page>
