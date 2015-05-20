@@ -13,12 +13,12 @@
 
     <Grid>
 
-        <Image HorizontalAlignment="Center" Height="200" Margin="0" VerticalAlignment="Top" Width="200" Source="Assets/OilSweeper.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
+        <Image HorizontalAlignment="Center" Height="200" Margin="0" VerticalAlignment="Top" Width="200" Source="Assets/OilSweeper.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="Image_Tapped"/>
 
         <TextBlock x:Name="oilSweeper_txtBlock" HorizontalAlignment="Center" Margin="0,190,0,0" TextWrapping="Wrap" Text="OilSweeper" VerticalAlignment="Top" FontSize="36" FontFamily="Comic Sans MS" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
         <TextBlock x:Name="play_txtBlock" HorizontalAlignment="Left" Margin="93,300,0,0" TextWrapping="Wrap" Text="Play" VerticalAlignment="Top" FontSize="24" FontFamily="Comic Sans MS" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
         <TextBlock x:Name="learn_txtBlock" HorizontalAlignment="Left" Margin="263,300,0,0" TextWrapping="Wrap" Text="Learn" VerticalAlignment="Top" FontSize="24" FontFamily="Comic Sans MS" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
-        <Image x:Name="play_image" HorizontalAlignment="Left" Height="140" Margin="45,350,0,0" VerticalAlignment="Top" Width="140" Source="Assets/play.png" Tapped="play_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
+        <Image x:Name="play_image" HorizontalAlignment="Left" Height="140" Margin="45,350,0,0" VerticalAlignment="Top" Width="140" Source="Assets/game.png" Tapped="play_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
         <Image x:Name="learn_image" HorizontalAlignment="Left" Height="140" Margin="225,350,0,0" VerticalAlignment="Top" Width="140" Source="Assets/learn.png" Tapped="learn_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
         
     </Grid>

@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="MainScreen.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MainScreen"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    
+    <Page.Background>
+        <ImageBrush ImageSource="Assets/oil_drip.jpg" Stretch="UniformToFill" Opacity="0.2"/>
+    </Page.Background>
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="74,300,0,0" TextWrapping="Wrap" Text="Tim: OPEC" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="15,355,20,0" TextWrapping="Wrap" Text="Voditelj: Ivan Kovačević" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,410,0,0" TextWrapping="Wrap" Text="Članovi: Ivan Grgurina" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="140,455,0,0" TextWrapping="Wrap" Text="Andrej Jurić" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="140,500,0,0" TextWrapping="Wrap" Text="Božidar Marković" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="140,545,0,0" TextWrapping="Wrap" Text="Davor Nekić" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30"/>
+        <Image HorizontalAlignment="Center" Height="250" Margin="0" VerticalAlignment="Top" Width="250" Source="Assets/OilSweeper.png"/>
+    </Grid>
+</Page>
