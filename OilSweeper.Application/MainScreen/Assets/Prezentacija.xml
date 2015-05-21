@@ -1,403 +1,402 @@
 <EducationalContent>
-  <Chapters>
-    <Chapter>
-      <ChapterNumber>1</ChapterNumber>
-      <Title>Nastanak materijala</Title>
-      <Thumbnail>Assets/TMB_Chapter1.jpg</Thumbnail>
+    <Chapters>
+        <Chapter>
+            <ChapterNumber>1</ChapterNumber>
+            <Title>Nastanak materijala</Title>
+            <Thumbnail>Assets/TMB_Chapter1.jpg</Thumbnail>
 
-      <Slides>
-        <Slide>
-          <PageNumber>1</PageNumber>
-          <Title>više od 4.5 milijardi god. p.n.e.</Title>
-          <Thumbnail>Assets/TMB_Slide1.jpg</Thumbnail>
-          <Image>Assets/IMG_Slide1.jpg</Image>
-          <Text>
-            Razdoblje je ranog Hadija. Oko novonastalog Sunca nalazi se protoplanetarni disk - gusta nakupina plinova
-            i izvor svega s čime se susrećemo danas. Temperature i količine radijacije previsoke su za pojavu i opstanak
-            bilo kakvog oblika života, ali su zato savršene za sintezu ključnih spojeva, pa čak i prvih kompleksnih
-            organskih molekula. Isto vrijedi i za mnoge ostale zvijezde zbog čega slobodne organske molekule u svemiru
-            i nisu rijetka pojava.
-          </Text>
-        </Slide>
+            <Slides>
+                <Slide>
+                    <PageNumber>1</PageNumber>
+                    <Title>više od 4.5 milijardi god. p.n.e.</Title>
+                    <Thumbnail>Assets/TMB_Slide1.jpg</Thumbnail>
+                    <Image>Assets/IMG_Slide1.jpg</Image>
+                    <Text>
+		                Razdoblje je ranog Hadija. Oko novonastalog Sunca nalazi se protoplanetarni disk - gusta nakupina plinova
+						i izvor svega s čime se susrećemo danas. Temperature i količine radijacije previsoke su za pojavu i opstanak
+						bilo kakvog oblika života, ali su zato savršene za sintezu ključnih spojeva, pa čak i prvih kompleksnih
+						organskih molekula. Isto vrijedi i za mnoge ostale zvijezde zbog čega slobodne organske molekule u svemiru
+						i nisu rijetka pojava.
+					</Text>
+				</Slide>
 
-        <Slide>
-          <PageNumber>2</PageNumber>
-          <Title>4.5 milijardi god. p.n.e.</Title>
-          <Thumbnail>Assets/TMB_Slide2.jpg</Thumbnail>
-          <Image>Assets/IMG_Slide2.jpg</Image>
-          <Text>
-            Zemlja je formirana, no podliježe ekstremnim vulkanskim aktivnostima i udarima eksplozivnih meteorita (tzv. bolida)
-            koji razaraju većinu novoformiranih stijena, te oslobađaju ogromne količine plinova kao što su ugljikov monoksid,
-            ugljikov dioksid i natrijev monoksid. Teži elementi poput željeza tonu u unutrašnjost dok se lakši plinoviti
-            elementi uzdižu i stvaraju atmosferu u procesu koji se naziva diferencijacija materijala.
-          </Text>
-        </Slide>
+				<Slide>
+					<PageNumber>2</PageNumber>
+					<Title>4.5 milijardi god. p.n.e.</Title>
+					<Thumbnail>Assets/TMB_Slide2.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide2.jpg</Image>
+					<Text>
+						Zemlja je formirana, no podliježe ekstremnim vulkanskim aktivnostima i udarima eksplozivnih meteorita (tzv. bolida)
+						koji razaraju većinu novoformiranih stijena, te oslobađaju ogromne količine plinova kao što su ugljikov monoksid,
+						ugljikov dioksid i natrijev monoksid. Teži elementi poput željeza tonu u unutrašnjost dok se lakši plinoviti
+						elementi uzdižu i stvaraju atmosferu u procesu koji se naziva diferencijacija materijala.
+					</Text>
+				</Slide>
 
-        <Slide>
-          <PageNumber>3</PageNumber>
-          <Title>4.4 milijarde god. p.n.e.</Title>
-          <Thumbnail>Assets/TMB_Slide3.jpg</Thumbnail>
-          <Image>Assets/IMG_Slide3.jpg</Image>
-          <Text>
-            Polako se hladeći nastaje tanak, ali dovoljno čvrst plašt za podlogu oceanima nastalima oslobađanjem vodene pare
-            iz hidratnih stijena i ledom bogatih kometa. Temperature iznose i preko 230 Celzijevih stupnjeva, ali su oceani
-            ipak u tekućem stanju zbog visokog tlaka ugljikovim dioksidom bogate atmosfere. Znatan dio ugljikovih spojeva
-            postaje prisutan u atmosferi zahvaljujući OH skupinom bogatim meteroitima (tzv. ugljeviti hondriti).
-          </Text>
-        </Slide>
+				<Slide>
+					<PageNumber>3</PageNumber>
+					<Title>4.4 milijarde god. p.n.e.</Title>
+					<Thumbnail>Assets/TMB_Slide3.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide3.jpg</Image>
+					<Text>
+						Polako se hladeći nastaje tanak, ali dovoljno čvrst plašt za podlogu oceanima nastalima oslobađanjem vodene pare
+						iz hidratnih stijena i ledom bogatih kometa. Temperature iznose i preko 230 Celzijevih stupnjeva, ali su oceani
+						ipak u tekućem stanju zbog visokog tlaka ugljikovim dioksidom bogate atmosfere. Znatan dio ugljikovih spojeva
+						postaje prisutan u atmosferi zahvaljujući OH skupinom bogatim meteroitima (tzv. ugljeviti hondriti).
+					</Text>
+				</Slide>
 
-        <Slide>
-          <PageNumber>4</PageNumber>
-          <Title>4.1 milijardi god. p.n.e.</Title>
-          <Thumbnail>Assets/TMB_Slide4.jpg</Thumbnail>
-          <Image>Assets/IMG_Slide4.jpg</Image>
-          <Text>
-            Novonastali oceani i atmosfera krajnje su nestabilni i izloženi čestim udarima nailazećih planetoida u razdoblju koje
-            se naziva "Kasno Teško Bombardiranje". Dovoljan je samo jedan udar većeg stranog tijela da prouzroči isparavanje čitavih
-            oceana i oslobodi ogromne količine ugljikovog dioksida i vodene pare iz zemljinih stijena čija će kondenzacija potrajati
-            tisućama godina.
-          </Text>
-        </Slide>
+				<Slide>
+					<PageNumber>4</PageNumber>
+					<Title>4.1 milijardi god. p.n.e.</Title>
+					<Thumbnail>Assets/TMB_Slide4.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide4.jpg</Image>
+					<Text>
+						Novonastali oceani i atmosfera krajnje su nestabilni i izloženi čestim udarima nailazećih planetoida u razdoblju koje
+						se naziva "Kasno Teško Bombardiranje". Dovoljan je samo jedan udar većeg stranog tijela da prouzroči isparavanje čitavih
+						oceana i oslobodi ogromne količine ugljikovog dioksida i vodene pare iz zemljinih stijena čija će kondenzacija potrajati
+						tisućama godina.
+					</Text>
+				</Slide>
 
-        <Slide>
-          <PageNumber>5</PageNumber>
-          <Title>4 milijarde god. p.n.e.</Title>
-          <Thumbnail>Assets/TMB_Slide5.jpg</Thumbnail>
-          <Image>Assets/IMG_Slide5.jpg</Image>
-          <Text>
-            Počinju padati prve kiše, a raznim plinovima bogata atmosfera kiseli oceane. Većina stijena, ponajviše karbonatne se otapaju
-            zbog čega prevladavaju sedimentne stijene od silicija (primjerice rožnjak). Oceani su pritom bogate mineralima poput magnezija
-            i kalcija, a oslobađanjem natrija i klora iz raznih reakcija nastaje sol, jedan od ključnih i dominantnih spojeva na Zemlji i
-            dan danas.
-          </Text>
-        </Slide>
+				<Slide>
+					<PageNumber>5</PageNumber>
+					<Title>4 milijarde god. p.n.e.</Title>
+					<Thumbnail>Assets/TMB_Slide5.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide5.jpg</Image>
+					<Text>
+						Počinju padati prve kiše, a raznim plinovima bogata atmosfera kiseli oceane. Većina stijena, ponajviše karbonatne se otapaju
+						zbog čega prevladavaju sedimentne stijene od silicija (primjerice rožnjak). Oceani su pritom bogate mineralima poput magnezija
+						i kalcija, a oslobađanjem natrija i klora iz raznih reakcija nastaje sol, jedan od ključnih i dominantnih spojeva na Zemlji i
+						dan danas.
+					</Text>
+				</Slide>
 
-        <Slide>
-          <PageNumber>6</PageNumber>
-          <Title>4 milijarde god. p.n.e.</Title>
-          <Thumbnail>Assets/TMB_Slide6.jpg</Thumbnail>
-          <Image>Assets/IMG_Slide6.jpg</Image>
-          <Text>
-            Konačno, oceani i atmosfera su stabilni i kiselost oceana se smanjila. Visoke temperature, količine radijacije i iskrenja
-            u atmosferi čine Zemljine oceane ogromnim kemijskim laboratorijima za nasumičnu sintezu organskih spojeva. Nova revolucionarna
-            faza u povijesti Zemlje konačno može početi...
-          </Text>
-        </Slide>
+				<Slide>
+					<PageNumber>6</PageNumber>
+					<Title>4 milijarde god. p.n.e.</Title>
+					<Thumbnail>Assets/TMB_Slide6.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide6.jpg</Image>
+					<Text>
+						Konačno, oceani i atmosfera su stabilni i kiselost oceana se smanjila. Visoke temperature, količine radijacije i iskrenja
+						u atmosferi čine Zemljine oceane ogromnim kemijskim laboratorijima za nasumičnu sintezu organskih spojeva. Nova revolucionarna
+						faza u povijesti Zemlje konačno može početi...
+					</Text>
+				</Slide>
+			</Slides>
+
+			<Questions>
+				<Question>
+					<QuestionId>1</QuestionId>
+					<Text>Prvi kompleksni organski spojevi mogli su nastati najranije u ...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>2</Difficulty>
+					<Options>
+						<Option>protoplanetarnom disku.</Option>
+						<Option>oceanima poslije neutralizacije.</Option>
+						<Option>ranoj atmosferi.</Option>
+					</Options>
+					<Correct>protoplanetarnom disku.</Correct>
+					<Explanation>
+						Prema najnovijim računalnim simulacijama organske molekule mogle su nastati
+						već u protoplanetarnom disku i prije same formacije Zemlje.
+					</Explanation>
+				</Question>
+
+				<Question>
+					<QuestionId>2</QuestionId>
+					<Text>Razdoblje Hadija bitno je za nastanak nafte jer je u njemu nastao ...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>1</Difficulty>
+					<Options>
+						<Option>život.</Option>
+						<Option>svemir.</Option>
+						<Option>organski materijal.</Option>
+					</Options>
+					<Correct>organski materijal.</Correct>
+					<Explanation>
+						Iako nije točno utvrđen precizan geološki model okoline u kojoj su nastali prvi organski spojevi,
+						sigurno je da se slučajna sinteza zbila najvjerojatnije pri samom kraju Hadija.
+					</Explanation>
+				</Question>
+
+				<Question>
+					<QuestionId>3</QuestionId>
+					<Text>U ranoj atmosferi nije bilo prisustva ...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>1</Difficulty>
+					<Options>
+						<Option>natrijevog monoksida</Option>
+						<Option>ugljikovog monoksida</Option>
+						<Option>klora.</Option>
+					</Options>
+					<Correct>klora.</Correct>
+					<Explanation>
+						Rana atmosfera bila je bogata plinovitim oksidima i vodenom parom. Klor se oslobodio
+						naknadno putem raznih reakcija kojima se postupno smanjila kiselost oceana.
+					</Explanation>
+				</Question>
+
+				<Question>
+					<QuestionId>4</QuestionId>
+					<Text>Najranija era u Hadiju naziva se ...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>4</Difficulty>
+					<Options>
+						<Option>Donji Imbrij.</Option>
+						<Option>Kriptik.</Option>
+						<Option>Nektarij.</Option>
+					</Options>
+					<Correct>Kriptik.</Correct>
+					<Explanation>
+						Najranija era u Hadiju, a samim time i u čitavoj povijesti Zemlje naziva se Kriptik
+						zbog potpunog odsustva bilo kakvih geoloških ostataka iz tog razdoblja. Naime sve
+						hadijske stijene s vremenom su bile transformirane i ukomponirane u novije stijene.
+					</Explanation>
+				</Question>
+
+				<Question>
+				  <QuestionId>5</QuestionId>
+				  <Text>OH skupinom bogati meteoriti nazivaju se ...</Text>
+				  <Image>IMG_Question1.jpg</Image>
+				  <Difficulty>3</Difficulty>
+				  <Options>
+					<Option>bolidi.</Option>
+					<Option>hondriti.</Option>
+					<Option>hidroidi.</Option>
+				  </Options>
+				  <Correct>hondriti.</Correct>
+				  <Explanation>
+					OH skupinom bogati meteoriti nazivaju se ugljevitim hondritima ili kraće hondritima. Bolidi jesu eksplozivni
+					ledeni meteori, a hidroidi ne postoje.
+				  </Explanation>
+				</Question>
+
+				<Question>
+				  <QuestionId>6</QuestionId>
+				  <Text>Jednostavne (polu)organske spojeve kao što je etilni alkohol moguće je naći u sastavu ...</Text>
+				  <Image>IMG_Question1.jpg</Image>
+				  <Difficulty>3</Difficulty>
+				  <Options>
+					<Option>crnih rupa.</Option>
+					<Option>bijelih patuljaka.</Option>
+					<Option>nebula.</Option>
+				  </Options>
+				  <Correct>nebula.</Correct>
+				  <Explanation>
+					Najnovija otkrića ukazala su na postojanje nebula (maglica) bogatih etanolom. Isto može vrlo lako
+					vrijediti i za okoline ostalih tijela, primjerice crnih rupa i patuljastih zvijezda, ali naravno
+					u znatno manjim količinama.
+				  </Explanation>
+				</Question>
+			  </Questions>
+			</Chapter>
+
+			<Chapter>
+				<ChapterNumber>2</ChapterNumber>
+				<Title>Nastanak života</Title>
+				<Thumbnail>Assets/TMB_Chapter2.jpg</Thumbnail>
+
+				<Slides>
+					<Slide>
+					<PageNumber>1</PageNumber>
+					<Title>3.9 milijardi god. p.n.e.</Title>
+					<Thumbnail>Assets/TMB_Slide7.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide7.jpg</Image>
+					<Text>
+						Razdoblje je ranog Arhaika. Nastali organski polimeri nakupljaju se u sferne kapljične agregate, tzv. koacervate
+						koje na okupu drže hidrofobne sile jednostavnih lipidnih omotača. Iako se ne smatraju živim organizmima koacervati
+						su u stanju dijeliti se, međusobno se stapati, selektivno apsorbirati druge organske molekule, pa čak formirati
+						manje građevne jedinice nalik današnjim staničnim komponentama.
+					</Text>
+				</Slide>
+
+				<Slide>
+					<PageNumber>2</PageNumber>
+					<Title>3.8 milijardi god. p.n.e.</Title>
+					<Thumbnail>Assets/TMB_Slide8.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide8.jpg</Image>
+					 <Text>
+						U koacervatima se događa intenzivna lutrija kemijskih reakcija pri čemu je najvažniji element ugljik. Osim što je lagan za
+						ekstrakciju iz atmosfere, pogodan je i za formaciju istovremeno i složenih i stabilnih molekularnih lanaca. Jedini od ostalih
+						elemenata sa približno istim svojstvima jest silicij. Kao otapalo organskih tvari i sredstvo evolucijskog razvoja
+						života ključan spoj jest voda zbog izrazite polarnosti molekula i zastupljenosti na Zemljinoj površini.
+					</Text>
+				</Slide>
+
+				<Slide>
+					<PageNumber>3</PageNumber>
+					<Title>3.5 milijardi god. p.n.e.</Title>
+					<Thumbnail>Assets/TMB_Slide9.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide9.jpg</Image>
+					<Text>
+						Nastaju prvi proizvođači kisika, preci današnjih cijanobakterija. Količine kisika u atmosferi još uvijek su
+						ekstremno niske, te i dalje prevladavaju jednostavni anaerobni prokarioti iz domene Archaea.
+					</Text>
+				</Slide>
+			</Slides>
+
+		    <Questions>
+				<Question>
+				   <QuestionId>1</QuestionId>
+				   <Text>Razdoblje Arhaika bitno je za nastanak fosilnih goriva jer su u njemu nastali prvi ...</Text>
+				   <Image>IMG_Question1.jpg</Image>
+				   <Difficulty>1</Difficulty>
+			  	   <Options>
+						<Option>živi organizmi.</Option>
+						<Option>organski spojevi.</Option>
+						<Option>topilaci organskih tvari.</Option>
+					</Options>
+					<Correct>živi organizmi.</Correct>
+					<Explanation>
+						Granicu žive i nežive nakupine organskih tvari nije lako definirati, ali je poznato
+						da prve protostanice sposobne za razmnožavanje, metabolizam i interakciju s okolinom
+						potječu iz Arhaika.
+					</Explanation>
+				</Question>
+
+				<Question>
+				    <QuestionId>2</QuestionId>
+				    <Text>Jedini poznati element dovoljno sličan ugljiku da se na njemu može bazirati život jest ...</Text>
+			   	    <Image>IMG_Question1.jpg</Image>
+				    <Difficulty>2</Difficulty>
+				    <Options>
+						<Option>fluor.</Option>
+						<Option>argon.</Option>
+						<Option>silicij.</Option>
+					</Options>
+					<Correct>silicij.</Correct>
+					<Explanation>
+						Slicij jest jedini poznati element dovoljno sličnih kemijskih svojstava ugljiku da se na njemu
+						može bazirati život. Flour je vrlo reaktivan (najreaktivniji u svojoj skupini), a argon je plemeniti
+						plin i ne može tvoriti ikakve spojeve.
+					</Explanation>
+				</Question>
+
+				<Question>
+					<QuestionId>3</QuestionId>
+					<Text>Fosilna goriva mogu nastati raspadom mikroorganizama poput onih iz Arhaika.</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>3</Difficulty>
+					<Options>
+						<Option>Točno.</Option>
+						<Option>Netočno.</Option>
+						<Option>Nije poznato.</Option>
+					</Options>
+					<Correct>Netočno.</Correct>
+					<Explanation>
+						Fosilna goriva nikako ne mogu nastati od samih mikroorganizama. Potrebne su velike količine
+						organskih tvari i istančani uvjeti koji bi ih održali pod visokim tlakom i temperaturom
+						na dovoljno dugo vrijeme.
+					</Explanation>
+				</Question>
+
+			</Questions>
+
+		</Chapter>
+
+		<Chapter>
+			<ChapterNumber>3</ChapterNumber>
+			<Title>Uspon i pad života</Title>
+			<Thumbnail>Assets/TMB_Chapter3.jpg</Thumbnail>
+
+			<Slides>
+				<Slide>
+				<PageNumber>1</PageNumber>
+				<Title>2.3 milijardi god. p.n.e.</Title>
+				<Thumbnail>Assets/TMB_Slide10.jpg</Thumbnail>
+				<Image>Assets/IMG_Slide10.jpg</Image>
+				<Text>
+					Razdoblje je Proterozoika (Paleoproteozoik). Naslage trakastog željeza formiraju su se u razdoblju masovne proizvodnje kisika
+					od strane anaerobnih algi. Ovo radoblje se naziva razdobljem "Velike Oksigenacije", a prethodi tzv. "Katastrofi Kisika"
+					za vrijeme koje je izumrla većina dotadašnjih anaerobnih mikroorganizama budući da je kisik za njih dosegao razinu toksičnosti.
+					Reagirajući s željezom kisik formira magnetit (željezov (II, III) oksid) čime čisti oceane od željeza
+					koji je sve do tada najvjerojatnije bojio mora zelenkastom bojom.
+				</Text>
+			</Slide>
+
+			<Slide>
+			  <PageNumber>2</PageNumber>
+			  <Title>542-488 milijuna god. p.n.e.</Title>
+			  <Thumbnail>Assets/TMB_Slide11.jpg</Thumbnail>
+			  <Image>Assets/IMG_Slide11.jpg</Image>
+			  <Text>
+				U najranijem razdoblju Paleozoika (Kambrij) za vrijeme "Kambrijske Eksplozije" nastaje više od pola modernih vrsta životinja.
+				Za vrijeme ordovicija čitav život se još uvijek nalazi u oceanima, a prevladavaju trilobiti, školjkaši i puževi. Razvijaju
+				se prve primitivne kopnene biljke (psilofiti).
+			  </Text>
+			</Slide>
+
+			<Slide>
+			  <PageNumber>4</PageNumber>
+			  <Title>443-375 milijuna god. p.n.e.</Title>
+			  <Thumbnail>Assets/TMB_Slide12.jpg</Thumbnail>
+			  <Image>Assets/IMG_Slide12.jpg</Image>
+			  <Text>
+				Slijedi razdoblje Silura, za vrijeme kojeg se razvijaju ribe i prve vaskularne biljke. Život polako
+				počinje prelaziti na kopno.
+				Za vrijeme Devona koji se još naziva "Doba Riba" dominiraju ribe oklopnjače, a život se dodatno razvija i
+				širi po površini. Nastaju prve šume zahvaljujući stablastim biljkama sa sporama, a preci svih današnjih
+				kralježnjaka počinju hodati Zemljom. Kraj Devona obilježava "Kasno Devonsko Izumiranje" u kojem izumiru svi
+				trilobiti i oklopnjače koji se zajedno sa još mnogim drugim vrstama počinju nakupljati na dnima oceana.
+			  </Text>
+			</Slide>
+
+			<Slide>
+			  <PageNumber>5</PageNumber>
+			  <Title>340-300 milijuna god. p.n.e.</Title>
+			  <Thumbnail>Assets/TMB_Slide13.jpg</Thumbnail>
+			  <Image>Assets/IMG_Slide13.jpg</Image>
+			  <Text>
+				Razdoblje Karbona nesumnjivo je najznačajnije razdoblje u povijesti Zemlje gledano iz perspektive
+				industrije ugljena. Naime, samo ime "Carboniferous" dolazi od lat. riječi "carbō" (ugljen) i "ferō" (nositi).
+				Nastaju velike močvare koje konstantno bivaju poplavljivane nanosima gline i pijeska.
+				Ipak, ono što u ovom razdoblju najviše omogućava nastanak ugljena jest manji događaj izumiranja, tzv.
+				"Kolaps Karbonskih Prašuma". Nagla promjena vruće i vlažne klime na hladnu i suhu uzrokuje odvajanje
+				prašuma u manje otoke, te u konačnici i njihovo potpuno propadanje.
+			  </Text>
+			</Slide>
+
+			<Slide>
+			  <PageNumber>6</PageNumber>
+			  <Title>299-251 milijuna god. p.n.e.</Title>
+			  <Thumbnail>Assets/TMB_Slide14.jpg</Thumbnail>
+			  <Image>Assets/IMG_Slide14.jpg</Image>
+			  <Text>
+				Nastupa razdoblje ranog Perma obilježeno naglim razvojem golosjemenjača, vodozemaca i gmazova. Morski i kopneni
+				život buja, ali zato biva gotovo u potpunosti uništen na prijelazu iz kasnog Perma u Trijas. U Permsko-trijaskom izumiranju,
+				najvećem izumiranju u povijesti Zemlje u kojem biva istrijebljeno 95% svih postojećih vrsta najgore bivaju pogođene
+				upravo one morske. Ogromne količine mrtvih morskih organizama nakupljaju se na dnima oceana, te ubrzo bivaju zatrpane
+				slojevima pijeska i kamenja. Počinje novi eon - Mezozoik, "doba dinosaura".
+			  </Text>
+			</Slide>
       </Slides>
 
-      <Questions>
-        <Question>
-          <QuestionId>1</QuestionId>
-          <Text>Prvi kompleksni organski spojevi mogli su nastati najranije u...</Text>
-          <Image>IMG_Question1.jpg</Image>
-          <Difficulty>2</Difficulty>
-          <Options>
-            <Option>protoplanetarnom disku.</Option>
-            <Option>oceanima poslije neutralizacije.</Option>
-            <Option>ranoj atmosferi.</Option>
-          </Options>
-          <Correct>protoplanetarnom disku.</Correct>
-          <Explanation>
-            Prema najnovijim računalnim simulacijama organske molekule mogle su nastati
-            već u protoplanetarnom disku i prije same formacije Zemlje.
-          </Explanation>
-        </Question>
+		  <Questions>
+			<Question>
+			  <QuestionId>1</QuestionId>
+			  <Text>Većina ugljena datira iz razdoblja ...</Text>
+			  <Image>IMG_Question1.jpg</Image>
+			  <Difficulty>1</Difficulty>
+			  <Options>
+				<Option>Ordovicija.</Option>
+				<Option>Karbona.</Option>
+				<Option>Perma.</Option>
+			  </Options>
+			  <Correct>Karbona.</Correct>
+			  <Explanation>
+				Naslage ugljena, kao što i samo ime nalaže, datiraju skoro pa isključivo iz razdoblja Karbona zahvaljujući kolapsu karbonskih prašuma.
+			  </Explanation>
+			</Question>
 
         <Question>
           <QuestionId>2</QuestionId>
-          <Text>Razdoblje Hadija bitno je za nastanak nafte jer je u njemu nastao...</Text>
-          <Image>IMG_Question1.jpg</Image>
-          <Difficulty>1</Difficulty>
-          <Options>
-            <Option>život.</Option>
-            <Option>svemir.</Option>
-            <Option>organski materijal.</Option>
-          </Options>
-          <Correct>organski materijal.</Correct>
-          <Explanation>
-            Iako nije točno utvrđen precizan geološki model okoline u kojoj su nastali prvi organski spojevi,
-            sigurno je da se slučajna sinteza zbila najvjerojatnije pri samom kraju Hadija.
-          </Explanation>
-        </Question>
-
-        <Question>
-          <QuestionId>3</QuestionId>
-          <Text>U ranoj atmosferi nije bilo prisustva...</Text>
-          <Image>IMG_Question1.jpg</Image>
-          <Difficulty>1</Difficulty>
-          <Options>
-            <Option>natrijevog monoksida</Option>
-            <Option>ugljikovog monnoksida</Option>
-            <Option>klora.</Option>
-          </Options>
-          <Correct>klora.</Correct>
-          <Explanation>
-            Rana atmosfera bila je bogata plinovitim oksidima i vodenom parom. Klor se oslobodio
-            naknadno putem raznih reakcija kojima se postupno smanjila kiselost oceana.
-          </Explanation>
-        </Question>
-
-        <Question>
-          <QuestionId>4</QuestionId>
-          <Text>Najranija era u Hadiju naziva se...</Text>
-          <Image>IMG_Question1.jpg</Image>
-          <Difficulty>4</Difficulty>
-          <Options>
-            <Option>Donji Imbrij</Option>
-            <Option>Kriptik</Option>
-            <Option>Nektarij.</Option>
-          </Options>
-          <Correct>Kriptik</Correct>
-          <Explanation>
-            Najranija era u Hadiju, a samim time i u čitavoj povijesti Zemlje naziva se Kriptik
-            zbog potpunog odsustva bilo kakvih geoloških ostataka iz tog razdoblja. Naime sve
-            hadijske stijene s vremenom su bile transformirane i ukomponirane u novije stijene.
-          </Explanation>
-        </Question>
-
-        <Question>
-          <QuestionId>5</QuestionId>
-          <Text>OH skupinom bogati meteoriti jesu...</Text>
-          <Image>IMG_Question1.jpg</Image>
-          <Difficulty>3</Difficulty>
-          <Options>
-            <Option>bolidi</Option>
-            <Option>hondriti</Option>
-            <Option>hidroidi.</Option>
-          </Options>
-          <Correct>hondriti</Correct>
-          <Explanation>
-            OH skupinom bogati meteoriti nazivaju se ugljevitim hondritima ili kraće hondritima. Bolidi jesu eksplozivni
-            ledeni meteori, a hidroidi ne postoje.
-          </Explanation>
-        </Question>
-
-        <Question>
-          <QuestionId>6</QuestionId>
-          <Text>Jednostavne (polu)organske spojeve kao što je etilni alkohol moguće je naći u sastavu...</Text>
-          <Image>IMG_Question1.jpg</Image>
-          <Difficulty>3</Difficulty>
-          <Options>
-            <Option>crnih rupa</Option>
-            <Option>bijelih patuljaka</Option>
-            <Option>nebula.</Option>
-          </Options>
-          <Correct>nebula.</Correct>
-          <Explanation>
-            Najnovija otkrića ukazala su na postojanje nebula (maglica) bogatih etanolom. Isto može vrlo lako
-            vrijediti i za okoline ostalih tijela, primjerice crnih rupa i patuljastih zvijezda, ali naravno
-            u znatno manjim količinama.
-          </Explanation>
-        </Question>
-      </Questions>
-    </Chapter>
-
-    <Chapter>
-      <ChapterNumber>2</ChapterNumber>
-      <Title>Nastanak života</Title>
-      <Thumbnail>Assets/TMB_Chapter2.jpg</Thumbnail>
-
-      <Slides>
-        <Slide>
-          <PageNumber>1</PageNumber>
-          <Title>3.9 milijardi god. p.n.e.</Title>
-          <Thumbnail>Assets/TMB_Slide7.jpg</Thumbnail>
-          <Image>Assets/IMG_Slide7.jpg</Image>
-          <Text>
-            Razdoblje je ranog Arhaika. Nastali organski polimeri nakupljaju se u sferne kapljične agregate, tzv. koacervate
-            koje na okupu drže hidrofobne sile jednostavnih lipidnih omotača. Iako se ne smatraju živim organizmima koacervati
-            su u stanju dijeliti se, međusobno se stapati, selektivno apsorbirati druge organske molekule, pa čak formirati
-            manje građevne jedinice nalik današnjim staničnim komponentama.
-          </Text>
-        </Slide>
-
-        <Slide>
-          <PageNumber>2</PageNumber>
-          <Title>3.8 milijardi god. p.n.e.</Title>
-          <Thumbnail>Assets/TMB_Slide8.jpg</Thumbnail>
-          <Image>Assets/IMG_Slide8.jpg</Image>
-          <Text>
-            U koacervatima se događa intenzivna lutrija kemijskih reakcija pri čemu je najvažniji element ugljik. Osim što je lagan za
-            ekstrakciju iz atmosfere, pogodan je i za formaciju istovremeno i složenih i stabilnih molekularnih lanaca. Jedini od ostalih
-            elemenata sa približno istim svojstvima jest silicij. Kao otapalo organskih tvari i sredstvo evolucijskog razvoja
-            života ključan spoj jest voda zbog izrazite polarnosti molekula i zastupljenosti na Zemljinoj površini.
-          </Text>
-        </Slide>
-
-        <Slide>
-          <PageNumber>3</PageNumber>
-          <Title>3.5 milijardi god. p.n.e.</Title>
-          <Thumbnail>Assets/TMB_Slide9.jpg</Thumbnail>
-          <Image>Assets/IMG_Slide9.jpg</Image>
-          <Text>
-            Nastaju prvi proizvođači kisika, preci današnjih cijanobakterija. Količine kisika u atmosferi još uvijek su
-            ekstremno niske, te i dalje prevladavaju jednostavni anaerobni prokarioti iz domene Archaea.
-          </Text>
-        </Slide>
-      </Slides>
-
-
-      <Questions>
-        <Question>
-          <QuestionId>1</QuestionId>
-          <Text>Razdoblje Arhaika bitno je za nastanak fosilnih goriva jer su u njemu nastali prvi...</Text>
-          <Image>IMG_Question1.jpg</Image>
-          <Difficulty>1</Difficulty>
-          <Options>
-            <Option>živi organizmi</Option>
-            <Option>organski spojevi</Option>
-            <Option>topilaci organskih tvari.</Option>
-          </Options>
-          <Correct>živi organizmi</Correct>
-          <Explanation>
-            Granicu žive i nežive nakupine organskih tvari nije lako definirati, ali je poznato
-            da prve protostanice sposobne za razmnožavanje, metabolizam i interakciju s okolinom
-            potječu iz Arhaika.
-          </Explanation>
-        </Question>
-
-        <Question>
-          <QuestionId>2</QuestionId>
-          <Text>Jedini poznati element dovoljno sličan ugljiku da se na njemu može bazirati život jest...</Text>
+          <Text>Većina nafte datira iz razdoblja ...</Text>
           <Image>IMG_Question1.jpg</Image>
           <Difficulty>2</Difficulty>
           <Options>
-            <Option>fluor</Option>
-            <Option>argon</Option>
-            <Option>silicij.</Option>
-          </Options>
-          <Correct>silicij.</Correct>
-          <Explanation>
-            Slicij jest jedini poznati element dovoljno sličnih kemijskih svojstava ugljiku da se na njemu
-            može bazirati život. Flour je vrlo reaktivan (najreaktivniji u svojoj skupini), a argon je plemeniti
-            plin i ne može tvoriti ikakve spojeve.
-          </Explanation>
-        </Question>
-
-        <Question>
-          <QuestionId>3</QuestionId>
-          <Text>Fosilna goriva mogu nastati raspadom mikroorganizama poput onih iz Arhaika.</Text>
-          <Image>IMG_Question1.jpg</Image>
-          <Difficulty>3</Difficulty>
-          <Options>
-            <Option>točno</Option>
-            <Option>netočno</Option>
-            <Option>nije poznato.</Option>
-          </Options>
-          <Correct>netočno</Correct>
-          <Explanation>
-            Fosilna goriva nikako ne mogu nastati od samih mikroorganizama. Potrebne su velike količine
-            organskih tvari i istančani uvjeti koji bi ih održali pod visokim tlakom i temperaturom
-            na dovoljno dugo vrijeme.
-          </Explanation>
-        </Question>
-
-      </Questions>
-
-    </Chapter>
-
-    <Chapter>
-      <ChapterNumber>3</ChapterNumber>
-      <Title>Uspon i pad života</Title>
-      <Thumbnail>Assets/TMB_Chapter3.jpg</Thumbnail>
-
-      <Slides>
-        <Slide>
-          <PageNumber>1</PageNumber>
-          <Title>2.3 milijardi god. p.n.e.</Title>
-          <Thumbnail>Assets/TMB_Slide10.jpg</Thumbnail>
-          <Image>Assets/IMG_Slide10.jpg</Image>
-          <Text>
-            Razdoblje je Proterozoika (Paleoproteozoik). Naslage trakastog željeza formiraju su se u razdoblju masovne proizvodnje kisika
-            od strane anaerobnih algi. Ovo radoblje se naziva razdobljem "Velike Oksigenacije", a prethodi tzv. "Katastrofi Kisika"
-            za vrijeme koje je izumrla većina dotadašnjih anaerobnih mikroorganizama budući da je kisik za njih dosegao razinu toksičnosti.
-            Reagirajući s željezom kisik formira magnetit (željezov (II, III) oksid) čime čisti oceane od željeza
-            koji je sve do tada najvjerojatnije bojio mora zelenkastom bojom.
-          </Text>
-        </Slide>
-
-        <Slide>
-          <PageNumber>2</PageNumber>
-          <Title>542-488 milijuna god. p.n.e.</Title>
-          <Thumbnail>Assets/TMB_Slide11.jpg</Thumbnail>
-          <Image>Assets/IMG_Slide11.jpg</Image>
-          <Text>
-            U najranijem razdoblju Paleozoika (Kambrij) za vrijeme "Kambrijske Eksplozije" nastaje više od pola modernih vrsta životinja.
-            Za vrijeme ordovicija čitav život se još uvijek nalazi u oceanima, a prevladavaju trilobiti, školjkaši i puževi. Razvijaju
-            se prve primitivne kopnene biljke (psilofiti).
-          </Text>
-        </Slide>
-
-        <Slide>
-          <PageNumber>4</PageNumber>
-          <Title>443-375 milijuna god. p.n.e.</Title>
-          <Thumbnail>Assets/TMB_Slide12.jpg</Thumbnail>
-          <Image>Assets/IMG_Slide12.jpg</Image>
-          <Text>
-            Slijedi razdoblje Silura, za vrijeme kojeg se razvijaju ribe i prve vaskularne biljke. Život polako
-            počinje prelaziti na kopno.
-            Za vrijeme Devona koji se još naziva "Doba Riba" dominiraju ribe oklopnjače, a život se dodatno razvija i
-            širi po površini. Nastaju prve šume zahvaljujući stablastim biljkama sa sporama, a preci svih današnjih
-            kralježnjaka počinju hodati Zemljom. Kraj Devona obilježava "Kasno Devonsko Izumiranje" u kojem izumiru svi
-            trilobiti i oklopnjače koji se zajedno sa još mnogim drugim vrstama počinju nakupljati na dnima oceana.
-          </Text>
-        </Slide>
-
-        <Slide>
-          <PageNumber>5</PageNumber>
-          <Title>340-300 milijuna god. p.n.e.</Title>
-          <Thumbnail>Assets/TMB_Slide13.jpg</Thumbnail>
-          <Image>Assets/IMG_Slide13.jpg</Image>
-          <Text>
-            Razdoblje Karbona nesumnjivo je najznačajnije razdoblje u povijesti Zemlje gledano iz perspektive
-            industrije ugljena. Naime, samo ime "Carboniferous" dolazi od lat. riječi "carbō" (ugljen) i "ferō" (nositi).
-            Nastaju velike močvare koje konstantno bivaju poplavljivane nanosima gline i pijeska.
-            Ipak, ono što u ovom razdoblju najviše omogućava nastanak ugljena jest manji događaj izumiranja, tzv.
-            "Kolaps Karbonskih Prašuma". Nagla promjena vruće i vlažne klime na hladnu i suhu uzrokuje odvajanje
-            prašuma u manje otoke, te u konačnici i njihovo potpuno propadanje.
-          </Text>
-        </Slide>
-
-        <Slide>
-          <PageNumber>6</PageNumber>
-          <Title>299-251 milijuna god. p.n.e.</Title>
-          <Thumbnail>Assets/TMB_Slide14.jpg</Thumbnail>
-          <Image>Assets/IMG_Slide14.jpg</Image>
-          <Text>
-            Nastupa razdoblje ranog Perma obilježeno naglim razvojem golosjemenjača, vodozemaca i gmazova. Morski i kopneni
-            život buja, ali zato biva gotovo u potpunosti uništen na prijelazu iz kasnog Perma u Trijas. U Permsko-trijaskom izumiranju,
-            najvećem izumiranju u povijesti Zemlje u kojem biva istrijebljeno 95% svih postojećih vrsta najgore bivaju pogođene
-            upravo one morske. Ogromne količine mrtvih morskih organizama nakupljaju se na dnima oceana, te ubrzo bivaju zatrpane
-            slojevima pijeska i kamenja. Počinje novi eon - Mezozoik, "doba dinosaura".
-          </Text>
-        </Slide>
-      </Slides>
-
-      <Questions>
-        <Question>
-          <QuestionId>1</QuestionId>
-          <Text>Većina ugljena datira iz razdoblja...</Text>
-          <Image>IMG_Question1.jpg</Image>
-          <Difficulty>1</Difficulty>
-          <Options>
-            <Option>Ordovicija</Option>
-            <Option>Karbona</Option>
-            <Option>Perma.</Option>
-          </Options>
-          <Correct>Karbona</Correct>
-          <Explanation>
-            Naslage ugljena, kao što i samo ime nalaže, datiraju skoro pa isključivo iz razdoblja Karbona zahvaljujući kolapsu karbonskih prašuma.
-          </Explanation>
-        </Question>
-
-        <Question>
-          <QuestionId>2</QuestionId>
-          <Text>Većina nafte datira iz razdoblja...</Text>
-          <Image>IMG_Question1.jpg</Image>
-          <Difficulty>2</Difficulty>
-          <Options>
-            <Option>Devona</Option>
-            <Option>Karbona</Option>
+            <Option>Devona.</Option>
+            <Option>Karbona.</Option>
             <Option>Perma.</Option>
           </Options>
           <Correct>Perma.</Correct>
@@ -409,15 +408,15 @@
 
         <Question>
           <QuestionId>3</QuestionId>
-          <Text>Izumrla životinja čiji nekoć organski materijal danas ne možemo pronaći u rezervoarima automobila jest...</Text>
+          <Text>Izumrla životinja čiji nekoć organski materijal danas ne možemo pronaći u rezervoarima automobila jest ...</Text>
           <Image>IMG_Question1.jpg</Image>
           <Difficulty>4</Difficulty>
           <Options>
-            <Option>riba oklopnjača</Option>
-            <Option>amonit</Option>
-            <Option>pterodaktil</Option>
+            <Option>riba oklopnjača.</Option>
+            <Option>amonit.</Option>
+            <Option>pterodaktil.</Option>
           </Options>
-          <Correct>pterodaktil</Correct>
+          <Correct>pterodaktil.</Correct>
           <Explanation>
             Pterodaktil, osim što nije bio morska životinja, se pojavio puno kasnije od organizama iz čijeg su
             organskog materijala nastala fosilna goriva.
@@ -426,15 +425,15 @@
 
         <Question>
           <QuestionId>4</QuestionId>
-          <Text>Za vrijeme "Velikog Izumiranja" izumrlo je...</Text>
+          <Text>Za vrijeme "Velikog Izumiranja" izumrlo je ...</Text>
           <Image>IMG_Question1.jpg</Image>
           <Difficulty>3</Difficulty>
           <Options>
-            <Option>50%</Option>
-            <Option>75%</Option>
-            <Option>95% svih vrsta na planeti</Option>
+            <Option>50% svih vrsta na planeti.</Option>
+            <Option>75% svih vrsta na planeti.</Option>
+            <Option>95% svih vrsta na planeti.</Option>
           </Options>
-          <Correct>95% svih vrsta na planeti</Correct>
+          <Correct>95% svih vrsta na planeti.</Correct>
           <Explanation>
             Za vrijeme "Velikog Izumiranja" izumrlo je 95% svih vrsta na planeti i riječ je o najvećem masovnom
             izumiranju vrsta u povijesti Zemlje.
@@ -443,15 +442,15 @@
 
         <Question>
           <QuestionId>5</QuestionId>
-          <Text>"Veliko izumiranje"" zbilo se na međi...</Text>
+          <Text>"Veliko izumiranje"" zbilo se na međi ...</Text>
           <Image>IMG_Question1.jpg</Image>
           <Difficulty>3</Difficulty>
           <Options>
-            <Option>Perma i Trijasa</Option>
-            <Option>Jure i Krede</Option>
-            <Option>Devona i Karbona</Option>
+            <Option>Perma i Trijasa.</Option>
+            <Option>Jure i Krede.</Option>
+            <Option>Devona i Karbona.</Option>
           </Options>
-          <Correct>Perma i Trijasa</Correct>
+          <Correct>Perma i Trijasa.</Correct>
           <Explanation>
             "Veliko Izumiranje" zbilo se na prijelazu iz Perma u Trijas i označava početak Mezozoika.
           </Explanation>
@@ -459,15 +458,15 @@
 
         <Question>
           <QuestionId>6</QuestionId>
-          <Text>Iznimno otporan materijal koji je očuvao biljne ostatke dovoljno dugo za nastanak ugljena jest...</Text>
+          <Text>Iznimno otporan materijal koji je očuvao biljne ostatke dovoljno dugo za nastanak ugljena jest ...</Text>
           <Image>IMG_Question1.jpg</Image>
           <Difficulty>4</Difficulty>
           <Options>
-            <Option>lignin</Option>
-            <Option>kerogen</Option>
-            <Option>celuloza</Option>
+            <Option>lignin.</Option>
+            <Option>kerogen.</Option>
+            <Option>celuloza.</Option>
           </Options>
-          <Correct>lignin</Correct>
+          <Correct>lignin.</Correct>
           <Explanation>
             Stablaste karbonske biljke bile su građene od lignita, polisaharida iznimno otpornog na degradirajuće procese i
             neprobavljivog za biljojedne kukce toga razdoblja.
@@ -562,15 +561,15 @@
       <Questions>
         <Question>
           <QuestionId>1</QuestionId>
-          <Text>Naftu većinom čini smjesa koja se naziva...</Text>
+          <Text>Naftu većinom čini smjesa koja se naziva ...</Text>
           <Image>IMG_Question1.jpg</Image>
           <Difficulty>3</Difficulty>
           <Options>
-            <Option>kerogen</Option>
-            <Option>bitumen</Option>
-            <Option>lignin</Option>
+            <Option>kerogen.</Option>
+            <Option>bitumen.</Option>
+            <Option>lignin.</Option>
           </Options>
-          <Correct>kerogen</Correct>
+          <Correct>kerogen.</Correct>
           <Explanation>
             Naftu većinom čini kerogen, smjesa sa većinskim udjelom ugljika i vodika. U malim koncentracijama
             pojavljuju se kisik dušik i sumpor.
@@ -578,15 +577,15 @@
         </Question>
         <Question>
           <QuestionId>2</QuestionId>
-          <Text>Element kojeg nema u sirovoj nafti jest...</Text>
+          <Text>Element kojeg nema u sirovoj nafti jest ...</Text>
           <Image>IMG_Question1.jpg</Image>
           <Difficulty>2</Difficulty>
           <Options>
-            <Option>ugljik</Option>
-            <Option>dušik</Option>
-            <Option>olovo</Option>
+            <Option>ugljik.</Option>
+            <Option>dušik.</Option>
+            <Option>olovo.</Option>
           </Options>
-          <Correct>olovo</Correct>
+          <Correct>olovo.</Correct>
           <Explanation>
             Sirova nafta sadrži većinski ugljik, manjinski sumpor, ali olova u njoj nema.
           </Explanation>
@@ -594,15 +593,15 @@
         <Question>
 
           <QuestionId>3</QuestionId>
-          <Text>Vodu u nalazištima nate možemo naći pri...</Text>
+          <Text>Vodu u nalazištima nate možemo naći pri ...</Text>
           <Image>IMG_Question1.jpg</Image>
           <Difficulty>2</Difficulty>
           <Options>
-            <Option>vrhu</Option>
-            <Option>sredini</Option>
-            <Option>dnu</Option>
+            <Option>vrhu.</Option>
+            <Option>sredini.</Option>
+            <Option>dnu.</Option>
           </Options>
-          <Correct>dnu</Correct>
+          <Correct>dnu.</Correct>
           <Explanation>
             U nalazištima nafte voda se nalazi na dnu, nafta pri sredini, a plin na vrhu.
           </Explanation>
@@ -610,15 +609,15 @@
         <Question>
 
           <QuestionId>4</QuestionId>
-          <Text>Kisela nafta bogata je...</Text>
+          <Text>Kisela nafta bogata je ...</Text>
           <Image>IMG_Question1.jpg</Image>
           <Difficulty>2</Difficulty>
           <Options>
-            <Option>sumporom</Option>
-            <Option>dušikom</Option>
-            <Option>kisikom</Option>
+            <Option>sumporom.</Option>
+            <Option>dušikom.</Option>
+            <Option>kisikom.</Option>
           </Options>
-          <Correct>sumporom</Correct>
+          <Correct>sumporom.</Correct>
           <Explanation>
             Kisela nafta bogata je sumporom. Suprotnost predstavlja slatka nafta siromašna ili pak bez sumpora.
           </Explanation>
@@ -626,15 +625,15 @@
         <Question>
 
           <QuestionId>5</QuestionId>
-          <Text>Na velikim dubinama nalazi se...</Text>
+          <Text>Na velikim dubinama nalazi se ...</Text>
           <Image>IMG_Question1.jpg</Image>
           <Difficulty>2</Difficulty>
           <Options>
-            <Option>viskoznija nafta</Option>
-            <Option>kiselija nafta</Option>
-            <Option>degradiranijaa nafta</Option>
+            <Option>viskoznija nafta.</Option>
+            <Option>kiselija nafta.</Option>
+            <Option>degradiranijaa nafta.</Option>
           </Options>
-          <Correct>viskoznija nafta</Correct>
+          <Correct>viskoznija nafta.</Correct>
           <Explanation>
             Nalazištima velike dubine pripada viskoznija nafta zbog bolje izolacije, veće temperature i tlaka kojima je izložena.
           </Explanation>
@@ -642,30 +641,30 @@
         <Question>
 
           <QuestionId>6</QuestionId>
-          <Text>Prvi prerađivači nafte bili su...</Text>
+          <Text>Prvi prerađivači nafte bili su ...</Text>
           <Image>IMG_Question1.jpg</Image>
           <Difficulty>2</Difficulty>
           <Options>
-            <Option>stari egipćani</Option>
-            <Option>američki domoroci</Option>
-            <Option>Arapi</Option>
+            <Option>stari egipćani.</Option>
+            <Option>američki domoroci.</Option>
+            <Option>Arapi.</Option>
           </Options>
-          <Correct>američki domoroci</Correct>
+          <Correct>američki domoroci.</Correct>
           <Explanation>
             Prvi obrađivači nafte bili su američki domoroci (Indijanci) koji su je koristili za izradu kanua i ljekovitih preparata.
           </Explanation>
         </Question>
         <Question>
           <QuestionId>7</QuestionId>
-          <Text>Nalazišta nafte najčešće se nalaze ispod naslaga...</Text>
+          <Text>Nalazišta nafte najčešće se nalaze ispod naslaga ...</Text>
           <Image>IMG_Question1.jpg</Image>
           <Difficulty>2</Difficulty>
           <Options>
-            <Option>sedimentnih stijena</Option>
-            <Option>metamorfnih stijena</Option>
-            <Option>vulkanskih stijena</Option>
+            <Option>sedimentnih stijena.</Option>
+            <Option>metamorfnih stijena.</Option>
+            <Option>vulkanskih stijena.</Option>
           </Options>
-          <Correct>sedimentnih stijena</Correct>
+          <Correct>sedimentnih stijena.</Correct>
           <Explanation>
             Nalazišta nafte načešće se nalaze ispod sedimentnih stijena, jer je i sama nafta velikim dijelom nastala procesom sedimentacije.
           </Explanation>
