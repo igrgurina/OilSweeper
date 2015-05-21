@@ -64,9 +64,11 @@ namespace MainScreen
                 if (a.DataContext.ToString() == Questions.ElementAt(i).Correct)
                 {
                     a.Background = new SolidColorBrush(Windows.UI.Colors.Green);
-                    Correct.Visibility = Visibility.Visible;
-                    Explanation.Visibility = Visibility.Visible;
-                    Next.Visibility = Visibility.Visible;
+
+                    Correct.Visibility =
+                        Explanation.Visibility =
+                        ExplanationLabel.Visibility =
+                        Next.Visibility = Visibility.Visible;
                     canClick = false;
                 }
                 else
@@ -79,12 +81,13 @@ namespace MainScreen
         private void NextQuestion(object sender, RoutedEventArgs e)
         {
             i++;
-            if ( i < Questions.Count())
+            if (i < Questions.Count())
             {
                 DataContext = Questions.ElementAt(i);
-                Correct.Visibility = Visibility.Collapsed;
-                Explanation.Visibility = Visibility.Collapsed;
-                Next.Visibility = Visibility.Collapsed;
+                Correct.Visibility =
+                    Explanation.Visibility =
+                    ExplanationLabel.Visibility =
+                    Next.Visibility = Visibility.Collapsed;
                 canClick = true;
             }
             else

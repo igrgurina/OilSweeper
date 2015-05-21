@@ -28,7 +28,7 @@
                 <Button x:Name="Next" Visibility="Collapsed" Click="NextQuestion" FontSize="25" Margin="5,10,0,5" HorizontalAlignment="Right" VerticalAlignment="Bottom" >
                     <TextBlock Text="Iduće pitanje" TextWrapping="Wrap" Margin="10" FontFamily="Calibri" FontSize="30"/>
                 </Button>
-                <TextBlock Text="Objašnjenje" FontWeight="Bold" FontFamily="Calibri" FontSize="24" />
+                <TextBlock x:Name="ExplanationLabel" Text="Objašnjenje" FontWeight="Bold" FontFamily="Calibri" FontSize="24"  Visibility="Collapsed" />
                 <TextBlock x:Name="Explanation" TextWrapping="Wrap" MaxHeight="200" Visibility="Collapsed" Text="{Binding Explanation}" FontSize="24" Margin="5,15,0,0" TextAlignment="Justify" FontFamily="Calibri" HorizontalAlignment="Left"></TextBlock>
             </StackPanel>
         </ScrollViewer>
