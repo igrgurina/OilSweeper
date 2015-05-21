@@ -19,16 +19,16 @@
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <Button Click="Answer_OnClick" FontSize="24" Margin="5,0" HorizontalAlignment="Stretch" FontFamily="Comic Sans MS" >
-                                <TextBlock Text="{Binding}" TextWrapping="Wrap" Margin="5,0" FontFamily="Comic Sans MS" FontSize="20" Width="320"/>
+                                <TextBlock Text="{Binding}" TextWrapping="Wrap" Margin="10" FontFamily="Comic Sans MS" FontSize="20" Width="320"/>
                             </Button>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
                 <TextBlock Visibility="Collapsed" x:Name="Correct" Text="Odgovor je točan!" FontSize="28" Foreground="#FF47EA17" Margin="5,10,0,0" FontFamily="Comic Sans MS"></TextBlock>
-                <TextBlock x:Name="Explanation" TextWrapping="Wrap" MaxHeight="200" Visibility="Collapsed" Text="{Binding Explanation}" FontSize="20" Margin="5,15,0,0" TextAlignment="Justify" FontFamily="Comic Sans MS" HorizontalAlignment="Left"></TextBlock>
                 <Button x:Name="Next" Visibility="Collapsed" Click="NextQuestion" FontSize="25" Margin="5,10,0,5" HorizontalAlignment="Right" VerticalAlignment="Bottom" >
                     <TextBlock Text="Iduće pitanje" TextWrapping="Wrap" Margin="10"/>
                 </Button>
+                <TextBlock x:Name="Explanation" TextWrapping="Wrap" MaxHeight="200" Visibility="Collapsed" Text="{Binding Explanation}" FontSize="20" Margin="5,15,0,0" TextAlignment="Justify" FontFamily="Comic Sans MS" HorizontalAlignment="Left"></TextBlock>
             </StackPanel>
         </ScrollViewer>
         <Image HorizontalAlignment="Left" Height="70" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/back_button.png" Tapped="back_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
