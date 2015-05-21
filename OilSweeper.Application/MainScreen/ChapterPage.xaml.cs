@@ -51,19 +51,6 @@ namespace MainScreen
             }
         }
 
-        private void back_image_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            Frame frame = Window.Current.Content as Frame;
-
-            if (frame != null && frame.CanGoBack)
-            {
-                //var x = Frame.BackStack.LastOrDefault();
-                e.Handled = true;
-                frame.GoBack();
-                //var y = Frame.BackStack.LastOrDefault();
-                //var a = 2;
-            }
-        }
 
         private void quiz_image_Tapped(object sender, TappedRoutedEventArgs e) {
             if (((ChapterViewModel)DataContext).Questions.Any())
@@ -78,6 +65,20 @@ namespace MainScreen
             {
                 data.Slide = (SlideViewModel) e.ClickedItem;
                 Frame.Navigate(typeof(SlidePage), data);
+            }
+        }
+
+        private void Image_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame frame = Window.Current.Content as Frame;
+
+            if (frame != null && frame.CanGoBack)
+            {
+                //var x = Frame.BackStack.LastOrDefault();
+                e.Handled = true;
+                frame.GoBack();
+                //var y = Frame.BackStack.LastOrDefault();
+                //var a = 2;
             }
         }
     }
