@@ -204,5 +204,7 @@ UpgradeLog*.htm
 FakesAssemblies/
 
 # Unity libraries
-OilSweeper.Game/OilSweeper/Library/
-OilSweeper.Game/OilSweeper/Temp/
+**/OilSweeper/[Ll]ibrary/*
+**/OilSweeper/[Ll]ibrary/Metadata/*
+**/OilSweeper/[Tt]emp/*
+**/OilSweeper/[Bb]uilds/*

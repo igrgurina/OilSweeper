@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-public class DrillController : MonoBehaviour
+public class DrillController : LoggingMonoBehaviour
 {                            
     private DrillConfig Config;
 
@@ -13,6 +12,25 @@ public class DrillController : MonoBehaviour
             SetColor(value.r, value.g, value.b, value.a);
         }
     }
+
+    /// <summary>
+    /// Last amount harvested
+    /// </summary>
+    public int LastHarvest;
+
+    private int UpgradeSpeedPrice { get { return Price.Speed * Speed; } }
+
+    private int UpgradeRadiusPrice { get { return (int)Price.Radius * Radius; } }
+
+    private bool UpgradeSpeedPossible { get { return Speed < Config.SPEED_MAX && UpgradeSpeedPrice <= PlayerCash; } }
+
+    private bool UpgradeRadiusPossible { get { return Radius < Config.RADIUS_MAX && UpgradeRadiusPrice <= PlayerCash; } }
+
+    private bool UpgradePossible { get { return UpgradeSpeedPossible || UpgradeRadiusPossible; } }
+
+    private bool CreationPossible { get { return !ShowUpgradePanel && PlayerCash >= Price.NewDrill; } }
+
+    private GameBoardController MyGameBoardController { get { return User.GetComponent<UserController>().GameBoard.GetComponent<GameBoardController>(); } }
 
     /// <summary>
     /// Radius is represented as game object scale.
@@ -27,6 +45,8 @@ public class DrillController : MonoBehaviour
     /// User prefab.
     /// </summary>
     public GameObject User;
+
+    private bool _showUpgradePanel;
 
     /// <summary>
     /// Defines the prices for everything drill related.
@@ -43,21 +63,20 @@ public class DrillController : MonoBehaviour
     /// </summary>
     private int PlayerCash
     {
-        get
-        {
-            // TODO: make this real
-            return User.GetComponent<UserController>().Gold; 
-        }
+        get { return User.GetComponent<UserController>().Gold; }
         set { User.GetComponent<UserController>().Gold = value; }
     }
 
+    private Color UserColor { get { return User.GetComponent<UserController>().Color; } }
 
-    private Color UserColor
+    public bool ShowUpgradePanel
     {
-        get { return User.GetComponent<UserController>().Color; }
+        get { return _showUpgradePanel; }
+        set
+        {
+            _showUpgradePanel = value && UpgradePossible;
+        }
     }
-
-    public bool showUpgradePanel;
 
     // klik
     // na klik mu se pojave 2 gumba - trenutno nebitno gdje
@@ -67,18 +86,16 @@ public class DrillController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        if (!showUpgradePanel)
+        if (CreationPossible)
         {
 
-            Debug.Log("[DRILL.Start] kreiram bušotinu.");
+            Log("[DRILL.Start] kreiram bušotinu.");
             //showUpgradePanel = false;
 
             Config = GetComponent<DrillConfig>();
-            Debug.Log("[DRILL.Start] dohvatio drill config.");
-
             Radius = Config.RADIUS_INITIAL;
             Speed = Config.SPEED_INITIAL;
-            Debug.Log("[DRILL.Start] dohvatio drill config: Speed: " + Speed + " | Radius: " + Radius);
+            Log("[DRILL.Start] dohvatio drill config: Speed: " + Speed + " | Radius: " + Radius);
 
             // set initial transparency level
             Color = new Color(Color.r, Color.g, Color.b, Config.SPEED_INCREMENT);
@@ -86,102 +103,123 @@ public class DrillController : MonoBehaviour
             // set initial radius
             SetScale(Config.RADIUS_INITIAL);
 
+            // Pay for the platform
+            if (User != null) PlayerCash -= Price.NewDrill;
         }
         else
         {
-            Debug.Log("[DRILL.Start] uništavam drill");
-            Network.Destroy(gameObject);
+            Log("[DRILL.Start] uništavam drill");
+            PhotonNetwork.Destroy(gameObject);
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     void OnMouseDown()
     {
-        if (GetComponent<NetworkView>().isMine)
+        if (GetComponent<PhotonView>().isMine && !MyGameBoardController.AllowNewDrills)
         {
-            Debug.Log("User clicked on the drill at (" + transform.position.x + ", " + transform.position.y + ").");
+            Log("User clicked on the drill at (" + transform.position.x + ", " + transform.position.y + ").");
 
-            showUpgradePanel = true; // this will show the upgrade pane on the next frame render
+            ShowUpgradePanel = true; // this will show the upgrade pane on the next frame render
             // and should disable further drill adding
         }
     }
 
     private void OnGUI()
     {
-        if (GetComponent<NetworkView>().isMine && showUpgradePanel)
+        if (GetComponent<PhotonView>().isMine)
         {
-            if (GUI.Button(new Rect(0, Screen.height - 20, Screen.width, 20), "Speed"))
+            // Show last harvested gold
+            DrawHarvestLabel();
+
+            if (ShowUpgradePanel)
             {
-                showUpgradePanel = false; // hide the upgrade panel
+                var height = Screen.height/6;
 
-                Debug.Log("Button speed clicked");
-                // TODO: check if user has money for this
-                UpgradeSpeed();
-                Event.current.Use();
+                if (UpgradeSpeedPossible && GUI.Button(new Rect(0, Screen.height - height, (float) Screen.width/3, height), "Speed"))
+                {
+                    ShowUpgradePanel = false; // hide the upgrade panel
+                    Log("Button speed clicked");
+                    UpgradeSpeed();
+                    Event.current.Use();
+                }
 
+                if (UpgradeRadiusPossible && GUI.Button(new Rect((float) Screen.width/3, Screen.height - height, (float) Screen.width/3, height), "Size"))
+                {
+                    ShowUpgradePanel = false; // hide the upgrade panel
+                    Log("Button size clicked");
+                    UpgradeSize();
+                    Event.current.Use();
+                }
+
+                if (GUI.Button(new Rect((float) Screen.width/3*2, Screen.height - height, (float) Screen.width/3, height), "Cancel"))
+                {
+                    ShowUpgradePanel = false;
+                }
             }
-
-
-            if (GUI.Button(new Rect(0, Screen.height - 40, Screen.width, 20), "Size"))
-            {
-                showUpgradePanel = false; // hide the upgrade panel
-
-                Debug.Log("Button size clicked");
-                // TODO: check if user has money for this
-                UpgradeSize();
-                Event.current.Use();
-            }
-
         }
     }
 
-    public void UpgradeSize()
+    private void DrawHarvestLabel()
     {
-        if (Radius < Config.RADIUS_MAX && PlayerCash > (Price.Radius * Radius)) // total price = basic radius price * radius level
+        var p = Camera.main.WorldToScreenPoint(gameObject.transform.position);
+        var labelStyle = new GUIStyle { alignment = TextAnchor.MiddleCenter, clipping = TextClipping.Overflow, fontStyle = FontStyle.Bold };
+        var color = GUI.contentColor;
+        GUI.contentColor = Color.black;
+        GUI.Label(new Rect(p.x - 10, Screen.height - p.y - 10, 20, 20), LastHarvest.ToString(), labelStyle);
+        GUI.contentColor = color;
+    }
+
+    private void UpgradeSize()
+    {
+        if (UpgradeRadiusPossible)
         {
-            EnlargeObject(Config.RADIUS_INCREMENT);
+            if (User != null) PlayerCash -= UpgradeRadiusPrice;
             Radius++;
-            Debug.Log("[UPGRADE] Drill radius increased to: " + Radius);
+
+            EnlargeObject(Config.RADIUS_INCREMENT);
+            Log("[UPGRADE] Drill radius increased to: " + Radius);
         }
     }
 
-    public void UpgradeSpeed()
+    private void UpgradeSpeed()
     {
-        if (Speed < Config.SPEED_MAX && PlayerCash > (Price.Speed * Speed)) // total price = basic speed price * speed level
+        if (UpgradeSpeedPossible)
         {
-            Color = new Color(Color.r, Color.g, Color.b, Mathf.Min(Color.a + Config.SPEED_INCREMENT, 1.0f));
+            if (User != null) PlayerCash -= UpgradeSpeedPrice;
             Speed++;
-            Debug.Log("[UPGRADE] Drill speed increased to: " + Speed);
+
+            Color = new Color(Color.r, Color.g, Color.b, Mathf.Min(Color.a + Config.SPEED_INCREMENT, 1.0f));
+            Log("[UPGRADE] Drill speed increased to: " + Speed);
         }
     }
 
     [RPC]
-    private void SetColor(float r, float g, float b, float a) {
+    private void SetColor(float r, float g, float b, float a) 
+    {
         GetComponent<Renderer>().material.color = new Color(r, g, b, a);
-        if (GetComponent<NetworkView>().isMine)
+        if (GetComponent<PhotonView>().isMine)
         {
-            GetComponent<NetworkView>().RPC("SetColor", RPCMode.OthersBuffered, r, g, b, a);
+            GetComponent<PhotonView>().RPC("SetColor", PhotonTargets.OthersBuffered, r, g, b, a);
         }
     }
 
     [RPC]
-    public void SetScale(float value) {
+    private void SetScale(float value)
+    {
         gameObject.transform.localScale = new Vector3(value, value);
-        if (GetComponent<NetworkView>().isMine) {
-            GetComponent<NetworkView>().RPC("SetScale", RPCMode.OthersBuffered, value);
+        if (GetComponent<PhotonView>().isMine)
+        {
+            GetComponent<PhotonView>().RPC("SetScale", PhotonTargets.OthersBuffered, value);
         }       
     }
 
     [RPC]
-    public void EnlargeObject(float increment) {
+    private void EnlargeObject(float increment) 
+    {
         gameObject.transform.localScale += new Vector3(increment, increment);
-        if (GetComponent<NetworkView>().isMine) {
-            GetComponent<NetworkView>().RPC("EnlargeObject", RPCMode.OthersBuffered, increment);
+        if (GetComponent<PhotonView>().isMine)
+        {
+            GetComponent<PhotonView>().RPC("EnlargeObject", PhotonTargets.OthersBuffered, increment);
         }
     }
 }

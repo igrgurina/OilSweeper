@@ -1,12 +1,8 @@
-﻿using UnityEngine;
-using System.Collections;
-using System.Linq;
+﻿using System.Linq;
+using UnityEngine;
 
-public class GameBoardController : MonoBehaviour
+public class GameBoardController : LoggingMonoBehaviour
 {
-
-    public const int OIL_FIELDS_COUNT = 10;
-
     /// <summary>
     /// Drill prefab.
     /// </summary>
@@ -25,35 +21,38 @@ public class GameBoardController : MonoBehaviour
     {
         if (User != null)
         {
-            Debug.Log(User.GetComponent<UserController>().Color);
-            Debug.Log("User's colour is " + User.GetComponent<UserController>().Color);
+            Log("User's colour is " + User.GetComponent<UserController>().Color);
         }
     }
 
     public bool AllowNewDrills
     {
-        get { return Resources.FindObjectsOfTypeAll<DrillController>().Any(d => d.GetComponent<NetworkView>().isMine && d.showUpgradePanel); }
+        get { return Resources.FindObjectsOfTypeAll<DrillController>().Any(d => d.GetComponent<PhotonView>().isMine && d.ShowUpgradePanel); }
     }
 
 
     private void OnMouseDown()
     {
-        RaycastHit2D hit = Physics2D.Raycast(new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y), Vector2.zero, 0f);
-        if (hit.collider != null)
+        if (GetComponent<PhotonView>().isMine)
         {
-            Debug.Log("KLIKNUO NA BUŠOTINU " + Input.mousePosition.x + " " + Input.mousePosition.y);
-        }
-        else
-        {
-            Debug.Log("KLIKNUO IZVAN BUŠOTINE");
-            Debug.Log("NAKON KLIKA IZVAN BUŠOTINE AllowNewDrills: " + AllowNewDrills);
+            RaycastHit2D hit = Physics2D.Raycast(new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y), Vector2.zero, 0f);
+            if (hit.collider != null)
+            {
+                Log("KLIKNUO NA BUŠOTINU " + Input.mousePosition.x + " " + Input.mousePosition.y);
+            }
+            else
+            {
+                Log("KLIKNUO IZVAN BUŠOTINE");
+                Log("NAKON KLIKA IZVAN BUŠOTINE AllowNewDrills: " + AllowNewDrills);
 
-            // this is needed to keep it on the screen
-            var pom = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            pom.z = 0;
-            var drill = (GameObject) Network.Instantiate(Drill, pom, Quaternion.identity, 2);
-            drill.GetComponent<DrillController>().User = User;
-            drill.GetComponent<DrillController>().Color = User.GetComponent<UserController>().Color;
+                // this is needed to keep it on the screen
+                var pom = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                pom.z = 0;
+                var drill = PhotonNetwork.Instantiate("Drill", pom, Quaternion.identity, 0);
+                drill.GetComponent<DrillController>().User = User;
+                drill.GetComponent<DrillController>().LogOutputText = LogOutputText;
+                drill.GetComponent<DrillController>().Color = User.GetComponent<UserController>().Color;
+            }
         }
     }
 }

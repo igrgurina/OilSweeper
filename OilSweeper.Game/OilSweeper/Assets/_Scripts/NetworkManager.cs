@@ -2,166 +2,67 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NetworkManager : MonoBehaviour
+public class NetworkManager : LoggingMonoBehaviour
 {
-    public Text StatusText;
-    public GameObject Player;
+    public Text MyGoldText;
+    public Text NemesisGoldText;
 
-    private const string typeName = "OilSweeperGame";
-    private const int ConnectionLimit = 1; // Zero based (2 players)
-    private readonly int port = 25000 + (int)(DateTime.Now - DateTime.Today).TotalSeconds % 2000;
-    private HostData[] hostList;
-    private string gameName = "OilSweeping";
+    private const string roomName = "OilSweeperRoom";
 
-    private void Start()
-    {
-        ClearLog();
-        Log("Chosen port: " + port);
-        RefreshHostList();
-    }
+	// Use this for initialization
+	void Start () {
+        Log("Starting Photon...");
+        PhotonNetwork.ConnectUsingSettings("0.1");
+	}
 
     /// <summary>
-    /// Spawns players and starts the game
+    /// Photon master server connected
     /// </summary>
-    [RPC]
-    private void StartGame()
+    void OnJoinedLobby()
     {
-        GameObject player = (GameObject)Network.Instantiate(Player, new Vector3(), Quaternion.identity, 0);
-        Log("Starting the game");
+        // Connect to the first room available
+        PhotonNetwork.JoinRandomRoom();
+    }
+
+    void OnPhotonRandomJoinFailed()
+    {
+        // Unable to connect to a room, create a new one
+        PhotonNetwork.CreateRoom(roomName + Guid.NewGuid(), new RoomOptions {
+            maxPlayers = 2,
+            isOpen = true,
+            isVisible = true
+        }, TypedLobby.Default);
+    }
+    
+    void OnJoinedRoom() {
+        Log("Connected to room " + PhotonNetwork.room);
+        if (!PhotonNetwork.isMasterClient)
+        {
+            StartGame();
+        }
+    }
+
+    void OnPhotonPlayerConnected(PhotonPlayer newPlayer)
+    {
+        Log("Player " + newPlayer.name + " joined the game");
+        StartGame(); // Server
+    }
+
+    void StartGame()
+    {
+        Log("Starting game...");
+        // Add player and game board
+        var player = PhotonNetwork.Instantiate("Player", new Vector3(), Quaternion.identity, 0);
+        var gameBoard = PhotonNetwork.Instantiate("GameBoard", new Vector3(), Quaternion.identity, 0);
+        player.GetComponent<UserController>().GameBoard = gameBoard;
+        gameBoard.GetComponent<GameBoardController>().User = player;
+        gameBoard.GetComponent<GameBoardController>().LogOutputText = LogOutputText;
+        gameBoard.GetComponent<OilFieldGenerator>().LogOutputText = LogOutputText;
 
         // Set the player's color
-        Log(Network.isServer.ToString());
-        player.GetComponent<UserController>().Color = Network.isServer ? Color.blue : Color.red;
+        Log(PhotonNetwork.isMasterClient.ToString());
+        player.GetComponent<UserController>().Color = PhotonNetwork.isMasterClient ? Color.blue : Color.red;
+        player.GetComponent<UserController>().MyGoldText = MyGoldText;
+        player.GetComponent<UserController>().NemesisGoldText = NemesisGoldText;
     }
-
-    private void OnMasterServerEvent(MasterServerEvent msEvent)
-    {
-        Log("\t*msEvent[" + msEvent.ToString() + "]");
-        if (msEvent == MasterServerEvent.HostListReceived)
-        {
-            OnHostListRecieved();         
-        }
-    }
-
-    /// <summary>
-    /// Called on a server after initialization
-    /// </summary>
-    void OnServerInitialized() {
-        Log("Server Initializied");
-    }
-
-    /// <summary>
-    /// Called on a client when connected on server
-    /// </summary>
-    void OnConnectedToServer() {
-        Log("Server Joined");
-        // Start the game on the client
-        StartGame();
-    }
-
-    /// <summary>
-    /// Called on a server when a client connects
-    /// </summary>
-    void OnPlayerConnected(NetworkPlayer player)
-    {
-        Log("Player " + player.ipAddress + " connected");
-        // Start the game on the server
-        StartGame();
-    }
-
-    #region ServerConnectionControl
-
-    private void RefreshHostList() {
-        MasterServer.ClearHostList();
-        MasterServer.RequestHostList(typeName);
-        hostList = MasterServer.PollHostList();
-    }
-
-    private void StartServer() {
-        var error = Network.InitializeServer(ConnectionLimit, port, !Network.HavePublicAddress());
-
-        if (error == NetworkConnectionError.NoError) {
-            Network.maxConnections = ConnectionLimit;
-            gameName = "OilSweeping_" + DateTime.UtcNow.Ticks.ToString();
-            MasterServer.RegisterHost(typeName, gameName);
-            Log("Game name: " + gameName);
-        } else {
-            Log("Server creation failed with error " + error.ToString());
-        }
-    }
-
-    private NetworkConnectionError JoinServer(HostData hostData) {
-        var error = Network.Connect(hostData);
-        if (error == NetworkConnectionError.NoError) {
-            gameName = hostData.gameName;
-            Log("Joining server " + gameName + "...");
-        } else {
-            Log("Error connecting to server: " + error.ToString());
-        }
-        return error;
-    }
-
-    /// <summary>
-    /// Called when the host list gets recieved
-    /// </summary>
-    private void OnHostListRecieved() {
-        hostList = MasterServer.PollHostList();
-        ListHosts();
-        var connectionSucceeded = false;
-        // Connect to the first available host
-        foreach (var host in hostList) {
-            if (host.AvailableForJoin()) {
-                var error = JoinServer(host);
-                if (error == NetworkConnectionError.NoError) {
-                    connectionSucceeded = true;
-                    break;
-                } else {
-                    Log(error.ToString());
-                }
-            }
-        }
-        // Unable to connect to a host, create a new one
-        if (!connectionSucceeded) {
-            StartServer();
-        }
-    }
-
-    #endregion
-
-    #region Logging
-
-    public void Log(string text)
-    {
-        if (StatusText != null)
-        {
-            StatusText.text += text + "\n";
-        }
-        else
-        {
-            Debug.Log(text);
-        }
-    }
-
-    private void ClearLog()
-    {
-        if (StatusText != null)
-        {
-            StatusText.text = "";
-        }
-    }
-
-    private void ListHosts()
-    {
-        Log("Available OilSweeper hosts:");
-        if (hostList.Length == 0) {
-            Log("None");
-        } else {
-            foreach (var h in hostList) {
-                Log(" - " + h.gameName + "; #Players: " + h.connectedPlayers + "; #MaxPlayers: " + h.playerLimit);
-            }
-        }
-    }
-
-    #endregion
-
 }
