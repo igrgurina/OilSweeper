@@ -82,6 +82,8 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <Content Include="Assets\backward.png" />
     <Content Include="Assets\back_button.png" />
+    <Content Include="Assets\bilanca_nafta.png" />
+    <Content Include="Assets\bilanca_plin.png" />
     <Content Include="Assets\forward.png" />
     <Content Include="Assets\game.png" />
     <Content Include="Assets\IMG_Slide1.jpg" />
@@ -98,7 +100,9 @@
     <Content Include="Assets\IMG_Slide7.jpg" />
     <Content Include="Assets\IMG_Slide8.jpg" />
     <Content Include="Assets\IMG_Slide9.jpg" />
+    <Content Include="Assets\istrazivanje_jadran.png" />
     <Content Include="Assets\jadran.png" />
+    <Content Include="Assets\jadran_ekologija.png" />
     <Content Include="Assets\janaf.png" />
     <Content Include="Assets\learn.png" />
     <Content Include="Assets\logo.png" />
@@ -121,6 +125,8 @@
     <Content Include="Assets\Prezentacija.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\procjena.png" />
+    <Content Include="Assets\proizvodnja_potrosnja.png" />
     <Content Include="Assets\quiz_button.png" />
     <Content Include="Assets\refinery.png" />
     <Content Include="Assets\rijeka.png" />

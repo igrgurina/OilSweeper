@@ -781,7 +781,7 @@
 			</Slides>
 			<Questions>
 				<Question>
-					<QuestionId>4</QuestionId>
+					<QuestionId>1</QuestionId>
 					<Text>Koje su dvije rafinerije nafte u Hrvatskoj?</Text>
 					<Image>Assets/sisak.png</Image>
 					<Options>
@@ -792,7 +792,7 @@
 					<Correct>Rijeka i Sisak</Correct>
 				</Question>
 				<Question>
-					<QuestionId>5</QuestionId>
+					<QuestionId>2</QuestionId>
 					<Text>Koliko postoji rafinerije maziva u Hrvatskoj?</Text>
 					<Image>Assets/rijeka.png</Image>
 					<Options>
@@ -803,7 +803,7 @@
 					<Correct>Dvije</Correct>
 				</Question>
 				<Question>
-					<QuestionId>6</QuestionId>
+					<QuestionId>3</QuestionId>
 					<Text>Koje je godine izgrađen Jadranski naftovod?</Text>
 					<Image>Assets/janaf.png</Image>
 					<Options>
@@ -812,6 +812,116 @@
 						<Option>1979.</Option>
 					</Options>
 					<Correct>1979.</Correct>
+				</Question>
+			</Questions>
+		</Chapter>
+		<Chapter>
+			<ChapterNumber>7</ChapterNumber>
+			<Title>Budućnost ugljikovodika u Hrvatskoj</Title>
+			<Thumbnail>Assets/offshore_platform.png</Thumbnail>
+			<Slides>
+				<Slide>
+					<PageNumber>1</PageNumber>
+					<Title>Domaća proizvodnja energenata</Title>
+					<Thumbnail>Assets/proizvodnja_potrosnja.png</Thumbnail>
+					<Image>Assets/proizvodnja_potrosnja.png</Image>
+					<Text>
+					Domaća proizvodnja energenata u Hrvatskoj zadovoljava manje od 50% potreba za energijom.
+					Oko 44% posto domaće proizvodnje energenata (primarne) u Hrvatskoj čini proizvodnja plina. 
+					Oko 25% je hidroenergija, a ostalo je proizvodnja sirove nafte 16%, ogrjevnog drveta i drugog. 
+					U potrošnji energenata dominantna su tekuća goriva 44%, zatim plin 26%, te hidroenergija 14%.
+					</Text>
+				</Slide>
+				<Slide>
+					<PageNumber>2</PageNumber>
+					<Title>Plin sadašnjost i budućnost</Title>
+					<Thumbnail>Assets/bilanca_plin.png</Thumbnail>
+					<Image>Assets/bilanca_plin.png</Image>
+					<Text>
+					Hrvatska trenutnom domaćom proizvodnjom plina zadovoljava 73-95% potrošnje. 
+					Trenutno pridobive rezerve plina su otprilike 36,44 milijarde kubnih metara.
+					</Text>
+				</Slide>	
+				<Slide>
+					<PageNumber>3</PageNumber>
+					<Title>Nafta sadašnjost i budućnost</Title>
+					<Thumbnail>Assets/bilanca_nafta.png</Thumbnail>
+					<Image>Assets/bilanca_nafta.png</Image>
+					<Text>
+					Hrvatska ne proizvodi dovoljno nafte za svoje potrebe, nego oko 5/6 potrebne nafte uvozi. 
+					Domaća proizvodnja nafte je od preko 3 milijuna tona početkom 1990., pala na oko 800 tisuća tona/god. 
+					Pridobive rezerve nafte u Hrvatskoj su oko 11,47 milijuna kubnih metara. 
+					</Text>
+				</Slide>
+				<Slide>
+					<PageNumber>4</PageNumber>
+					<Title>Pogled u budućnost</Title>
+					<Thumbnail>Assets/procjena.png</Thumbnail>
+					<Image>Assets/procjena.png</Image>
+					<Text>
+					Do 2030. godine može se računati s neizvjesnostima na globalnim energetskim tržištima, 
+					povremenim nestabilnostima pa i krizama, 
+					što će svakako imati za posljedicu veću osjetljivost energetskih tržišta malih zemalja poput Hrvatske,
+					osobito u odnosu na uvoz nafte i cijene nafte. 
+					To je bitna činjenica o kojoj se mora voditi računa i koja predstavlja 
+					kritični element opskrbe ugljikovodicima Republike Hrvatske. 
+					Stoga stvaranje osjećaja energetske sigurnosti i širenje te spoznaje u okruženju već samo po sebi pridonosi jačanju gospodarske stabilnosti 
+					te time pridonosi i sveukupnoj razini nacionalne sigurnosti u Republici Hrvatskoj.
+					</Text>
+				</Slide>	
+				<Slide>
+					<PageNumber>5</PageNumber>
+					<Title>Plan istraživanja ugljikovodika u Jadranu</Title>
+					<Thumbnail>Assets/istrazivanje_jadran.png</Thumbnail>
+					<Image>Assets/istrazivanje_jadran.png</Image>
+					<Text>
+					Plan istraživanja i eksploatacije ugljikovodika na Jadranu obuhvaća 
+					dio hrvatskog epikontinentalnog pojasa i teritorijalnog mora, površine 36 823 km2, 
+					na kojem se nalazi 29 istražnih prostora: u sjevernom Jadranu je 8 istražnih prostora, 
+					u srednjem Jadranu 16 istražnih prostora, a u južnom Jadranu 5 istražnih prostora. 
+					Površine pojedinih istražnih prostora iznose od 1000 km2 do 1 600 km2. 
+					Istočna granica istražnih područja odmaknuta je 10 km od obale i 6 km od vanjske linije otoka, 
+					dok su preostale granice područja obuhvata određene sklopljenim međunarodnim sporazumima sa susjednim državama.
+					</Text>
+				</Slide>
+				<Slide>
+					<PageNumber>6</PageNumber>
+					<Title>Negativnosti istraživanja ugljikovodika u Jadranu</Title>
+					<Thumbnail>Assets/jadran_ekologija.png</Thumbnail>
+					<Image>Assets/jadran_ekologija.png</Image>
+					<Text>
+					Vidljivost platformi s i kopna doživljava se kao narušavanje vizura i može značajno umanjiti privlačnost područja za turizam „sunce i more“. 
+					Ova grana turizma, jedna je od ključnih gospodarskih grana, i usko je povezana s krajobraznim značajkama. 
+					Postavljanjem, prvenstveno eksploatacijskih, platformi može doći do narušavanja krajobraznih značajki prostora 
+					koji je visoko privlačan za nautički turizam. Otoci srednjeg i južnog Jadrana posebno su privlačna područja za nautički turizam, 
+					koji čini važnu i prosperitetnu gospodarsku granu.
+					Utjecaji na ribarstvo mogući su različitim fazama provedbe istraživanja. 
+					Na temelju analize stručnih podloga o kretanju ribarskih brodova definirana su područja posebno značajna za ribarstvo.
+					</Text>
+				</Slide>				
+			</Slides>
+			<Questions>
+				<Question>
+					<QuestionId>1</QuestionId>
+					<Text>Domaća proizvodnja energenata zadovoljava...</Text>
+					<Image>Assets/proizvodnja_potrosnja.png</Image>
+					<Options>
+						<Option>manje od 25% potreba</Option>
+						<Option>manje od 50% potreba</Option>
+						<Option>više od 75% potreba</Option>
+					</Options>
+					<Correct>manje od 50% potreba</Correct>
+				</Question>
+				<Question>
+					<QuestionId>2</QuestionId>
+					<Text>Na koje bi gospodarske grane istraživanje ugljikovodika u Jadranu moglo imati negativne posljedice?</Text>
+					<Image>Assets/janaf.png</Image>
+					<Options>
+						<Option>Turizam i ribarstvo</Option>
+						<Option>Graditeljstvo</Option>
+						<Option>Trgovinu</Option>
+					</Options>
+					<Correct>Turizam i ribarstvo</Correct>
 				</Question>
 			</Questions>
 		</Chapter>		
