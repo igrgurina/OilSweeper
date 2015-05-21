@@ -687,7 +687,7 @@
 		<Chapter>
 			<ChapterNumber>6</ChapterNumber>
 			<Title>Prerada ugljikovodika u Hrvatskoj</Title>
-			<Thumbnail>Assets/refinery.png</Thumbnail>
+			<Thumbnail>Assets/refinery_image.png</Thumbnail>
 			<Slides>
 				<Slide>
 					<PageNumber>1</PageNumber>
@@ -817,7 +817,7 @@
 		</Chapter>
 		<Chapter>
 			<ChapterNumber>7</ChapterNumber>
-			<Title>Budućnost ugljikovodika u Hrvatskoj</Title>
+			<Title>Budućnost Hrvatske - ugljikovodici</Title>
 			<Thumbnail>Assets/offshore_platform.png</Thumbnail>
 			<Slides>
 				<Slide>
@@ -871,7 +871,7 @@
 				</Slide>	
 				<Slide>
 					<PageNumber>5</PageNumber>
-					<Title>Plan istraživanja ugljikovodika u Jadranu</Title>
+					<Title>Plan istraživanja u Jadranu</Title>
 					<Thumbnail>Assets/istrazivanje_jadran.png</Thumbnail>
 					<Image>Assets/istrazivanje_jadran.png</Image>
 					<Text>
@@ -886,7 +886,7 @@
 				</Slide>
 				<Slide>
 					<PageNumber>6</PageNumber>
-					<Title>Negativnosti istraživanja ugljikovodika u Jadranu</Title>
+					<Title>Negativnosti istraživanja u Jadranu</Title>
 					<Thumbnail>Assets/jadran_ekologija.png</Thumbnail>
 					<Image>Assets/jadran_ekologija.png</Image>
 					<Text>
