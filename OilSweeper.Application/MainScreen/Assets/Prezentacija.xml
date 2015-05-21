@@ -92,11 +92,11 @@
 					<Image>IMG_Question1.jpg</Image>
 					<Difficulty>2</Difficulty>
 					<Options>
-						<Option>protoplanetarnom disku</Option>
-					    <Option>oceanima poslije neutralizacije</Option>
+						<Option>protoplanetarnom disku.</Option>
+					    <Option>oceanima poslije neutralizacije.</Option>
 					    <Option>ranoj atmosferi.</Option>
 					</Options>
-					<Correct>protoplanetarnom disku</Correct>
+					<Correct>protoplanetarnom disku.</Correct>
 					<Explanation>
 					    Prema najnovijim računalnim simulacijama organske molekule mogle su nastati 
 						već u protoplanetarnom disku i prije same formacije Zemlje.
@@ -109,8 +109,8 @@
 					<Image>IMG_Question1.jpg</Image>
 					<Difficulty>1</Difficulty>
 					<Options>
-						<Option>život</Option>
-					    <Option>svemir</Option>
+						<Option>život.</Option>
+					    <Option>svemir.</Option>
 					    <Option>organski materijal.</Option>
 					</Options>
 					<Correct>organski materijal.</Correct>
