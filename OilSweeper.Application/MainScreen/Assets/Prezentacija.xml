@@ -1,1138 +1,1143 @@
 <EducationalContent>
-	<Chapters>
-		<Chapter>
-			<ChapterNumber>1</ChapterNumber>
-			<Title>Nastanak materijala</Title>
-			<Thumbnail>Assets/TMB_Chapter1.jpg</Thumbnail>
+  <Chapters>
+    <Chapter>
+      <ChapterNumber>1</ChapterNumber>
+      <Title>Nastanak materijala</Title>
+      <Thumbnail>Assets/TMB_Chapter1.jpg</Thumbnail>
 
-			<Slides>
-				<Slide>
-					<PageNumber>1</PageNumber>
-					<Title>više od 4.5 milijardi god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide1.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide1.jpg</Image>
-					<Text>
-						Razdoblje je ranog Hadija. Oko novonastalog Sunca nalazi se protoplanetarni disk - gusta nakupina plinova 
-						i izvor svega s čime se susrećemo danas. Temperature i količine radijacije previsoke su za pojavu i opstanak 
-						bilo kakvog oblika života, ali su zato savršene za sintezu ključnih spojeva, pa čak i prvih kompleksnih 
-						organskih molekula. Isto vrijedi i za mnoge ostale zvijezde zbog čega slobodne organske molekule u svemiru 
-						i nisu rijetka pojava.
-					</Text>
-				</Slide>
-				
-				<Slide>
-					<PageNumber>2</PageNumber>
-					<Title>4.5 milijardi god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide2.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide2.jpg</Image>
-					<Text>
-						Zemlja je formirana, no podliježe ekstremnim vulkanskim aktivnostima i udarima eksplozivnih meteorita (tzv. bolida) 
-						koji razaraju većinu novoformiranih stijena, te oslobađaju ogromne količine plinova kao što su ugljikov monoksid, 
-						ugljikov dioksid i natrijev monoksid. Teži elementi poput željeza tonu u unutrašnjost dok se lakši plinoviti 
-						elementi uzdižu i stvaraju atmosferu u procesu koji se naziva diferencijacija materijala.
-					</Text>
-				</Slide>
-				
-				<Slide>
-					<PageNumber>3</PageNumber>
-					<Title>4.4 milijarde god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide3.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide3.jpg</Image>
-					<Text>
-						Polako se hladeći nastaje tanak, ali dovoljno čvrst plašt za podlogu oceanima nastalima oslobađanjem vodene pare 
-						iz hidratnih stijena i ledom bogatih kometa. Temperature iznose i preko 230 Celzijevih stupnjeva, ali su oceani 
-						ipak u tekućem stanju zbog visokog tlaka ugljikovim dioksidom bogate atmosfere. Znatan dio ugljikovih spojeva 
-						postaje prisutan u atmosferi zahvaljujući OH skupinom bogatim meteroitima (tzv. ugljeviti hondriti).
-					</Text>
-				</Slide>
-				
-				<Slide>
-					<PageNumber>4</PageNumber>
-					<Title>4.1 milijardi god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide4.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide4.jpg</Image>
-					<Text>
-						Novonastali oceani i atmosfera krajnje su nestabilni i izloženi čestim udarima nailazećih planetoida u razdoblju koje 
-						se naziva "Kasno Teško Bombardiranje". Dovoljan je samo jedan udar većeg stranog tijela da prouzroči isparavanje čitavih 
-						oceana i oslobodi ogromne količine ugljikovog dioksida i vodene pare iz zemljinih stijena čija će kondenzacija potrajati 
-						tisućama godina.
-					</Text>
-				</Slide>
-			
-				<Slide>
-					<PageNumber>5</PageNumber>
-					<Title>4 milijarde god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide5.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide5.jpg</Image>
-					<Text>
-						 Počinju padati prve kiše, a raznim plinovima bogata atmosfera kiseli oceane. Većina stijena, ponajviše karbonatne se otapaju 
-						 zbog čega prevladavaju sedimentne stijene od silicija (primjerice rožnjak). Oceani su pritom bogate mineralima poput magnezija 
-						 i kalcija, a oslobađanjem natrija i klora iz raznih reakcija nastaje sol, jedan od ključnih i dominantnih spojeva na Zemlji i 
-						 dan danas.
-					</Text>
-				</Slide>
-				
-				<Slide>
-					<PageNumber>6</PageNumber>
-					<Title>4 milijarde god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide6.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide6.jpg</Image>
-					<Text>
-						Konačno, oceani i atmosfera su stabilni i kiselost oceana se smanjila. Visoke temperature, količine radijacije i iskrenja 
-						u atmosferi čine Zemljine oceane ogromnim kemijskim laboratorijima za nasumičnu sintezu organskih spojeva. Nova revolucionarna 
-						faza u povijesti Zemlje konačno može početi...
-					</Text>
-				</Slide>	
-			</Slides>
-		
-			<Questions>
-				<Question>
-					<QuestionId>1</QuestionId>
-					<Text>Prvi kompleksni organski spojevi mogli su nastati najranije u...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>2</Difficulty>
-					<Options>
-						<Option>protoplanetarnom disku</Option>
-					    <Option>oceanima poslije neutralizacije</Option>
-					    <Option>ranoj atmosferi.</Option>
-					</Options>
-					<Correct>protoplanetarnom disku</Correct>
-					<Explanation>
-					    Prema najnovijim računalnim simulacijama organske molekule mogle su nastati 
-						već u protoplanetarnom disku i prije same formacije Zemlje.
-					</Explanation>
-				</Question>
-				
-				<Question>
-					<QuestionId>2</QuestionId>
-					<Text>Razdoblje Hadija bitno je za nastanak nafte jer je u njemu nastao...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>1</Difficulty>
-					<Options>
-						<Option>život</Option>
-					    <Option>svemir</Option>
-					    <Option>organski materijal.</Option>
-					</Options>
-					<Correct>organski materijal.</Correct>
-					<Explanation>
-					    Iako nije točno utvrđen precizan geološki model okoline u kojoj su nastali prvi organski spojevi, 
-						sigurno je da se slučajna sinteza zbila najvjerojatnije pri samom kraju Hadija.
-					</Explanation>
-				</Question>
-				
-				<Question>
-					<QuestionId>3</QuestionId>
-					<Text>U ranoj atmosferi nije bilo prisustva...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>1</Difficulty>
-					<Options>
-						<Option>natrijevog monoksida</Option>
-					    <Option>ugljikovog monnoksida</Option>
-					    <Option>klora.</Option>
-					</Options>
-					<Correct>klora.</Correct>
-					<Explanation>
-					    Rana atmosfera bila je bogata plinovitim oksidima i vodenom parom. Klor se oslobodio 
-					    naknadno putem raznih reakcija kojima se postupno smanjila kiselost oceana.
-					</Explanation>
-				</Question>
-				
-				<Question>
-					<QuestionId>4</QuestionId>
-					<Text>Najranija era u Hadiju naziva se...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>4</Difficulty>
-					<Options>
-						<Option>Donji Imbrij</Option>
-					    <Option>Kriptik</Option>
-					    <Option>Nektarij.</Option>
-					</Options>
-					<Correct>Kriptik</Correct>
-					<Explanation>
-					    Najranija era u Hadiju, a samim time i u čitavoj povijesti Zemlje naziva se Kriptik 
-						zbog potpunog odsustva bilo kakvih geoloških ostataka iz tog razdoblja. Naime sve 
-						hadijske stijene s vremenom su bile transformirane i ukomponirane u novije stijene.
-					</Explanation>
-				</Question>
-			
-			    <Question>
-					<QuestionId>5</QuestionId>
-					<Text>OH skupinom bogati meteoriti jesu...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>3</Difficulty>
-					<Options>
-						<Option>bolidi</Option>
-					    <Option>hondriti</Option>
-					    <Option>hidroidi.</Option>
-					</Options>
-					<Correct>hondriti</Correct>
-					<Explanation>
-					    OH skupinom bogati meteoriti nazivaju se ugljevitim hondritima ili kraće hondritima. Bolidi jesu eksplozivni 
-						ledeni meteori, a hidroidi ne postoje.
-					</Explanation>
-				</Question>
-				
-				<Question>
-					<QuestionId>6</QuestionId>
-					<Text>Jednostavne (polu)organske spojeve kao što je etilni alkohol moguće je naći u sastavu...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>3</Difficulty>
-					<Options>
-						<Option>crnih rupa</Option>
-					    <Option>bijelih patuljaka</Option>
-					    <Option>nebula.</Option>
-					</Options>
-					<Correct>nebula.</Correct>
-					<Explanation>
-					    Najnovija otkrića ukazala su na postojanje nebula (maglica) bogatih etanolom. Isto može vrlo lako 
-						vrijediti i za okoline ostalih tijela, primjerice crnih rupa i patuljastih zvijezda, ali naravno 
-						u znatno manjim količinama.
-					</Explanation>
-				</Question>
-			</Questions>
-		</Chapter>
-		
-		<Chapter>
-			<ChapterNumber>2</ChapterNumber>
-			<Title>Nastanak života</Title>
-			<Thumbnail>Assets/TMB_Chapter2.jpg</Thumbnail>
-			
-			<Slides>
-				<Slide>
-			    <PageNumber>1</PageNumber>
-					<Title>3.9 milijardi god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide7.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide7.jpg</Image>
-					<Text>
-						Razdoblje je ranog Arhaika. Nastali organski polimeri nakupljaju se u sferne kapljične agregate, tzv. koacervate
-						koje na okupu drže hidrofobne sile jednostavnih lipidnih omotača. Iako se ne smatraju živim organizmima koacervati 
-						su u stanju dijeliti se, međusobno se stapati, selektivno apsorbirati druge organske molekule, pa čak formirati 
-						manje građevne jedinice nalik današnjim staničnim komponentama.
-					</Text>
-				</Slide>
+      <Slides>
+        <Slide>
+          <PageNumber>1</PageNumber>
+          <Title>više od 4.5 milijardi god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide1.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide1.jpg</Image>
+          <Text>
+            Razdoblje je ranog Hadija. Oko novonastalog Sunca nalazi se protoplanetarni disk - gusta nakupina plinova
+            i izvor svega s čime se susrećemo danas. Temperature i količine radijacije previsoke su za pojavu i opstanak
+            bilo kakvog oblika života, ali su zato savršene za sintezu ključnih spojeva, pa čak i prvih kompleksnih
+            organskih molekula. Isto vrijedi i za mnoge ostale zvijezde zbog čega slobodne organske molekule u svemiru
+            i nisu rijetka pojava.
+          </Text>
+        </Slide>
 
-				<Slide>
-			    <PageNumber>2</PageNumber>
-					<Title>3.8 milijardi god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide8.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide8.jpg</Image>
-					<Text>
-						U koacervatima se događa intenzivna lutrija kemijskih reakcija pri čemu je najvažniji element ugljik. Osim što je lagan za 
-						ekstrakciju iz atmosfere, pogodan je i za formaciju istovremeno i složenih i stabilnih molekularnih lanaca. Jedini od ostalih 
-						elemenata sa približno istim svojstvima jest silicij. Kao otapalo organskih tvari i sredstvo evolucijskog razvoja 
-						života ključan spoj jest voda zbog izrazite polarnosti molekula i zastupljenosti na Zemljinoj površini.
-					</Text>
-				</Slide>
-				
-				<Slide>
-			    <PageNumber>3</PageNumber>
-					<Title>3.5 milijardi god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide9.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide9.jpg</Image>
-					<Text>
-						Nastaju prvi proizvođači kisika, preci današnjih cijanobakterija. Količine kisika u atmosferi još uvijek su 
-						ekstremno niske, te i dalje prevladavaju jednostavni anaerobni prokarioti iz domene Archaea.
-					</Text>
-				</Slide>
-			</Slides>
-		
-		
-			<Questions>
-				<Question>
-					<QuestionId>1</QuestionId>
-					<Text>Razdoblje Arhaika bitno je za nastanak fosilnih goriva jer su u njemu nastali prvi...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>1</Difficulty>
-					<Options>
-						<Option>živi organizmi</Option>
-					    <Option>organski spojevi</Option>
-					    <Option>topilaci organskih tvari.</Option>
-					</Options>
-					<Correct>živi organizmi</Correct>
-					<Explanation>
-					    Granicu žive i nežive nakupine organskih tvari nije lako definirati, ali je poznato 
-						da prve protostanice sposobne za razmnožavanje, metabolizam i interakciju s okolinom 
-						potječu iz Arhaika.
-					</Explanation>
-				</Question>
-				
-				<Question>
-					<QuestionId>2</QuestionId>
-					<Text>Jedini poznati element dovoljno sličan ugljiku da se na njemu može bazirati život jest...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>2</Difficulty>
-					<Options>
-						<Option>fluor</Option>
-					    <Option>argon</Option>
-					    <Option>silicij.</Option>
-					</Options>
-					<Correct>silicij.</Correct>
-					<Explanation>
-					    Slicij jest jedini poznati element dovoljno sličnih kemijskih svojstava ugljiku da se na njemu 
-						može bazirati život. Flour je vrlo reaktivan (najreaktivniji u svojoj skupini), a argon je plemeniti 
-						plin i ne može tvoriti ikakve spojeve.
-					</Explanation>
-				</Question>
-				
-				<Question>
-					<QuestionId>3</QuestionId>
-					<Text>Fosilna goriva mogu nastati raspadom mikroorganizama poput onih iz Arhaika.</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>3</Difficulty>
-					<Options>
-						<Option>točno</Option>
-					    <Option>netočno</Option>
-					    <Option>nije poznato.</Option>
-					</Options>
-					<Correct>netočno</Correct>
-					<Explanation>
-					    Fosilna goriva nikako ne mogu nastati od samih mikroorganizama. Potrebne su velike količine 
-						organskih tvari i istančani uvjeti koji bi ih održali pod visokim tlakom i temperaturom 
-						na dovoljno dugo vrijeme.
-					</Explanation>
-				</Question>
-				
-			</Questions>
+        <Slide>
+          <PageNumber>2</PageNumber>
+          <Title>4.5 milijardi god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide2.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide2.jpg</Image>
+          <Text>
+            Zemlja je formirana, no podliježe ekstremnim vulkanskim aktivnostima i udarima eksplozivnih meteorita (tzv. bolida)
+            koji razaraju većinu novoformiranih stijena, te oslobađaju ogromne količine plinova kao što su ugljikov monoksid,
+            ugljikov dioksid i natrijev monoksid. Teži elementi poput željeza tonu u unutrašnjost dok se lakši plinoviti
+            elementi uzdižu i stvaraju atmosferu u procesu koji se naziva diferencijacija materijala.
+          </Text>
+        </Slide>
 
-		</Chapter>
-		
-		<Chapter>
-			<ChapterNumber>3</ChapterNumber>
-			<Title>Uspon i pad života</Title>
-			<Thumbnail>Assets/TMB_Chapter3.jpg</Thumbnail>
-			
-			<Slides>
-				<Slide>
-			    <PageNumber>1</PageNumber>
-					<Title>2.3 milijardi god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide10.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide10.jpg</Image>
-					<Text>
-						Razdoblje je Proterozoika (Paleoproteozoik). Naslage trakastog željeza formiraju su se u razdoblju masovne proizvodnje kisika 
-						od strane anaerobnih algi. Ovo radoblje se naziva razdobljem "Velike Oksigenacije", a prethodi tzv. "Katastrofi Kisika" 
-						za vrijeme koje je izumrla većina dotadašnjih anaerobnih mikroorganizama budući da je kisik za njih dosegao razinu toksičnosti.
-						Reagirajući s željezom kisik formira magnetit (željezov (II, III) oksid) čime čisti oceane od željeza 
-						koji je sve do tada najvjerojatnije bojio mora zelenkastom bojom.
-					</Text>
-				</Slide>
-				
-				<Slide>
-			    <PageNumber>2</PageNumber>
-					<Title>542-488 milijuna god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide11.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide11.jpg</Image>
-					<Text>
-						U najranijem razdoblju Paleozoika (Kambrij) za vrijeme "Kambrijske Eksplozije" nastaje više od pola modernih vrsta životinja. 
-						Za vrijeme ordovicija čitav život se još uvijek nalazi u oceanima, a prevladavaju trilobiti, školjkaši i puževi. Razvijaju 
-						se prve primitivne kopnene biljke (psilofiti).
-					</Text>
-				</Slide>
-				
-				<Slide>
-			    <PageNumber>4</PageNumber>
-					<Title>443-375 milijuna god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide12.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide12.jpg</Image>
-					<Text>
-						Slijedi razdoblje Silura, za vrijeme kojeg se razvijaju ribe i prve vaskularne biljke. Život polako 
-						počinje prelaziti na kopno.
-					    Za vrijeme Devona koji se još naziva "Doba Riba" dominiraju ribe oklopnjače, a život se dodatno razvija i 
-						širi po površini. Nastaju prve šume zahvaljujući stablastim biljkama sa sporama, a preci svih današnjih 
-						kralježnjaka počinju hodati Zemljom. Kraj Devona obilježava "Kasno Devonsko Izumiranje" u kojem izumiru svi 
-						trilobiti i oklopnjače koji se zajedno sa još mnogim drugim vrstama počinju nakupljati na dnima oceana.
-					</Text>
-				</Slide>
-				
-				<Slide>
-			    <PageNumber>5</PageNumber>
-					<Title>340-300 milijuna god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide13.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide13.jpg</Image>
-					<Text>
-						Razdoblje Karbona nesumnjivo je najznačajnije razdoblje u povijesti Zemlje gledano iz perspektive 
-						industrije ugljena. Naime, samo ime "Carboniferous" dolazi od lat. riječi "carbō" (ugljen) i "ferō" (nositi). 
-						Nastaju velike močvare koje konstantno bivaju poplavljivane nanosima gline i pijeska.
-						Ipak, ono što u ovom razdoblju najviše omogućava nastanak ugljena jest manji događaj izumiranja, tzv. 
-						"Kolaps Karbonskih Prašuma". Nagla promjena vruće i vlažne klime na hladnu i suhu uzrokuje odvajanje 
-						prašuma u manje otoke, te u konačnici i njihovo potpuno propadanje.
-					</Text>
-				</Slide>
-				
-				<Slide>
-			    <PageNumber>6</PageNumber>
-					<Title>299-251 milijuna god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide14.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide14.jpg</Image>
-					<Text>
-						Nastupa razdoblje ranog Perma obilježeno naglim razvojem golosjemenjača, vodozemaca i gmazova. Morski i kopneni 
-						život buja, ali zato biva gotovo u potpunosti uništen na prijelazu iz kasnog Perma u Trijas. U Permsko-trijaskom izumiranju, 
-						najvećem izumiranju u povijesti Zemlje u kojem biva istrijebljeno 95% svih postojećih vrsta najgore bivaju pogođene 
-						upravo one morske. Ogromne količine mrtvih morskih organizama nakupljaju se na dnima oceana, te ubrzo bivaju zatrpane 
-						slojevima pijeska i kamenja. Počinje novi eon - Mezozoik, "doba dinosaura".
-					</Text>
-				</Slide>
-			</Slides>
-			
-			<Questions>
-				<Question>
-					<QuestionId>1</QuestionId>
-					<Text>Većina ugljena datira iz razdoblja...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>1</Difficulty>
-					<Options>
-						<Option>Ordovicija</Option>
-					    <Option>Karbona</Option>
-					    <Option>Perma.</Option>
-					</Options>
-					<Correct>Karbona</Correct>
-					<Explanation>
-					    Naslage ugljena, kao što i samo ime nalaže, datiraju skoro pa isključivo iz razdoblja Karbona zahvaljujući kolapsu karbonskih prašuma.
-					</Explanation>
-				</Question>
-				
-				<Question>
-					<QuestionId>2</QuestionId>
-					<Text>Većina nafte datira iz razdoblja...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>2</Difficulty>
-					<Options>
-						<Option>Devona</Option>
-					    <Option>Karbona</Option>
-					    <Option>Perma.</Option>
-					</Options>
-					<Correct>Perma.</Correct>
-					<Explanation>
-					    Daleko najveća količina nafte datira iz razdoblja Perma iako su već tada mogle postojati znatne količine naslaga 
-						organskih tvari još iz razdoblja Devona (Kasno Devonsko Izumiranje).
-					</Explanation>
-				</Question>
-				
-				<Question>
-					<QuestionId>3</QuestionId>
-					<Text>Izumrla životinja čiji nekoć organski materijal danas ne možemo pronaći u rezervoarima automobila jest...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>4</Difficulty>
-					<Options>
-						<Option>riba oklopnjača</Option>
-					    <Option>amonit</Option>
-					    <Option>pterodaktil</Option>
-					</Options>
-					<Correct>pterodaktil</Correct>
-					<Explanation>
-					    Pterodaktil, osim što nije bio morska životinja, se pojavio puno kasnije od organizama iz čijeg su 
-						organskog materijala nastala fosilna goriva.
-					</Explanation>
-				</Question>
-				
-				<Question>
-					<QuestionId>4</QuestionId>
-					<Text>Za vrijeme "Velikog Izumiranja" izumrlo je...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>3</Difficulty>
-					<Options>
-						<Option>50%</Option>
-					    <Option>75%</Option>
-					    <Option>95% svih vrsta na planeti</Option>
-					</Options>
-					<Correct>95% svih vrsta na planeti</Correct>
-					<Explanation>
-					    Za vrijeme "Velikog Izumiranja" izumrlo je 95% svih vrsta na planeti i riječ je o najvećem masovnom 
-						izumiranju vrsta u povijesti Zemlje.
-					</Explanation>
-				</Question>
-				
-				<Question>
-					<QuestionId>5</QuestionId>
-					<Text>"Veliko izumiranje"" zbilo se na međi...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>3</Difficulty>
-					<Options>
-						<Option>Perma i Trijasa</Option>
-					    <Option>Jure i Krede</Option>
-					    <Option>Devona i Karbona</Option>
-					</Options>
-					<Correct>Perma i Trijasa</Correct>
-					<Explanation>
-					    "Veliko Izumiranje" zbilo se na prijelazu iz Perma u Trijas i označava početak Mezozoika.
-					</Explanation>
-				</Question>
-				
-				<Question>
-					<QuestionId>6</QuestionId>
-					<Text>Iznimno otporan materijal koji je očuvao biljne ostatke dovoljno dugo za nastanak ugljena jest...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>4</Difficulty>
-					<Options>
-						<Option>lignin</Option>
-					    <Option>kerogen</Option>
-					    <Option>celuloza</Option>
-					</Options>
-					<Correct>lignin</Correct>
-					<Explanation>
-					    Stablaste karbonske biljke bile su građene od lignita, polisaharida iznimno otpornog na degradirajuće procese i 
-						neprobavljivog za biljojedne kukce toga razdoblja.
-					</Explanation>
-				</Question>
-			</Questions>
-		</Chapter>
-		
-		<Chapter>
-			<ChapterNumber>4</ChapterNumber>
-			<Title>	Nastanak fosilnih goriva</Title>
-			<Thumbnail>Assets/TMB_Chapter4.jpg</Thumbnail>
-			
-			<Slides>
-				<Slide>
-			    <PageNumber>1</PageNumber>
-					<Title>200 milijuna god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide15.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide15.jpg</Image>
-					<Text>
-						Nakupivši se na dnu oceana mrtvi organizmi bivaju zatrpani muljem i sitnim kamenjem. S vremenom se 
-						nakupljeni mulj solidificira u krupnije kamene naslage što uzrokuje znatno viši tlak na raspadnuti 
-						organski materijal. Toneći u dublje slojeve Zemlje temperatura se konstantno povećava i spaja organske 
-						molekule u sve veće lance.
-					</Text>
-				</Slide>
-				
-				<Slide>
-			    <PageNumber>2</PageNumber>
-					<Title>200 milijuna god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide16.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide16.jpg</Image>
-					<Text>
-						Vapor iz stijena i organskih materijala uzdiže se i prolazi kroz pore sedimentnih stijena, te se 
-						akumulira u šupljinama koje će s vremenom postati rezervoari plina. Kompleksniji i teži 
-						hidrokarbonati ostaju upijeni u nakupinama stijena tvoreći strukture slične namočenim spužvama. 
-						Agregati se diferenciraju u tri sloja - voda na dnu, nafta u sredini i plin na vrhu.
-					</Text>
-				</Slide>
-				
-				<Slide>
-			    <PageNumber>3</PageNumber>
-					<Title>200 milijuna god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide17.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide17.jpg</Image>
-					<Text>
-						Nastala nafta može varirati po gustoći, boji i kemijskom sastavu. Uobičajena je crna ili tamno smeđa boja 
-						mada nisu rijetki i slučajevi žućkastih, pa čak i zelenkastih nijansi nafte. Ovisno o količinama sumpora 
-						nafta se dijeli na "kiselu" sa visokim udjelom sumpora i "slatku" sa niskim udjelom sumpora. Ovisno o 
-						gustoći nafta se dijeli na tešku i laganu. Što je nafta gušća teža je, a samim time i skuplja za refinirati.					
-					</Text>
-				</Slide>
-				
-				<Slide>
-			    <PageNumber>4</PageNumber>
-					<Title>200 milijuna god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide18.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide18.jpg</Image>
-					<Text>
-						Kape podzemnih šupljina nisu u potpunosti nepropusne, te podliježu kao i svi ostali reljefni oblici izrazitim i dugotrajnim 
-						tektonskim procesima zbog čega su se događala brojna prirodna istjecanja. Jedni od prvih korisnika nafte bili su američki domoroci koji 
-						su naftu koristili za izradu vodonepropusnih kanua i ljekovitih preparata.
-					</Text>
-				</Slide>
-				
-				<Slide>
-			    <PageNumber>5</PageNumber>
-					<Title>200 milijuna god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide19.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide19.jpg</Image>
-					<Text>
-						Naftu je moguće naći u raznim vrstama i dubinama ležišta. Dubine variraju od nekoliko desetaka metara do preko 5 
-						kilometara. Veća dubina poželjno je svojstvo nalazišta, jer sprječava dotok kisika koji po gledištu kvalitete 
-						može znatno degradirati naftu. S druge strane povećani tlak dubokih nalazišta može uzrokovati probleme pri bušenju 
-						kao što su erupcije nafte i plina.
-					</Text>
-				</Slide>
-				
-				<Slide>
-			    <PageNumber>6</PageNumber>
-					<Title>200 milijuna god. p.n.e.</Title>
-					<Thumbnail>Assets/TMB_Slide20.jpg</Thumbnail>
-					<Image>Assets/IMG_Slide20.jpg</Image>
-					<Text>
-						Organska tvar u nafti sadržana je u dvije vrste smjese - kerogen i bitumen. Bitumen predstavlja dio organske tvari 
-						kojeg je moguće ekstrahirati iz stijena organskim otapalima. Kerogen nije topiv u organskim otapalima, te se zbog 
-						toga nalazi u samoj nafti i definira njezina svojstva. Postoji sveukupno 4 vrste kerogena.
-					</Text>
-				</Slide>
-			</Slides>
-			
-			<Question>
-					<QuestionId>1</QuestionId>
-					<Text>Naftu većinom čini smjesa koja se naziva...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>3</Difficulty>
-					<Options>
-						<Option>kerogen</Option>
-					    <Option>bitumen</Option>
-					    <Option>lignin</Option>
-					</Options>
-					<Correct>kerogen</Correct>
-					<Explanation>
-					    Naftu većinom čini kerogen, smjesa sa većinskim udjelom ugljika i vodika. U malim koncentracijama 
-						pojavljuju se kisik dušik i sumpor.
-					</Explanation>
-				</Question>
-				
-				<QuestionId>2</QuestionId>
-					<Text>Element kojeg nema u sirovoj nafti jest...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>2</Difficulty>
-					<Options>
-						<Option>ugljik</Option>
-					    <Option>dušik</Option>
-					    <Option>olovo</Option>
-					</Options>
-					<Correct>olovo</Correct>
-					<Explanation>
-					    Sirova nafta sadrži većinski ugljik, manjinski sumpor, ali olova u njoj nema.
-					</Explanation>
-				</Question>
-				
-				<QuestionId>3</QuestionId>
-					<Text>Vodu u nalazištima nate možemo naći pri...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>2</Difficulty>
-					<Options>
-						<Option>vrhu</Option>
-					    <Option>sredini</Option>
-					    <Option>dnu</Option>
-					</Options>
-					<Correct>dnu</Correct>
-					<Explanation>
-					    U nalazištima nafte voda se nalazi na dnu, nafta pri sredini, a plin na vrhu.
-					</Explanation>
-				</Question>
-				
-				<QuestionId>4</QuestionId>
-					<Text>Kisela nafta bogata je...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>2</Difficulty>
-					<Options>
-						<Option>sumporom</Option>
-					    <Option>dušikom</Option>
-					    <Option>kisikom</Option>
-					</Options>
-					<Correct>sumporom</Correct>
-					<Explanation>
-					    Kisela nafta bogata je sumporom. Suprotnost predstavlja slatka nafta siromašna ili pak bez sumpora.
-					</Explanation>
-				</Question>
-				
-				<QuestionId>5</QuestionId>
-					<Text>Na velikim dubinama nalazi se...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>2</Difficulty>
-					<Options>
-						<Option>viskoznija nafta</Option>
-					    <Option>kiselija nafta</Option>
-					    <Option>degradiranijaa nafta</Option>
-					</Options>
-					<Correct>viskoznija nafta</Correct>
-					<Explanation>
-					    Nalazištima velike dubine pripada viskoznija nafta zbog bolje izolacije, veće temperature i tlaka kojima je izložena.
-					</Explanation>
-				</Question>
-				
-				<QuestionId>6</QuestionId>
-					<Text>Prvi prerađivači nafte bili su...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>2</Difficulty>
-					<Options>
-						<Option>stari egipćani</Option>
-					    <Option>američki domoroci</Option>
-					    <Option>Arapi</Option>
-					</Options>
-					<Correct>američki domoroci</Correct>
-					<Explanation>
-					    Prvi obrađivači nafte bili su američki domoroci (Indijanci) koji su je koristili za izradu kanua i ljekovitih preparata.
-					</Explanation>
-				</Question>
-				
-				<QuestionId>7</QuestionId>
-					<Text>Nalazišta nafte najčešće se nalaze ispod naslaga...</Text>
-					<Image>IMG_Question1.jpg</Image>
-					<Difficulty>2</Difficulty>
-					<Options>
-						<Option>sedimentnih stijena</Option>
-					    <Option>metamorfnih stijena</Option>
-					    <Option>vulkanskih stijena</Option>
-					</Options>
-					<Correct>sedimentnih stijena</Correct>
-					<Explanation>
-					    Nalazišta nafte načešće se nalaze ispod sedimentnih stijena, jer je i sama nafta velikim dijelom nastala procesom sedimentacije.
-					</Explanation>
-				</Question>
-			</Questions>
-		</Chapter>
-		
-		<Chapter>
-			<ChapterNumber>5</ChapterNumber>
-			<Title>Povijest ugljikovodika u Hrvatskoj</Title>
-			<Thumbnail>Assets/oil_rig.png</Thumbnail>
-			<Slides>
-				<Slide>
-					<PageNumber>1</PageNumber>
-					<Title>Prva polja</Title>
-					<Thumbnail>Assets/peklenica.png</Thumbnail>
-					<Image>Assets/peklenica.png</Image>
-					<Text>
-					Prve naftne bušotine javljaju se na području Međimurja. 
-					Ovdje su na polju Peklenica još 1844. godine načinjene tri bušotine, 
-					a 1850. godine proizvodilo se 20 litara nafte na dan. 
-					Moslavina također ima dugu tradiciju istraživanja, eksploatacije i proizvodnje nafte (Mikleuška). 
-					Zbog duge tradicije eksploatacije nafte, Moslavina i Međimurje 
-					mogu se svrstati među najstarije naftne regije svijeta.
-					</Text>
-				</Slide>
-				<Slide>
-					<PageNumber>2</PageNumber>
-					<Title>Hrvatski dio Panonskog bazena</Title>
-					<Thumbnail>Assets/panonska_polja.png</Thumbnail>
-					<Image>Assets/panonska_polja.png</Image>
-					<Text>
-					Tijekom posljednjih 70 godina intenzivnog istraživanja i proizvodnje ugljikovodika 
-					u Hrvatskoj (u Panonskom bazenu i Jadranskom podmorju) 
-					otkriveno je i privedeno proizvodnji 40 naftnih i 25 plinskih polja
-					s utvrđenim (geološkim) rezervama od 740 mil. m3 ekvivalentne nafte. 
-					Vrhunac proizvodnje je dosegnut u vremenskom periodu između 1980. i 1989. godine.
-					</Text>
-				</Slide>
-				<Slide>
-					<PageNumber>3</PageNumber>
-					<Title>Sjeverni Jadran</Title>
-					<Thumbnail>Assets/jadran.png</Thumbnail>
-					<Image>Assets/jadran.png</Image>
-					<Text>	
-					Istraživanje u hrvatskom dijelu Sjevernog jadrana započelo je 1970. godine 
-					snimanjem 2D seizmike te istražnim bušenjem. 
-					Do 1995. godine načinjeno je više od 16 000 km 
-          2D seizmičkih profila te izrađeno 80 bušotina. 
-					Tijekom ranih 80-ih godina XX. stoljeća otkriveno je nekoliko plinskih polja 
-					iz kojih je kasnije ostvarena značajna proizvodnja ugljikovodika.
-					</Text>
-				</Slide>				
-				<Slide>
-					<PageNumber>4</PageNumber>
-					<Title>Pregled otkrivenih polja</Title>
-					<Thumbnail>Assets/otkrivena_polja.png</Thumbnail>
-					<Image>Assets/otkrivena_polja.png</Image>
-					<Text>
-					Broj otkrivenih polja ugljikovodika u razdoblju od 1940.-2005. godine.
-					Lijevo su otkrivena naftna, a desno plinska polja.
-					</Text>
-				</Slide>					
-			</Slides>
-			<Questions>
-				<Question>
-					<QuestionId>1</QuestionId>
-					<Text>Gdje se nalazilo prvo otkriveno naftno polje u Hrvatskoj?</Text>
-					<Image>Assets/peklenica.png</Image>
-					<Options>
-						<Option>Sjeverni Jadran</Option>
-						<Option>Peklenica</Option>
-						<Option>Ferdinandovac</Option>
-					</Options>
-					<Correct>Peklenica</Correct>
-				</Question>
-				<Question>
-					<QuestionId>2</QuestionId>
-					<Text>Kada su započela istraživanja ugljikovodika u hrvatskom dijelu Jadrana?</Text>
-					<Image>Assets/strukturne_depresije.png</Image>
-					<Options>
-						<Option>50-ih godina 20. stoljeća</Option>
-						<Option>60-ih godina 20. stoljeća</Option>
-						<Option>70-ih godina 20. stoljeća</Option>
-					</Options>
-					<Correct>70-ih godina 20. stoljeća</Correct>
-				</Question>
-				<Question>
-					<QuestionId>3</QuestionId>
-					<Text>U kojem periodu je proizvodnja ugljikovodika u Hrvatskoj bila na vrhuncu?</Text>
-					<Image>Assets/ugljikovodici_podjela.png</Image>
-					<Options>
-						<Option>70-ih godina 20.stoljeća</Option>
-						<Option>80-ih godina 20.stoljeća</Option>
-						<Option>90-ih godina 20.stoljeća</Option>
-					</Options>
-					<Correct>80-ih godina 20.stoljeća</Correct>
-				</Question>
-			</Questions>
-		</Chapter>
-		<Chapter>
-			<ChapterNumber>6</ChapterNumber>
-			<Title>Naftnogeološke okolnosti Hrvatske</Title>
-			<Thumbnail>Assets/oil_pump.png</Thumbnail>
-			<Slides>
-				<Slide>
-					<PageNumber>1</PageNumber>
-					<Title>Uvod</Title>
-					<Thumbnail>Assets/ugljikovodici_podjela.png</Thumbnail>
-					<Image>Assets/ugljikovodici_podjela.png</Image>
-					<Text>
-					Područje Republike Hrvatske se prema geološkom kriteriju dijeli na tri cjeline: 
-					na hrvatski dio Panonskoga bazena, Dinaride i na Jadransko podmorje. 
-					Dinaridi su izdignuti dio te u ovom radu neće biti posebno izdvojeni 
-					i prikazani jer ovdje trenutno nema eksploatacije ugljikovodika. 
-					Ostale cjeline obuhvaćaju nekoliko regionalnih strukturnih depresija 
-					u kojima su otkriveni i pridobivaju se ugljikovodici.
-					</Text>
-				</Slide>
-				<Slide>
-					<PageNumber>2</PageNumber>
-					<Title>Hrvatski dio Panonskog bazena</Title>
-					<Thumbnail>Assets/panonski_bazen.png</Thumbnail>
-					<Image>Assets/panonski_bazen.png</Image>
-					<Text>
-					Hrvatski dio Panonskoga bazena smješten je na jugozapadu tektonske jedinice 
-					najvećega reda nazvane Panonski bazenski sustav. 
-					Taj prostor smješten je između stare Europske ploče na sjeveru, 
-					Alpi na zapadu, Jadranske ploče na jugu te Mezijske ploče na istoku.
-					Panonski bazenski sustav pripada skupini pozadinskih bazena (engl. “back-arc basins”). 
-					</Text>
-				</Slide>
-				<Slide>
-					<PageNumber>3</PageNumber>
-					<Title>Strukturne depresije</Title>
-					<Thumbnail>Assets/strukturne_depresije.png</Thumbnail>
-					<Image>Assets/strukturne_depresije.png</Image>
-					<Text>
-					Hrvatski dio Panonskog bazena, zahvaljujući svojem rubnom položaju 
-					odlikuje se nešto manjim ukupnim debljinama neogenskih taložina. 
-					Ipak, maksimalne debljine u zapadnom dijelu Dravske depresije ponegdje prelaze 7 km. 
-					Cijeli taj prostor, smješten u Sjevernoj Hrvatskoj, obuhvaća četiri depresije 
-					i to od sjeverozapada prema jugoistoku Mursku, Dravsku, Savsku te Slavonsko-srijemsku.
-          Unutar tih depresija smješteno je nekoliko desetaka naftnih, naftno-plinskih te plinskih polja.
-					</Text>
-				</Slide>
-				<Slide>
-					<PageNumber>4</PageNumber>
-					<Title>Prikaz polja</Title>
-					<Thumbnail>Assets/slika_polja.png</Thumbnail>
-					<Image>Assets/slika_polja.png</Image>
-					<Text>
-          Slika geografskog položaja polja ugljikovodika u hrvatskom dijelu Panonskog bazena.
-					</Text>
-				</Slide>	
-				<Slide>
-					<PageNumber>5</PageNumber>
-					<Title>Popis polja</Title>
-					<Thumbnail>Assets/popis_polja.png</Thumbnail>
-					<Image>Assets/popis_polja.png</Image>
-					<Text>
-          Popis svih polja u Hrvatskoj i užoj okolici.
-					</Text>
-				</Slide>
-				<Slide>
-					<PageNumber>5</PageNumber>
-					<Title>Jadransko podmorje - 1.dio</Title>
-					<Thumbnail>Assets/sjeverni_jadran.png</Thumbnail>
-					<Image>Assets/sjeverni_jadran.png</Image>
-					<Text>
-					Dio Jadranskog mora koje pripada Republici Hrvatskoj je veći od 54 000 km2.
-					Promatrajući dubinu mora područje Jadrana je moguće podijeliti u tri dijela.
-					Prvi je dio između Istre i ušća rijeke Po. 
-					Ovdje je zbog najveće dubine do 40m moguće korištenje jednostavnih bušećih platformi. 
-					Drugi dio se nalazi između poteza Ravenna-Pula i poteza Ancona-Zadar. 
-					Dno je razvedenije i dubine je do 70 m. 
-					Treći dio koji ima najveće dubine (200-1000 m) se nalazi 
-					od poteza Monte Gargano-Pelješac i Mljet prema jugu. 
-					Ovdje je izraženija razvedenost dna.
-					</Text>
-				</Slide>	
-				<Slide>
-					<PageNumber>6</PageNumber>
-					<Title>Jadransko podmorje - 2.dio</Title>
-					<Thumbnail>Assets/sjeverni_jadran.png</Thumbnail>
-					<Image>Assets/sjeverni_jadran.png</Image>
-					<Text>
-					Jedina cijela depresija koja se nalazi u hrvatskom dijelu Jadrana 
-					(uvažavajući liniju razgraničenja prema Italiji) je Dugootočna depresija (nastala u miocenu). 
-					Eksploatacijsko polje Sjeverni Jadran se nalazi zapadno i jugozapadno od Istarskog poluotoka
-					u međunarodnim vodama sve do središnje crte razgraničenja s Republikom Italijom. 
-					Sastoji se od 8 polja, a to su od sjevera prema jugu: 
-					Ivana, Ana, Vesna, Irina, Ida, Ika, Andrea i Annamaria.
-					</Text>
-				</Slide>					
-			</Slides>
-			<Questions>
-				<Question>
-					<QuestionId>1</QuestionId>
-					<Text>Koje su tri cjeline Hrvatske prema geološkom kriteriju?</Text>
-					<Image>Assets/ugljikovodici_podjela.png</Image>
-					<Options>
-						<Option>Zagorje, Slavonija i Dalmacija</Option>
-						<Option>Podravina, Lika i Istra</Option>
-						<Option>Hrvatski dio Panonskog bazena, Dinaridi i Jadransko podmorje</Option>
-					</Options>
-					<Correct>Hrvatski dio Panonskog bazena, Dinaridi i Jadransko podmorje</Correct>
-				</Question>
-				<Question>
-					<QuestionId>2</QuestionId>
-					<Text>Četiri depresije hrvatskog dijela Panonskog bazena su:</Text>
-					<Image>Assets/strukturne_depresije.png</Image>
-					<Options>
-						<Option>Kupska, Neretvanska, Koranska i Sutlanska</Option>
-						<Option>Murska, Dravska, Savska te Slavonsko-srijemska</Option>
-						<Option>Baranjska, Zagorska, Lička i Dunavska</Option>
-					</Options>
-					<Correct>Murska, Dravska, Savska te Slavonsko-srijemska</Correct>
-				</Question>
-				<Question>
-					<QuestionId>3</QuestionId>
-					<Text>Koliki dio Jadranskog podmorja pripada Repulici Hrvatskoj?</Text>
-					<Image>Assets/ugljikovodici_podjela.png</Image>
-					<Options>
-						<Option>Manji od 20.000</Option>
-						<Option>Točno 40.000</Option>
-						<Option>Veći od 54.000</Option>
-					</Options>
-					<Correct>Veći od 54.000</Correct>
-				</Question>
-			</Questions>
-		</Chapter>
-		<Chapter>
-			<ChapterNumber>7</ChapterNumber>
-			<Title>Prerada ugljikovodika u Hrvatskoj</Title>
-			<Thumbnail>Assets/refinery_image.png</Thumbnail>
-			<Slides>
-				<Slide>
-					<PageNumber>1</PageNumber>
-					<Title>Rafinerija nafte Rijeka (Urinj)</Title>
-					<Thumbnail>Assets/rijeka.png</Thumbnail>
-					<Image>Assets/rijeka.png</Image>
-					<Text>
-					Osnovna djelatnost rafinerije u Rijeci je proizvodnja tekućih ugljikovodičnih goriva.
-					Kapacitet prerade iznosi 4,5 milijuna tona godišnje. 
-					Rafinerija u Rijeci može prerađivati visokosumporne nafte, 
-					ali kvaliteta proizvoda ne zadovoljava sve zahtjeve tržišta. 
-					Riječka rafinerija proizvodi ukapljeni naftni plin (UNP) propan-butan, 
-					primarni benzin, motorne benzine, gorivo za mlazne motore, dizelska goriva i loživa ulja. 
-					Rafinerija raspolaže skladišnim prostorom od 124 spremnika 
-					s više od milijun tona za sirovu naftu, tekuće i ukapljene naftne derivate. 
-					</Text>
-				</Slide>
-				<Slide>
-					<PageNumber>2</PageNumber>
-					<Title>Rafinerija nafte Sisak</Title>
-					<Thumbnail>Assets/sisak.png</Thumbnail>
-					<Image>Assets/sisak.png</Image>
-					<Text>
-					Rafinerija nafte Sisak nalazi se na geostrateški povoljnom položaju 
-					koji joj omogućuje dobre transportne tokove nafte i derivata. 
-					Nakon reprofiliranja sustava preradbe u rafineriji, 
-					kod kojega je uravnotežena primarna i sekundarna preradba, kapacitet preradbe iznosi 4 milijuna tona godišnje. 
-					Potrebno je napomenuti da proizvodi svojom kvalitetom ne zadovoljavaju u potpunosti zahtjeve tržišta.
-					</Text>
-				</Slide>	
-				<Slide>
-					<PageNumber>3</PageNumber>
-					<Title>Rafinerije maziva</Title>
-					<Thumbnail>Assets/maziva.png</Thumbnail>
-					<Image>Assets/maziva.png</Image>
-					<Text>
-					Proizvodnja maziva odvija se na postrojenjima Maziva Rijeka (Mlaka) i Maziva Zagreb.
-					Preradbom atmosferskog ostatka iz rafinerije na Urinju na pogonima Maziva Rijeka proizvode se 
-					bazna ulja, motorna i industrijska ulja, parafin, bitumen, loživa ulja i drugi proizvodi. 
-					Proizvodni procesi Maziva Zagreb obuhvaćaju proizvodnju aditiva i derivata te proizvodnju maziva.
-					</Text>
-				</Slide>
-				<Slide>
-					<PageNumber>4</PageNumber>
-					<Title>Gospodarski subjekti - prerada plina</Title>
-					<Thumbnail>Assets/plin_hrvatska.png</Thumbnail>
-					<Image>Assets/plin_hrvatska.png</Image>
-					<Text>
-					Distribucija plina odvija se preko 36 trgovačkih društava 
-					koja su u Republici Hrvatskoj registrirana za djelatnost distribucije plina, 
-					a ukupna duljina distribucijske plinske mreže iznosi preko 16 500 km. 
-					Transport prirodnog plina obavlja kompanija PLINACRO d.o.o. u državnom vlasništvu. 
-					Ukupna duljina transportnog sustava plinovoda obuhvaća 2 034 km. 
-					Transportni sustav plina projektirana je na tlak od 50 bar i djelomično na tlak od 75 bar. 
-					Transport prirodnog plina u vršnoj potrošnji iznosi oko 530 000 metara kubičnih na sat. 
-					U sklopu plinskog transportnog sustava nalazi se 142 mjerno-redukcijske stanice s 210 mjernih linija.
-					</Text>
-				</Slide>	
-				<Slide>
-					<PageNumber>5</PageNumber>
-					<Title>JANAF – transport nafte 1.dio</Title>
-					<Thumbnail>Assets/janaf.png</Thumbnail>
-					<Image>Assets/janaf.png</Image>
-					<Text>
-					Jadranski naftovod d.d. Zagreb (JANAF) je kompanija čija je djelatnost 
-					transport domaće i međunarodne nafte, 
-					koji uključuje pretovar i skladištenje nafte u luci i na terminalu Omišalj.
-					Jadranski naftovod izgrađen je 1979. godine kao 
-					međunarodni sustav transporta nafte od tankerske luke i terminala Omišalj 
-					do domaćih i inozemnih rafinerija u istočnoj i središnjoj Europi. 
-					Projektirani kapacitet cjevovoda je 34 milijuna tona nafte godišnje, a instalirani je 20 milijuna tona. 
-					Ukupni kapacitet skladišta na terminalima Omišalj, Sisak i Virje 
-					iznosi 900 000 m3 za naftu i 60 000 m3 za derivate.
-					</Text>
-				</Slide>
-				<Slide>
-					<PageNumber>6</PageNumber>
-					<Title>JANAF – transport nafte 2.dio</Title>
-					<Thumbnail>Assets/janaf.png</Thumbnail>
-					<Image>Assets/janaf.png</Image>
-					<Text>
-					Sustav JANAF d.d. sastoji se od prihvatno - otpremnog terminala u zaljevu Omišalj na Krku 
-          s tankerskom lukom Omišalj, cjevovoda duljine 759 km, a područjem Republike Hrvatske prolazi 622 km trase naftovoda, 
-          prihvatno - otpremnih terminala u Sisku, Virju i kod Slavonskog Broda,
-          te podmorskog naftovoda Omišalj - Urinj, koji povezuje tankersku luku s Rafinerijom Rijeka ukupne duljine 7,2 km. 
-					Janaf je trenutno kompanija koja opskrbljuje naftom rafinerije u RH (Rafinerija Rijeka i Rafinerija Sisak), 
-					Bosni i Hercegovini, Srbiji i Crnoj Gori, s mogućnostima opskrbe i ostalih zemalja u okruženju. 
-					Ukupan transport nafte u razdoblju od 1979. do 2004. godine iznosio je 137 milijuna tona.
-					</Text>
-				</Slide>				
-			</Slides>
-			<Questions>
-				<Question>
-					<QuestionId>1</QuestionId>
-					<Text>Koje su dvije rafinerije nafte u Hrvatskoj?</Text>
-					<Image>Assets/sisak.png</Image>
-					<Options>
-						<Option>Rijeka i Sisak</Option>
-						<Option>Zadar i Osijek</Option>
-						<Option>Zagreb i Pula</Option>
-					</Options>
-					<Correct>Rijeka i Sisak</Correct>
-				</Question>
-				<Question>
-					<QuestionId>2</QuestionId>
-					<Text>Koliko postoji rafinerije maziva u Hrvatskoj?</Text>
-					<Image>Assets/rijeka.png</Image>
-					<Options>
-						<Option>Jedna</Option>
-						<Option>Dvije</Option>
-						<Option>Tri</Option>
-					</Options>
-					<Correct>Dvije</Correct>
-				</Question>
-				<Question>
-					<QuestionId>3</QuestionId>
-					<Text>Koje je godine izgrađen Jadranski naftovod?</Text>
-					<Image>Assets/janaf.png</Image>
-					<Options>
-						<Option>1959.</Option>
-						<Option>1969.</Option>
-						<Option>1979.</Option>
-					</Options>
-					<Correct>1979.</Correct>
-				</Question>
-			</Questions>
-		</Chapter>
-		<Chapter>
-			<ChapterNumber>7</ChapterNumber>
-			<Title>Budućnost Hrvatske - ugljikovodici</Title>
-			<Thumbnail>Assets/offshore_platform.png</Thumbnail>
-			<Slides>
-				<Slide>
-					<PageNumber>1</PageNumber>
-					<Title>Domaća proizvodnja energenata</Title>
-					<Thumbnail>Assets/proizvodnja_potrosnja.png</Thumbnail>
-					<Image>Assets/proizvodnja_potrosnja.png</Image>
-					<Text>
-					Domaća proizvodnja energenata u Hrvatskoj zadovoljava manje od 50% potreba za energijom.
-					Oko 44% posto domaće proizvodnje energenata (primarne) u Hrvatskoj čini proizvodnja plina. 
-					Oko 25% je hidroenergija, a ostalo je proizvodnja sirove nafte 16%, ogrjevnog drveta i drugog. 
-					U potrošnji energenata dominantna su tekuća goriva 44%, zatim plin 26%, te hidroenergija 14%.
-					</Text>
-				</Slide>
-				<Slide>
-					<PageNumber>2</PageNumber>
-					<Title>Plin sadašnjost i budućnost</Title>
-					<Thumbnail>Assets/bilanca_plin.png</Thumbnail>
-					<Image>Assets/bilanca_plin.png</Image>
-					<Text>
-					Hrvatska trenutnom domaćom proizvodnjom plina zadovoljava 73-95% potrošnje. 
-					Trenutno pridobive rezerve plina su otprilike 36,44 milijarde kubnih metara.
-					</Text>
-				</Slide>	
-				<Slide>
-					<PageNumber>3</PageNumber>
-					<Title>Nafta sadašnjost i budućnost</Title>
-					<Thumbnail>Assets/bilanca_nafta.png</Thumbnail>
-					<Image>Assets/bilanca_nafta.png</Image>
-					<Text>
-					Hrvatska ne proizvodi dovoljno nafte za svoje potrebe, nego oko 5/6 potrebne nafte uvozi. 
-					Domaća proizvodnja nafte je od preko 3 milijuna tona početkom 1990., pala na oko 800 tisuća tona/god. 
-					Pridobive rezerve nafte u Hrvatskoj su oko 11,47 milijuna kubnih metara. 
-					</Text>
-				</Slide>
-				<Slide>
-					<PageNumber>4</PageNumber>
-					<Title>Pogled u budućnost</Title>
-					<Thumbnail>Assets/procjena.png</Thumbnail>
-					<Image>Assets/procjena.png</Image>
-					<Text>
-					Do 2030. godine može se računati s neizvjesnostima na globalnim energetskim tržištima, 
-					povremenim nestabilnostima pa i krizama, 
-					što će svakako imati za posljedicu veću osjetljivost energetskih tržišta malih zemalja poput Hrvatske,
-					osobito u odnosu na uvoz nafte i cijene nafte. 
-					To je bitna činjenica o kojoj se mora voditi računa i koja predstavlja 
-					kritični element opskrbe ugljikovodicima Republike Hrvatske. 
-					Stoga stvaranje osjećaja energetske sigurnosti i širenje te spoznaje u okruženju već samo po sebi pridonosi jačanju gospodarske stabilnosti 
-					te time pridonosi i sveukupnoj razini nacionalne sigurnosti u Republici Hrvatskoj.
-					</Text>
-				</Slide>	
-				<Slide>
-					<PageNumber>5</PageNumber>
-					<Title>Plan istraživanja u Jadranu</Title>
-					<Thumbnail>Assets/istrazivanje_jadran.png</Thumbnail>
-					<Image>Assets/istrazivanje_jadran.png</Image>
-					<Text>
-					Plan istraživanja i eksploatacije ugljikovodika na Jadranu obuhvaća 
-					dio hrvatskog epikontinentalnog pojasa i teritorijalnog mora, površine 36 823 km2, 
-					na kojem se nalazi 29 istražnih prostora: u sjevernom Jadranu je 8 istražnih prostora, 
-					u srednjem Jadranu 16 istražnih prostora, a u južnom Jadranu 5 istražnih prostora. 
-					Površine pojedinih istražnih prostora iznose od 1000 km2 do 1 600 km2. 
-					Istočna granica istražnih područja odmaknuta je 10 km od obale i 6 km od vanjske linije otoka, 
-					dok su preostale granice područja obuhvata određene sklopljenim međunarodnim sporazumima sa susjednim državama.
-					</Text>
-				</Slide>
-				<Slide>
-					<PageNumber>6</PageNumber>
-					<Title>Negativnosti istraživanja u Jadranu</Title>
-					<Thumbnail>Assets/jadran_ekologija.png</Thumbnail>
-					<Image>Assets/jadran_ekologija.png</Image>
-					<Text>
-					Vidljivost platformi s i kopna doživljava se kao narušavanje vizura i može značajno umanjiti privlačnost područja za turizam „sunce i more“. 
-					Ova grana turizma, jedna je od ključnih gospodarskih grana, i usko je povezana s krajobraznim značajkama. 
-					Postavljanjem, prvenstveno eksploatacijskih, platformi može doći do narušavanja krajobraznih značajki prostora 
-					koji je visoko privlačan za nautički turizam. Otoci srednjeg i južnog Jadrana posebno su privlačna područja za nautički turizam, 
-					koji čini važnu i prosperitetnu gospodarsku granu.
-					Utjecaji na ribarstvo mogući su različitim fazama provedbe istraživanja. 
-					Na temelju analize stručnih podloga o kretanju ribarskih brodova definirana su područja posebno značajna za ribarstvo.
-					</Text>
-				</Slide>				
-			</Slides>
-			<Questions>
-				<Question>
-					<QuestionId>1</QuestionId>
-					<Text>Domaća proizvodnja energenata zadovoljava...</Text>
-					<Image>Assets/proizvodnja_potrosnja.png</Image>
-					<Options>
-						<Option>manje od 25% potreba</Option>
-						<Option>manje od 50% potreba</Option>
-						<Option>više od 75% potreba</Option>
-					</Options>
-					<Correct>manje od 50% potreba</Correct>
-				</Question>
-				<Question>
-					<QuestionId>2</QuestionId>
-					<Text>Na koje bi gospodarske grane istraživanje ugljikovodika u Jadranu moglo imati negativne posljedice?</Text>
-					<Image>Assets/janaf.png</Image>
-					<Options>
-						<Option>Turizam i ribarstvo</Option>
-						<Option>Graditeljstvo</Option>
-						<Option>Trgovinu</Option>
-					</Options>
-					<Correct>Turizam i ribarstvo</Correct>
-				</Question>
-			</Questions>
-		</Chapter>		
-	</Chapters>
+        <Slide>
+          <PageNumber>3</PageNumber>
+          <Title>4.4 milijarde god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide3.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide3.jpg</Image>
+          <Text>
+            Polako se hladeći nastaje tanak, ali dovoljno čvrst plašt za podlogu oceanima nastalima oslobađanjem vodene pare
+            iz hidratnih stijena i ledom bogatih kometa. Temperature iznose i preko 230 Celzijevih stupnjeva, ali su oceani
+            ipak u tekućem stanju zbog visokog tlaka ugljikovim dioksidom bogate atmosfere. Znatan dio ugljikovih spojeva
+            postaje prisutan u atmosferi zahvaljujući OH skupinom bogatim meteroitima (tzv. ugljeviti hondriti).
+          </Text>
+        </Slide>
+
+        <Slide>
+          <PageNumber>4</PageNumber>
+          <Title>4.1 milijardi god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide4.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide4.jpg</Image>
+          <Text>
+            Novonastali oceani i atmosfera krajnje su nestabilni i izloženi čestim udarima nailazećih planetoida u razdoblju koje
+            se naziva "Kasno Teško Bombardiranje". Dovoljan je samo jedan udar većeg stranog tijela da prouzroči isparavanje čitavih
+            oceana i oslobodi ogromne količine ugljikovog dioksida i vodene pare iz zemljinih stijena čija će kondenzacija potrajati
+            tisućama godina.
+          </Text>
+        </Slide>
+
+        <Slide>
+          <PageNumber>5</PageNumber>
+          <Title>4 milijarde god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide5.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide5.jpg</Image>
+          <Text>
+            Počinju padati prve kiše, a raznim plinovima bogata atmosfera kiseli oceane. Većina stijena, ponajviše karbonatne se otapaju
+            zbog čega prevladavaju sedimentne stijene od silicija (primjerice rožnjak). Oceani su pritom bogate mineralima poput magnezija
+            i kalcija, a oslobađanjem natrija i klora iz raznih reakcija nastaje sol, jedan od ključnih i dominantnih spojeva na Zemlji i
+            dan danas.
+          </Text>
+        </Slide>
+
+        <Slide>
+          <PageNumber>6</PageNumber>
+          <Title>4 milijarde god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide6.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide6.jpg</Image>
+          <Text>
+            Konačno, oceani i atmosfera su stabilni i kiselost oceana se smanjila. Visoke temperature, količine radijacije i iskrenja
+            u atmosferi čine Zemljine oceane ogromnim kemijskim laboratorijima za nasumičnu sintezu organskih spojeva. Nova revolucionarna
+            faza u povijesti Zemlje konačno može početi...
+          </Text>
+        </Slide>
+      </Slides>
+
+      <Questions>
+        <Question>
+          <QuestionId>1</QuestionId>
+          <Text>Prvi kompleksni organski spojevi mogli su nastati najranije u...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>2</Difficulty>
+          <Options>
+            <Option>protoplanetarnom disku</Option>
+            <Option>oceanima poslije neutralizacije</Option>
+            <Option>ranoj atmosferi.</Option>
+          </Options>
+          <Correct>protoplanetarnom disku</Correct>
+          <Explanation>
+            Prema najnovijim računalnim simulacijama organske molekule mogle su nastati
+            već u protoplanetarnom disku i prije same formacije Zemlje.
+          </Explanation>
+        </Question>
+
+        <Question>
+          <QuestionId>2</QuestionId>
+          <Text>Razdoblje Hadija bitno je za nastanak nafte jer je u njemu nastao...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>1</Difficulty>
+          <Options>
+            <Option>život</Option>
+            <Option>svemir</Option>
+            <Option>organski materijal.</Option>
+          </Options>
+          <Correct>organski materijal.</Correct>
+          <Explanation>
+            Iako nije točno utvrđen precizan geološki model okoline u kojoj su nastali prvi organski spojevi,
+            sigurno je da se slučajna sinteza zbila najvjerojatnije pri samom kraju Hadija.
+          </Explanation>
+        </Question>
+
+        <Question>
+          <QuestionId>3</QuestionId>
+          <Text>U ranoj atmosferi nije bilo prisustva...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>1</Difficulty>
+          <Options>
+            <Option>natrijevog monoksida</Option>
+            <Option>ugljikovog monnoksida</Option>
+            <Option>klora.</Option>
+          </Options>
+          <Correct>klora.</Correct>
+          <Explanation>
+            Rana atmosfera bila je bogata plinovitim oksidima i vodenom parom. Klor se oslobodio
+            naknadno putem raznih reakcija kojima se postupno smanjila kiselost oceana.
+          </Explanation>
+        </Question>
+
+        <Question>
+          <QuestionId>4</QuestionId>
+          <Text>Najranija era u Hadiju naziva se...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>4</Difficulty>
+          <Options>
+            <Option>Donji Imbrij</Option>
+            <Option>Kriptik</Option>
+            <Option>Nektarij.</Option>
+          </Options>
+          <Correct>Kriptik</Correct>
+          <Explanation>
+            Najranija era u Hadiju, a samim time i u čitavoj povijesti Zemlje naziva se Kriptik
+            zbog potpunog odsustva bilo kakvih geoloških ostataka iz tog razdoblja. Naime sve
+            hadijske stijene s vremenom su bile transformirane i ukomponirane u novije stijene.
+          </Explanation>
+        </Question>
+
+        <Question>
+          <QuestionId>5</QuestionId>
+          <Text>OH skupinom bogati meteoriti jesu...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>3</Difficulty>
+          <Options>
+            <Option>bolidi</Option>
+            <Option>hondriti</Option>
+            <Option>hidroidi.</Option>
+          </Options>
+          <Correct>hondriti</Correct>
+          <Explanation>
+            OH skupinom bogati meteoriti nazivaju se ugljevitim hondritima ili kraće hondritima. Bolidi jesu eksplozivni
+            ledeni meteori, a hidroidi ne postoje.
+          </Explanation>
+        </Question>
+
+        <Question>
+          <QuestionId>6</QuestionId>
+          <Text>Jednostavne (polu)organske spojeve kao što je etilni alkohol moguće je naći u sastavu...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>3</Difficulty>
+          <Options>
+            <Option>crnih rupa</Option>
+            <Option>bijelih patuljaka</Option>
+            <Option>nebula.</Option>
+          </Options>
+          <Correct>nebula.</Correct>
+          <Explanation>
+            Najnovija otkrića ukazala su na postojanje nebula (maglica) bogatih etanolom. Isto može vrlo lako
+            vrijediti i za okoline ostalih tijela, primjerice crnih rupa i patuljastih zvijezda, ali naravno
+            u znatno manjim količinama.
+          </Explanation>
+        </Question>
+      </Questions>
+    </Chapter>
+
+    <Chapter>
+      <ChapterNumber>2</ChapterNumber>
+      <Title>Nastanak života</Title>
+      <Thumbnail>Assets/TMB_Chapter2.jpg</Thumbnail>
+
+      <Slides>
+        <Slide>
+          <PageNumber>1</PageNumber>
+          <Title>3.9 milijardi god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide7.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide7.jpg</Image>
+          <Text>
+            Razdoblje je ranog Arhaika. Nastali organski polimeri nakupljaju se u sferne kapljične agregate, tzv. koacervate
+            koje na okupu drže hidrofobne sile jednostavnih lipidnih omotača. Iako se ne smatraju živim organizmima koacervati
+            su u stanju dijeliti se, međusobno se stapati, selektivno apsorbirati druge organske molekule, pa čak formirati
+            manje građevne jedinice nalik današnjim staničnim komponentama.
+          </Text>
+        </Slide>
+
+        <Slide>
+          <PageNumber>2</PageNumber>
+          <Title>3.8 milijardi god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide8.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide8.jpg</Image>
+          <Text>
+            U koacervatima se događa intenzivna lutrija kemijskih reakcija pri čemu je najvažniji element ugljik. Osim što je lagan za
+            ekstrakciju iz atmosfere, pogodan je i za formaciju istovremeno i složenih i stabilnih molekularnih lanaca. Jedini od ostalih
+            elemenata sa približno istim svojstvima jest silicij. Kao otapalo organskih tvari i sredstvo evolucijskog razvoja
+            života ključan spoj jest voda zbog izrazite polarnosti molekula i zastupljenosti na Zemljinoj površini.
+          </Text>
+        </Slide>
+
+        <Slide>
+          <PageNumber>3</PageNumber>
+          <Title>3.5 milijardi god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide9.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide9.jpg</Image>
+          <Text>
+            Nastaju prvi proizvođači kisika, preci današnjih cijanobakterija. Količine kisika u atmosferi još uvijek su
+            ekstremno niske, te i dalje prevladavaju jednostavni anaerobni prokarioti iz domene Archaea.
+          </Text>
+        </Slide>
+      </Slides>
+
+
+      <Questions>
+        <Question>
+          <QuestionId>1</QuestionId>
+          <Text>Razdoblje Arhaika bitno je za nastanak fosilnih goriva jer su u njemu nastali prvi...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>1</Difficulty>
+          <Options>
+            <Option>živi organizmi</Option>
+            <Option>organski spojevi</Option>
+            <Option>topilaci organskih tvari.</Option>
+          </Options>
+          <Correct>živi organizmi</Correct>
+          <Explanation>
+            Granicu žive i nežive nakupine organskih tvari nije lako definirati, ali je poznato
+            da prve protostanice sposobne za razmnožavanje, metabolizam i interakciju s okolinom
+            potječu iz Arhaika.
+          </Explanation>
+        </Question>
+
+        <Question>
+          <QuestionId>2</QuestionId>
+          <Text>Jedini poznati element dovoljno sličan ugljiku da se na njemu može bazirati život jest...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>2</Difficulty>
+          <Options>
+            <Option>fluor</Option>
+            <Option>argon</Option>
+            <Option>silicij.</Option>
+          </Options>
+          <Correct>silicij.</Correct>
+          <Explanation>
+            Slicij jest jedini poznati element dovoljno sličnih kemijskih svojstava ugljiku da se na njemu
+            može bazirati život. Flour je vrlo reaktivan (najreaktivniji u svojoj skupini), a argon je plemeniti
+            plin i ne može tvoriti ikakve spojeve.
+          </Explanation>
+        </Question>
+
+        <Question>
+          <QuestionId>3</QuestionId>
+          <Text>Fosilna goriva mogu nastati raspadom mikroorganizama poput onih iz Arhaika.</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>3</Difficulty>
+          <Options>
+            <Option>točno</Option>
+            <Option>netočno</Option>
+            <Option>nije poznato.</Option>
+          </Options>
+          <Correct>netočno</Correct>
+          <Explanation>
+            Fosilna goriva nikako ne mogu nastati od samih mikroorganizama. Potrebne su velike količine
+            organskih tvari i istančani uvjeti koji bi ih održali pod visokim tlakom i temperaturom
+            na dovoljno dugo vrijeme.
+          </Explanation>
+        </Question>
+
+      </Questions>
+
+    </Chapter>
+
+    <Chapter>
+      <ChapterNumber>3</ChapterNumber>
+      <Title>Uspon i pad života</Title>
+      <Thumbnail>Assets/TMB_Chapter3.jpg</Thumbnail>
+
+      <Slides>
+        <Slide>
+          <PageNumber>1</PageNumber>
+          <Title>2.3 milijardi god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide10.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide10.jpg</Image>
+          <Text>
+            Razdoblje je Proterozoika (Paleoproteozoik). Naslage trakastog željeza formiraju su se u razdoblju masovne proizvodnje kisika
+            od strane anaerobnih algi. Ovo radoblje se naziva razdobljem "Velike Oksigenacije", a prethodi tzv. "Katastrofi Kisika"
+            za vrijeme koje je izumrla većina dotadašnjih anaerobnih mikroorganizama budući da je kisik za njih dosegao razinu toksičnosti.
+            Reagirajući s željezom kisik formira magnetit (željezov (II, III) oksid) čime čisti oceane od željeza
+            koji je sve do tada najvjerojatnije bojio mora zelenkastom bojom.
+          </Text>
+        </Slide>
+
+        <Slide>
+          <PageNumber>2</PageNumber>
+          <Title>542-488 milijuna god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide11.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide11.jpg</Image>
+          <Text>
+            U najranijem razdoblju Paleozoika (Kambrij) za vrijeme "Kambrijske Eksplozije" nastaje više od pola modernih vrsta životinja.
+            Za vrijeme ordovicija čitav život se još uvijek nalazi u oceanima, a prevladavaju trilobiti, školjkaši i puževi. Razvijaju
+            se prve primitivne kopnene biljke (psilofiti).
+          </Text>
+        </Slide>
+
+        <Slide>
+          <PageNumber>4</PageNumber>
+          <Title>443-375 milijuna god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide12.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide12.jpg</Image>
+          <Text>
+            Slijedi razdoblje Silura, za vrijeme kojeg se razvijaju ribe i prve vaskularne biljke. Život polako
+            počinje prelaziti na kopno.
+            Za vrijeme Devona koji se još naziva "Doba Riba" dominiraju ribe oklopnjače, a život se dodatno razvija i
+            širi po površini. Nastaju prve šume zahvaljujući stablastim biljkama sa sporama, a preci svih današnjih
+            kralježnjaka počinju hodati Zemljom. Kraj Devona obilježava "Kasno Devonsko Izumiranje" u kojem izumiru svi
+            trilobiti i oklopnjače koji se zajedno sa još mnogim drugim vrstama počinju nakupljati na dnima oceana.
+          </Text>
+        </Slide>
+
+        <Slide>
+          <PageNumber>5</PageNumber>
+          <Title>340-300 milijuna god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide13.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide13.jpg</Image>
+          <Text>
+            Razdoblje Karbona nesumnjivo je najznačajnije razdoblje u povijesti Zemlje gledano iz perspektive
+            industrije ugljena. Naime, samo ime "Carboniferous" dolazi od lat. riječi "carbō" (ugljen) i "ferō" (nositi).
+            Nastaju velike močvare koje konstantno bivaju poplavljivane nanosima gline i pijeska.
+            Ipak, ono što u ovom razdoblju najviše omogućava nastanak ugljena jest manji događaj izumiranja, tzv.
+            "Kolaps Karbonskih Prašuma". Nagla promjena vruće i vlažne klime na hladnu i suhu uzrokuje odvajanje
+            prašuma u manje otoke, te u konačnici i njihovo potpuno propadanje.
+          </Text>
+        </Slide>
+
+        <Slide>
+          <PageNumber>6</PageNumber>
+          <Title>299-251 milijuna god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide14.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide14.jpg</Image>
+          <Text>
+            Nastupa razdoblje ranog Perma obilježeno naglim razvojem golosjemenjača, vodozemaca i gmazova. Morski i kopneni
+            život buja, ali zato biva gotovo u potpunosti uništen na prijelazu iz kasnog Perma u Trijas. U Permsko-trijaskom izumiranju,
+            najvećem izumiranju u povijesti Zemlje u kojem biva istrijebljeno 95% svih postojećih vrsta najgore bivaju pogođene
+            upravo one morske. Ogromne količine mrtvih morskih organizama nakupljaju se na dnima oceana, te ubrzo bivaju zatrpane
+            slojevima pijeska i kamenja. Počinje novi eon - Mezozoik, "doba dinosaura".
+          </Text>
+        </Slide>
+      </Slides>
+
+      <Questions>
+        <Question>
+          <QuestionId>1</QuestionId>
+          <Text>Većina ugljena datira iz razdoblja...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>1</Difficulty>
+          <Options>
+            <Option>Ordovicija</Option>
+            <Option>Karbona</Option>
+            <Option>Perma.</Option>
+          </Options>
+          <Correct>Karbona</Correct>
+          <Explanation>
+            Naslage ugljena, kao što i samo ime nalaže, datiraju skoro pa isključivo iz razdoblja Karbona zahvaljujući kolapsu karbonskih prašuma.
+          </Explanation>
+        </Question>
+
+        <Question>
+          <QuestionId>2</QuestionId>
+          <Text>Većina nafte datira iz razdoblja...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>2</Difficulty>
+          <Options>
+            <Option>Devona</Option>
+            <Option>Karbona</Option>
+            <Option>Perma.</Option>
+          </Options>
+          <Correct>Perma.</Correct>
+          <Explanation>
+            Daleko najveća količina nafte datira iz razdoblja Perma iako su već tada mogle postojati znatne količine naslaga
+            organskih tvari još iz razdoblja Devona (Kasno Devonsko Izumiranje).
+          </Explanation>
+        </Question>
+
+        <Question>
+          <QuestionId>3</QuestionId>
+          <Text>Izumrla životinja čiji nekoć organski materijal danas ne možemo pronaći u rezervoarima automobila jest...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>4</Difficulty>
+          <Options>
+            <Option>riba oklopnjača</Option>
+            <Option>amonit</Option>
+            <Option>pterodaktil</Option>
+          </Options>
+          <Correct>pterodaktil</Correct>
+          <Explanation>
+            Pterodaktil, osim što nije bio morska životinja, se pojavio puno kasnije od organizama iz čijeg su
+            organskog materijala nastala fosilna goriva.
+          </Explanation>
+        </Question>
+
+        <Question>
+          <QuestionId>4</QuestionId>
+          <Text>Za vrijeme "Velikog Izumiranja" izumrlo je...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>3</Difficulty>
+          <Options>
+            <Option>50%</Option>
+            <Option>75%</Option>
+            <Option>95% svih vrsta na planeti</Option>
+          </Options>
+          <Correct>95% svih vrsta na planeti</Correct>
+          <Explanation>
+            Za vrijeme "Velikog Izumiranja" izumrlo je 95% svih vrsta na planeti i riječ je o najvećem masovnom
+            izumiranju vrsta u povijesti Zemlje.
+          </Explanation>
+        </Question>
+
+        <Question>
+          <QuestionId>5</QuestionId>
+          <Text>"Veliko izumiranje"" zbilo se na međi...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>3</Difficulty>
+          <Options>
+            <Option>Perma i Trijasa</Option>
+            <Option>Jure i Krede</Option>
+            <Option>Devona i Karbona</Option>
+          </Options>
+          <Correct>Perma i Trijasa</Correct>
+          <Explanation>
+            "Veliko Izumiranje" zbilo se na prijelazu iz Perma u Trijas i označava početak Mezozoika.
+          </Explanation>
+        </Question>
+
+        <Question>
+          <QuestionId>6</QuestionId>
+          <Text>Iznimno otporan materijal koji je očuvao biljne ostatke dovoljno dugo za nastanak ugljena jest...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>4</Difficulty>
+          <Options>
+            <Option>lignin</Option>
+            <Option>kerogen</Option>
+            <Option>celuloza</Option>
+          </Options>
+          <Correct>lignin</Correct>
+          <Explanation>
+            Stablaste karbonske biljke bile su građene od lignita, polisaharida iznimno otpornog na degradirajuće procese i
+            neprobavljivog za biljojedne kukce toga razdoblja.
+          </Explanation>
+        </Question>
+      </Questions>
+    </Chapter>
+
+    <Chapter>
+      <ChapterNumber>4</ChapterNumber>
+      <Title>	Nastanak fosilnih goriva</Title>
+      <Thumbnail>Assets/TMB_Chapter4.jpg</Thumbnail>
+
+      <Slides>
+        <Slide>
+          <PageNumber>1</PageNumber>
+          <Title>200 milijuna god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide15.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide15.jpg</Image>
+          <Text>
+            Nakupivši se na dnu oceana mrtvi organizmi bivaju zatrpani muljem i sitnim kamenjem. S vremenom se
+            nakupljeni mulj solidificira u krupnije kamene naslage što uzrokuje znatno viši tlak na raspadnuti
+            organski materijal. Toneći u dublje slojeve Zemlje temperatura se konstantno povećava i spaja organske
+            molekule u sve veće lance.
+          </Text>
+        </Slide>
+
+        <Slide>
+          <PageNumber>2</PageNumber>
+          <Title>200 milijuna god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide16.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide16.jpg</Image>
+          <Text>
+            Vapor iz stijena i organskih materijala uzdiže se i prolazi kroz pore sedimentnih stijena, te se
+            akumulira u šupljinama koje će s vremenom postati rezervoari plina. Kompleksniji i teži
+            hidrokarbonati ostaju upijeni u nakupinama stijena tvoreći strukture slične namočenim spužvama.
+            Agregati se diferenciraju u tri sloja - voda na dnu, nafta u sredini i plin na vrhu.
+          </Text>
+        </Slide>
+
+        <Slide>
+          <PageNumber>3</PageNumber>
+          <Title>200 milijuna god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide17.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide17.jpg</Image>
+          <Text>
+            Nastala nafta može varirati po gustoći, boji i kemijskom sastavu. Uobičajena je crna ili tamno smeđa boja
+            mada nisu rijetki i slučajevi žućkastih, pa čak i zelenkastih nijansi nafte. Ovisno o količinama sumpora
+            nafta se dijeli na "kiselu" sa visokim udjelom sumpora i "slatku" sa niskim udjelom sumpora. Ovisno o
+            gustoći nafta se dijeli na tešku i laganu. Što je nafta gušća teža je, a samim time i skuplja za refinirati.
+          </Text>
+        </Slide>
+
+        <Slide>
+          <PageNumber>4</PageNumber>
+          <Title>200 milijuna god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide18.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide18.jpg</Image>
+          <Text>
+            Kape podzemnih šupljina nisu u potpunosti nepropusne, te podliježu kao i svi ostali reljefni oblici izrazitim i dugotrajnim
+            tektonskim procesima zbog čega su se događala brojna prirodna istjecanja. Jedni od prvih korisnika nafte bili su američki domoroci koji
+            su naftu koristili za izradu vodonepropusnih kanua i ljekovitih preparata.
+          </Text>
+        </Slide>
+
+        <Slide>
+          <PageNumber>5</PageNumber>
+          <Title>200 milijuna god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide19.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide19.jpg</Image>
+          <Text>
+            Naftu je moguće naći u raznim vrstama i dubinama ležišta. Dubine variraju od nekoliko desetaka metara do preko 5
+            kilometara. Veća dubina poželjno je svojstvo nalazišta, jer sprječava dotok kisika koji po gledištu kvalitete
+            može znatno degradirati naftu. S druge strane povećani tlak dubokih nalazišta može uzrokovati probleme pri bušenju
+            kao što su erupcije nafte i plina.
+          </Text>
+        </Slide>
+
+        <Slide>
+          <PageNumber>6</PageNumber>
+          <Title>200 milijuna god. p.n.e.</Title>
+          <Thumbnail>Assets/TMB_Slide20.jpg</Thumbnail>
+          <Image>Assets/IMG_Slide20.jpg</Image>
+          <Text>
+            Organska tvar u nafti sadržana je u dvije vrste smjese - kerogen i bitumen. Bitumen predstavlja dio organske tvari
+            kojeg je moguće ekstrahirati iz stijena organskim otapalima. Kerogen nije topiv u organskim otapalima, te se zbog
+            toga nalazi u samoj nafti i definira njezina svojstva. Postoji sveukupno 4 vrste kerogena.
+          </Text>
+        </Slide>
+      </Slides>
+
+      <Questions>
+        <Question>
+          <QuestionId>1</QuestionId>
+          <Text>Naftu većinom čini smjesa koja se naziva...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>3</Difficulty>
+          <Options>
+            <Option>kerogen</Option>
+            <Option>bitumen</Option>
+            <Option>lignin</Option>
+          </Options>
+          <Correct>kerogen</Correct>
+          <Explanation>
+            Naftu većinom čini kerogen, smjesa sa većinskim udjelom ugljika i vodika. U malim koncentracijama
+            pojavljuju se kisik dušik i sumpor.
+          </Explanation>
+        </Question>
+        <Question>
+          <QuestionId>2</QuestionId>
+          <Text>Element kojeg nema u sirovoj nafti jest...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>2</Difficulty>
+          <Options>
+            <Option>ugljik</Option>
+            <Option>dušik</Option>
+            <Option>olovo</Option>
+          </Options>
+          <Correct>olovo</Correct>
+          <Explanation>
+            Sirova nafta sadrži većinski ugljik, manjinski sumpor, ali olova u njoj nema.
+          </Explanation>
+        </Question>
+        <Question>
+
+          <QuestionId>3</QuestionId>
+          <Text>Vodu u nalazištima nate možemo naći pri...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>2</Difficulty>
+          <Options>
+            <Option>vrhu</Option>
+            <Option>sredini</Option>
+            <Option>dnu</Option>
+          </Options>
+          <Correct>dnu</Correct>
+          <Explanation>
+            U nalazištima nafte voda se nalazi na dnu, nafta pri sredini, a plin na vrhu.
+          </Explanation>
+        </Question>
+        <Question>
+
+          <QuestionId>4</QuestionId>
+          <Text>Kisela nafta bogata je...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>2</Difficulty>
+          <Options>
+            <Option>sumporom</Option>
+            <Option>dušikom</Option>
+            <Option>kisikom</Option>
+          </Options>
+          <Correct>sumporom</Correct>
+          <Explanation>
+            Kisela nafta bogata je sumporom. Suprotnost predstavlja slatka nafta siromašna ili pak bez sumpora.
+          </Explanation>
+        </Question>
+        <Question>
+
+          <QuestionId>5</QuestionId>
+          <Text>Na velikim dubinama nalazi se...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>2</Difficulty>
+          <Options>
+            <Option>viskoznija nafta</Option>
+            <Option>kiselija nafta</Option>
+            <Option>degradiranijaa nafta</Option>
+          </Options>
+          <Correct>viskoznija nafta</Correct>
+          <Explanation>
+            Nalazištima velike dubine pripada viskoznija nafta zbog bolje izolacije, veće temperature i tlaka kojima je izložena.
+          </Explanation>
+        </Question>
+        <Question>
+
+          <QuestionId>6</QuestionId>
+          <Text>Prvi prerađivači nafte bili su...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>2</Difficulty>
+          <Options>
+            <Option>stari egipćani</Option>
+            <Option>američki domoroci</Option>
+            <Option>Arapi</Option>
+          </Options>
+          <Correct>američki domoroci</Correct>
+          <Explanation>
+            Prvi obrađivači nafte bili su američki domoroci (Indijanci) koji su je koristili za izradu kanua i ljekovitih preparata.
+          </Explanation>
+        </Question>
+        <Question>
+          <QuestionId>7</QuestionId>
+          <Text>Nalazišta nafte najčešće se nalaze ispod naslaga...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>2</Difficulty>
+          <Options>
+            <Option>sedimentnih stijena</Option>
+            <Option>metamorfnih stijena</Option>
+            <Option>vulkanskih stijena</Option>
+          </Options>
+          <Correct>sedimentnih stijena</Correct>
+          <Explanation>
+            Nalazišta nafte načešće se nalaze ispod sedimentnih stijena, jer je i sama nafta velikim dijelom nastala procesom sedimentacije.
+          </Explanation>
+        </Question>
+      </Questions>
+    </Chapter>
+
+    <Chapter>
+      <ChapterNumber>5</ChapterNumber>
+      <Title>Povijest ugljikovodika u Hrvatskoj</Title>
+      <Thumbnail>Assets/oil_rig.png</Thumbnail>
+      <Slides>
+        <Slide>
+          <PageNumber>1</PageNumber>
+          <Title>Prva polja</Title>
+          <Thumbnail>Assets/peklenica.png</Thumbnail>
+          <Image>Assets/peklenica.png</Image>
+          <Text>
+            Prve naftne bušotine javljaju se na području Međimurja.
+            Ovdje su na polju Peklenica još 1844. godine načinjene tri bušotine,
+            a 1850. godine proizvodilo se 20 litara nafte na dan.
+            Moslavina također ima dugu tradiciju istraživanja, eksploatacije i proizvodnje nafte (Mikleuška).
+            Zbog duge tradicije eksploatacije nafte, Moslavina i Međimurje
+            mogu se svrstati među najstarije naftne regije svijeta.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>2</PageNumber>
+          <Title>Hrvatski dio Panonskog bazena</Title>
+          <Thumbnail>Assets/panonska_polja.png</Thumbnail>
+          <Image>Assets/panonska_polja.png</Image>
+          <Text>
+            Tijekom posljednjih 70 godina intenzivnog istraživanja i proizvodnje ugljikovodika
+            u Hrvatskoj (u Panonskom bazenu i Jadranskom podmorju)
+            otkriveno je i privedeno proizvodnji 40 naftnih i 25 plinskih polja
+            s utvrđenim (geološkim) rezervama od 740 mil. m3 ekvivalentne nafte.
+            Vrhunac proizvodnje je dosegnut u vremenskom periodu između 1980. i 1989. godine.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>3</PageNumber>
+          <Title>Sjeverni Jadran</Title>
+          <Thumbnail>Assets/jadran.png</Thumbnail>
+          <Image>Assets/jadran.png</Image>
+          <Text>
+            Istraživanje u hrvatskom dijelu Sjevernog jadrana započelo je 1970. godine
+            snimanjem 2D seizmike te istražnim bušenjem.
+            Do 1995. godine načinjeno je više od 16 000 km
+            2D seizmičkih profila te izrađeno 80 bušotina.
+            Tijekom ranih 80-ih godina XX. stoljeća otkriveno je nekoliko plinskih polja
+            iz kojih je kasnije ostvarena značajna proizvodnja ugljikovodika.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>4</PageNumber>
+          <Title>Pregled otkrivenih polja</Title>
+          <Thumbnail>Assets/otkrivena_polja.png</Thumbnail>
+          <Image>Assets/otkrivena_polja.png</Image>
+          <Text>
+            Broj otkrivenih polja ugljikovodika u razdoblju od 1940.-2005. godine.
+            Lijevo su otkrivena naftna, a desno plinska polja.
+          </Text>
+        </Slide>
+      </Slides>
+      <Questions>
+        <Question>
+          <QuestionId>1</QuestionId>
+          <Text>Gdje se nalazilo prvo otkriveno naftno polje u Hrvatskoj?</Text>
+          <Image>Assets/peklenica.png</Image>
+          <Options>
+            <Option>Sjeverni Jadran</Option>
+            <Option>Peklenica</Option>
+            <Option>Ferdinandovac</Option>
+          </Options>
+          <Correct>Peklenica</Correct>
+        </Question>
+        <Question>
+          <QuestionId>2</QuestionId>
+          <Text>Kada su započela istraživanja ugljikovodika u hrvatskom dijelu Jadrana?</Text>
+          <Image>Assets/strukturne_depresije.png</Image>
+          <Options>
+            <Option>50-ih godina 20. stoljeća</Option>
+            <Option>60-ih godina 20. stoljeća</Option>
+            <Option>70-ih godina 20. stoljeća</Option>
+          </Options>
+          <Correct>70-ih godina 20. stoljeća</Correct>
+        </Question>
+        <Question>
+          <QuestionId>3</QuestionId>
+          <Text>U kojem periodu je proizvodnja ugljikovodika u Hrvatskoj bila na vrhuncu?</Text>
+          <Image>Assets/ugljikovodici_podjela.png</Image>
+          <Options>
+            <Option>70-ih godina 20.stoljeća</Option>
+            <Option>80-ih godina 20.stoljeća</Option>
+            <Option>90-ih godina 20.stoljeća</Option>
+          </Options>
+          <Correct>80-ih godina 20.stoljeća</Correct>
+        </Question>
+      </Questions>
+    </Chapter>
+    <Chapter>
+      <ChapterNumber>6</ChapterNumber>
+      <Title>Naftnogeološke okolnosti Hrvatske</Title>
+      <Thumbnail>Assets/oil_pump.png</Thumbnail>
+      <Slides>
+        <Slide>
+          <PageNumber>1</PageNumber>
+          <Title>Uvod</Title>
+          <Thumbnail>Assets/ugljikovodici_podjela.png</Thumbnail>
+          <Image>Assets/ugljikovodici_podjela.png</Image>
+          <Text>
+            Područje Republike Hrvatske se prema geološkom kriteriju dijeli na tri cjeline:
+            na hrvatski dio Panonskoga bazena, Dinaride i na Jadransko podmorje.
+            Dinaridi su izdignuti dio te u ovom radu neće biti posebno izdvojeni
+            i prikazani jer ovdje trenutno nema eksploatacije ugljikovodika.
+            Ostale cjeline obuhvaćaju nekoliko regionalnih strukturnih depresija
+            u kojima su otkriveni i pridobivaju se ugljikovodici.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>2</PageNumber>
+          <Title>Hrvatski dio Panonskog bazena</Title>
+          <Thumbnail>Assets/panonski_bazen.png</Thumbnail>
+          <Image>Assets/panonski_bazen.png</Image>
+          <Text>
+            Hrvatski dio Panonskoga bazena smješten je na jugozapadu tektonske jedinice
+            najvećega reda nazvane Panonski bazenski sustav.
+            Taj prostor smješten je između stare Europske ploče na sjeveru,
+            Alpi na zapadu, Jadranske ploče na jugu te Mezijske ploče na istoku.
+            Panonski bazenski sustav pripada skupini pozadinskih bazena (engl. “back-arc basins”).
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>3</PageNumber>
+          <Title>Strukturne depresije</Title>
+          <Thumbnail>Assets/strukturne_depresije.png</Thumbnail>
+          <Image>Assets/strukturne_depresije.png</Image>
+          <Text>
+            Hrvatski dio Panonskog bazena, zahvaljujući svojem rubnom položaju
+            odlikuje se nešto manjim ukupnim debljinama neogenskih taložina.
+            Ipak, maksimalne debljine u zapadnom dijelu Dravske depresije ponegdje prelaze 7 km.
+            Cijeli taj prostor, smješten u Sjevernoj Hrvatskoj, obuhvaća četiri depresije
+            i to od sjeverozapada prema jugoistoku Mursku, Dravsku, Savsku te Slavonsko-srijemsku.
+            Unutar tih depresija smješteno je nekoliko desetaka naftnih, naftno-plinskih te plinskih polja.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>4</PageNumber>
+          <Title>Prikaz polja</Title>
+          <Thumbnail>Assets/slika_polja.png</Thumbnail>
+          <Image>Assets/slika_polja.png</Image>
+          <Text>
+            Slika geografskog položaja polja ugljikovodika u hrvatskom dijelu Panonskog bazena.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>5</PageNumber>
+          <Title>Popis polja</Title>
+          <Thumbnail>Assets/popis_polja.png</Thumbnail>
+          <Image>Assets/popis_polja.png</Image>
+          <Text>
+            Popis svih polja u Hrvatskoj i užoj okolici.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>5</PageNumber>
+          <Title>Jadransko podmorje - 1.dio</Title>
+          <Thumbnail>Assets/sjeverni_jadran.png</Thumbnail>
+          <Image>Assets/sjeverni_jadran.png</Image>
+          <Text>
+            Dio Jadranskog mora koje pripada Republici Hrvatskoj je veći od 54 000 km2.
+            Promatrajući dubinu mora područje Jadrana je moguće podijeliti u tri dijela.
+            Prvi je dio između Istre i ušća rijeke Po.
+            Ovdje je zbog najveće dubine do 40m moguće korištenje jednostavnih bušećih platformi.
+            Drugi dio se nalazi između poteza Ravenna-Pula i poteza Ancona-Zadar.
+            Dno je razvedenije i dubine je do 70 m.
+            Treći dio koji ima najveće dubine (200-1000 m) se nalazi
+            od poteza Monte Gargano-Pelješac i Mljet prema jugu.
+            Ovdje je izraženija razvedenost dna.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>6</PageNumber>
+          <Title>Jadransko podmorje - 2.dio</Title>
+          <Thumbnail>Assets/sjeverni_jadran.png</Thumbnail>
+          <Image>Assets/sjeverni_jadran.png</Image>
+          <Text>
+            Jedina cijela depresija koja se nalazi u hrvatskom dijelu Jadrana
+            (uvažavajući liniju razgraničenja prema Italiji) je Dugootočna depresija (nastala u miocenu).
+            Eksploatacijsko polje Sjeverni Jadran se nalazi zapadno i jugozapadno od Istarskog poluotoka
+            u međunarodnim vodama sve do središnje crte razgraničenja s Republikom Italijom.
+            Sastoji se od 8 polja, a to su od sjevera prema jugu:
+            Ivana, Ana, Vesna, Irina, Ida, Ika, Andrea i Annamaria.
+          </Text>
+        </Slide>
+      </Slides>
+      <Questions>
+        <Question>
+          <QuestionId>1</QuestionId>
+          <Text>Koje su tri cjeline Hrvatske prema geološkom kriteriju?</Text>
+          <Image>Assets/ugljikovodici_podjela.png</Image>
+          <Options>
+            <Option>Zagorje, Slavonija i Dalmacija</Option>
+            <Option>Podravina, Lika i Istra</Option>
+            <Option>Hrvatski dio Panonskog bazena, Dinaridi i Jadransko podmorje</Option>
+          </Options>
+          <Correct>Hrvatski dio Panonskog bazena, Dinaridi i Jadransko podmorje</Correct>
+        </Question>
+        <Question>
+          <QuestionId>2</QuestionId>
+          <Text>Četiri depresije hrvatskog dijela Panonskog bazena su:</Text>
+          <Image>Assets/strukturne_depresije.png</Image>
+          <Options>
+            <Option>Kupska, Neretvanska, Koranska i Sutlanska</Option>
+            <Option>Murska, Dravska, Savska te Slavonsko-srijemska</Option>
+            <Option>Baranjska, Zagorska, Lička i Dunavska</Option>
+          </Options>
+          <Correct>Murska, Dravska, Savska te Slavonsko-srijemska</Correct>
+        </Question>
+        <Question>
+          <QuestionId>3</QuestionId>
+          <Text>Koliki dio Jadranskog podmorja pripada Repulici Hrvatskoj?</Text>
+          <Image>Assets/ugljikovodici_podjela.png</Image>
+          <Options>
+            <Option>Manji od 20.000</Option>
+            <Option>Točno 40.000</Option>
+            <Option>Veći od 54.000</Option>
+          </Options>
+          <Correct>Veći od 54.000</Correct>
+        </Question>
+      </Questions>
+    </Chapter>
+    <Chapter>
+      <ChapterNumber>7</ChapterNumber>
+      <Title>Prerada ugljikovodika u Hrvatskoj</Title>
+      <Thumbnail>Assets/refinery_image.png</Thumbnail>
+      <Slides>
+        <Slide>
+          <PageNumber>1</PageNumber>
+          <Title>Rafinerija nafte Rijeka (Urinj)</Title>
+          <Thumbnail>Assets/rijeka.png</Thumbnail>
+          <Image>Assets/rijeka.png</Image>
+          <Text>
+            Osnovna djelatnost rafinerije u Rijeci je proizvodnja tekućih ugljikovodičnih goriva.
+            Kapacitet prerade iznosi 4,5 milijuna tona godišnje.
+            Rafinerija u Rijeci može prerađivati visokosumporne nafte,
+            ali kvaliteta proizvoda ne zadovoljava sve zahtjeve tržišta.
+            Riječka rafinerija proizvodi ukapljeni naftni plin (UNP) propan-butan,
+            primarni benzin, motorne benzine, gorivo za mlazne motore, dizelska goriva i loživa ulja.
+            Rafinerija raspolaže skladišnim prostorom od 124 spremnika
+            s više od milijun tona za sirovu naftu, tekuće i ukapljene naftne derivate.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>2</PageNumber>
+          <Title>Rafinerija nafte Sisak</Title>
+          <Thumbnail>Assets/sisak.png</Thumbnail>
+          <Image>Assets/sisak.png</Image>
+          <Text>
+            Rafinerija nafte Sisak nalazi se na geostrateški povoljnom položaju
+            koji joj omogućuje dobre transportne tokove nafte i derivata.
+            Nakon reprofiliranja sustava preradbe u rafineriji,
+            kod kojega je uravnotežena primarna i sekundarna preradba, kapacitet preradbe iznosi 4 milijuna tona godišnje.
+            Potrebno je napomenuti da proizvodi svojom kvalitetom ne zadovoljavaju u potpunosti zahtjeve tržišta.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>3</PageNumber>
+          <Title>Rafinerije maziva</Title>
+          <Thumbnail>Assets/maziva.png</Thumbnail>
+          <Image>Assets/maziva.png</Image>
+          <Text>
+            Proizvodnja maziva odvija se na postrojenjima Maziva Rijeka (Mlaka) i Maziva Zagreb.
+            Preradbom atmosferskog ostatka iz rafinerije na Urinju na pogonima Maziva Rijeka proizvode se
+            bazna ulja, motorna i industrijska ulja, parafin, bitumen, loživa ulja i drugi proizvodi.
+            Proizvodni procesi Maziva Zagreb obuhvaćaju proizvodnju aditiva i derivata te proizvodnju maziva.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>4</PageNumber>
+          <Title>Gospodarski subjekti - prerada plina</Title>
+          <Thumbnail>Assets/plin_hrvatska.png</Thumbnail>
+          <Image>Assets/plin_hrvatska.png</Image>
+          <Text>
+            Distribucija plina odvija se preko 36 trgovačkih društava
+            koja su u Republici Hrvatskoj registrirana za djelatnost distribucije plina,
+            a ukupna duljina distribucijske plinske mreže iznosi preko 16 500 km.
+            Transport prirodnog plina obavlja kompanija PLINACRO d.o.o. u državnom vlasništvu.
+            Ukupna duljina transportnog sustava plinovoda obuhvaća 2 034 km.
+            Transportni sustav plina projektirana je na tlak od 50 bar i djelomično na tlak od 75 bar.
+            Transport prirodnog plina u vršnoj potrošnji iznosi oko 530 000 metara kubičnih na sat.
+            U sklopu plinskog transportnog sustava nalazi se 142 mjerno-redukcijske stanice s 210 mjernih linija.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>5</PageNumber>
+          <Title>JANAF – transport nafte 1.dio</Title>
+          <Thumbnail>Assets/janaf.png</Thumbnail>
+          <Image>Assets/janaf.png</Image>
+          <Text>
+            Jadranski naftovod d.d. Zagreb (JANAF) je kompanija čija je djelatnost
+            transport domaće i međunarodne nafte,
+            koji uključuje pretovar i skladištenje nafte u luci i na terminalu Omišalj.
+            Jadranski naftovod izgrađen je 1979. godine kao
+            međunarodni sustav transporta nafte od tankerske luke i terminala Omišalj
+            do domaćih i inozemnih rafinerija u istočnoj i središnjoj Europi.
+            Projektirani kapacitet cjevovoda je 34 milijuna tona nafte godišnje, a instalirani je 20 milijuna tona.
+            Ukupni kapacitet skladišta na terminalima Omišalj, Sisak i Virje
+            iznosi 900 000 m3 za naftu i 60 000 m3 za derivate.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>6</PageNumber>
+          <Title>JANAF – transport nafte 2.dio</Title>
+          <Thumbnail>Assets/janaf.png</Thumbnail>
+          <Image>Assets/janaf.png</Image>
+          <Text>
+            Sustav JANAF d.d. sastoji se od prihvatno - otpremnog terminala u zaljevu Omišalj na Krku
+            s tankerskom lukom Omišalj, cjevovoda duljine 759 km, a područjem Republike Hrvatske prolazi 622 km trase naftovoda,
+            prihvatno - otpremnih terminala u Sisku, Virju i kod Slavonskog Broda,
+            te podmorskog naftovoda Omišalj - Urinj, koji povezuje tankersku luku s Rafinerijom Rijeka ukupne duljine 7,2 km.
+            Janaf je trenutno kompanija koja opskrbljuje naftom rafinerije u RH (Rafinerija Rijeka i Rafinerija Sisak),
+            Bosni i Hercegovini, Srbiji i Crnoj Gori, s mogućnostima opskrbe i ostalih zemalja u okruženju.
+            Ukupan transport nafte u razdoblju od 1979. do 2004. godine iznosio je 137 milijuna tona.
+          </Text>
+        </Slide>
+      </Slides>
+      <Questions>
+        <Question>
+          <QuestionId>1</QuestionId>
+          <Text>Koje su dvije rafinerije nafte u Hrvatskoj?</Text>
+          <Image>Assets/sisak.png</Image>
+          <Options>
+            <Option>Rijeka i Sisak</Option>
+            <Option>Zadar i Osijek</Option>
+            <Option>Zagreb i Pula</Option>
+          </Options>
+          <Correct>Rijeka i Sisak</Correct>
+        </Question>
+        <Question>
+          <QuestionId>2</QuestionId>
+          <Text>Koliko postoji rafinerije maziva u Hrvatskoj?</Text>
+          <Image>Assets/rijeka.png</Image>
+          <Options>
+            <Option>Jedna</Option>
+            <Option>Dvije</Option>
+            <Option>Tri</Option>
+          </Options>
+          <Correct>Dvije</Correct>
+        </Question>
+        <Question>
+          <QuestionId>3</QuestionId>
+          <Text>Koje je godine izgrađen Jadranski naftovod?</Text>
+          <Image>Assets/janaf.png</Image>
+          <Options>
+            <Option>1959.</Option>
+            <Option>1969.</Option>
+            <Option>1979.</Option>
+          </Options>
+          <Correct>1979.</Correct>
+        </Question>
+      </Questions>
+    </Chapter>
+    <Chapter>
+      <ChapterNumber>7</ChapterNumber>
+      <Title>Budućnost Hrvatske - ugljikovodici</Title>
+      <Thumbnail>Assets/offshore_platform.png</Thumbnail>
+      <Slides>
+        <Slide>
+          <PageNumber>1</PageNumber>
+          <Title>Domaća proizvodnja energenata</Title>
+          <Thumbnail>Assets/proizvodnja_potrosnja.png</Thumbnail>
+          <Image>Assets/proizvodnja_potrosnja.png</Image>
+          <Text>
+            Domaća proizvodnja energenata u Hrvatskoj zadovoljava manje od 50% potreba za energijom.
+            Oko 44% posto domaće proizvodnje energenata (primarne) u Hrvatskoj čini proizvodnja plina.
+            Oko 25% je hidroenergija, a ostalo je proizvodnja sirove nafte 16%, ogrjevnog drveta i drugog.
+            U potrošnji energenata dominantna su tekuća goriva 44%, zatim plin 26%, te hidroenergija 14%.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>2</PageNumber>
+          <Title>Plin sadašnjost i budućnost</Title>
+          <Thumbnail>Assets/bilanca_plin.png</Thumbnail>
+          <Image>Assets/bilanca_plin.png</Image>
+          <Text>
+            Hrvatska trenutnom domaćom proizvodnjom plina zadovoljava 73-95% potrošnje.
+            Trenutno pridobive rezerve plina su otprilike 36,44 milijarde kubnih metara.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>3</PageNumber>
+          <Title>Nafta sadašnjost i budućnost</Title>
+          <Thumbnail>Assets/bilanca_nafta.png</Thumbnail>
+          <Image>Assets/bilanca_nafta.png</Image>
+          <Text>
+            Hrvatska ne proizvodi dovoljno nafte za svoje potrebe, nego oko 5/6 potrebne nafte uvozi.
+            Domaća proizvodnja nafte je od preko 3 milijuna tona početkom 1990., pala na oko 800 tisuća tona/god.
+            Pridobive rezerve nafte u Hrvatskoj su oko 11,47 milijuna kubnih metara.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>4</PageNumber>
+          <Title>Pogled u budućnost</Title>
+          <Thumbnail>Assets/procjena.png</Thumbnail>
+          <Image>Assets/procjena.png</Image>
+          <Text>
+            Do 2030. godine može se računati s neizvjesnostima na globalnim energetskim tržištima,
+            povremenim nestabilnostima pa i krizama,
+            što će svakako imati za posljedicu veću osjetljivost energetskih tržišta malih zemalja poput Hrvatske,
+            osobito u odnosu na uvoz nafte i cijene nafte.
+            To je bitna činjenica o kojoj se mora voditi računa i koja predstavlja
+            kritični element opskrbe ugljikovodicima Republike Hrvatske.
+            Stoga stvaranje osjećaja energetske sigurnosti i širenje te spoznaje u okruženju već samo po sebi pridonosi jačanju gospodarske stabilnosti
+            te time pridonosi i sveukupnoj razini nacionalne sigurnosti u Republici Hrvatskoj.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>5</PageNumber>
+          <Title>Plan istraživanja u Jadranu</Title>
+          <Thumbnail>Assets/istrazivanje_jadran.png</Thumbnail>
+          <Image>Assets/istrazivanje_jadran.png</Image>
+          <Text>
+            Plan istraživanja i eksploatacije ugljikovodika na Jadranu obuhvaća
+            dio hrvatskog epikontinentalnog pojasa i teritorijalnog mora, površine 36 823 km2,
+            na kojem se nalazi 29 istražnih prostora: u sjevernom Jadranu je 8 istražnih prostora,
+            u srednjem Jadranu 16 istražnih prostora, a u južnom Jadranu 5 istražnih prostora.
+            Površine pojedinih istražnih prostora iznose od 1000 km2 do 1 600 km2.
+            Istočna granica istražnih područja odmaknuta je 10 km od obale i 6 km od vanjske linije otoka,
+            dok su preostale granice područja obuhvata određene sklopljenim međunarodnim sporazumima sa susjednim državama.
+          </Text>
+        </Slide>
+        <Slide>
+          <PageNumber>6</PageNumber>
+          <Title>Negativnosti istraživanja u Jadranu</Title>
+          <Thumbnail>Assets/jadran_ekologija.png</Thumbnail>
+          <Image>Assets/jadran_ekologija.png</Image>
+          <Text>
+            Vidljivost platformi s i kopna doživljava se kao narušavanje vizura i može značajno umanjiti privlačnost područja za turizam „sunce i more“.
+            Ova grana turizma, jedna je od ključnih gospodarskih grana, i usko je povezana s krajobraznim značajkama.
+            Postavljanjem, prvenstveno eksploatacijskih, platformi može doći do narušavanja krajobraznih značajki prostora
+            koji je visoko privlačan za nautički turizam. Otoci srednjeg i južnog Jadrana posebno su privlačna područja za nautički turizam,
+            koji čini važnu i prosperitetnu gospodarsku granu.
+            Utjecaji na ribarstvo mogući su različitim fazama provedbe istraživanja.
+            Na temelju analize stručnih podloga o kretanju ribarskih brodova definirana su područja posebno značajna za ribarstvo.
+          </Text>
+        </Slide>
+      </Slides>
+      <Questions>
+        <Question>
+          <QuestionId>1</QuestionId>
+          <Text>Domaća proizvodnja energenata zadovoljava...</Text>
+          <Image>Assets/proizvodnja_potrosnja.png</Image>
+          <Options>
+            <Option>manje od 25% potreba</Option>
+            <Option>manje od 50% potreba</Option>
+            <Option>više od 75% potreba</Option>
+          </Options>
+          <Correct>manje od 50% potreba</Correct>
+        </Question>
+        <Question>
+          <QuestionId>2</QuestionId>
+          <Text>Na koje bi gospodarske grane istraživanje ugljikovodika u Jadranu moglo imati negativne posljedice?</Text>
+          <Image>Assets/janaf.png</Image>
+          <Options>
+            <Option>Turizam i ribarstvo</Option>
+            <Option>Graditeljstvo</Option>
+            <Option>Trgovinu</Option>
+          </Options>
+          <Correct>Turizam i ribarstvo</Correct>
+        </Question>
+      </Questions>
+    </Chapter>
+  </Chapters>
 </EducationalContent>
