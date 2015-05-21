@@ -13,14 +13,13 @@
     <Grid>
         <ScrollViewer Margin="0,0,0,100" x:Name="MainPanel">
             <StackPanel>
-                <Image x:Name="slide_image" Margin="20,50,20,10" MaxHeight="300" VerticalAlignment="Top" Source="{Binding Image}" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
+                <Image x:Name="slide_image" Margin="20,20,20,10" MaxHeight="300" VerticalAlignment="Top" Source="{Binding Image}" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
                 <TextBlock x:Name="slide_txtBlock" Margin="20,0,20,50" TextWrapping="Wrap" Text="{Binding Text}" FontSize="22" FontFamily="Comic Sans MS" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" VerticalAlignment="Top"/>
             </StackPanel>
         </ScrollViewer>
-        <Image HorizontalAlignment="Left" Height="70" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/back_image.png" Tapped="return_Image_Tapped"/>
-        <Image HorizontalAlignment="Center" Height="70" Margin="30,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/return.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="back_Image_Tapped"/>
-        <Image HorizontalAlignment="Right" Height="70" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="70" Source="Assets/next_image.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="front_Image_Tapped"/>
+        <Image HorizontalAlignment="Left" Height="70" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/back_button.png" Tapped="return_Image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
+        <Image HorizontalAlignment="Center" Height="70" Margin="30,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/backward.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="back_Image_Tapped"/>
+        <Image HorizontalAlignment="Right" Height="70" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="70" Source="Assets/forward.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="front_Image_Tapped"/>
         <GridView HorizontalAlignment="Left" Height="100" Margin="80,55,0,0" VerticalAlignment="Top" Width="100"/>
-        <!-- <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="135,560,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="44" Width="138"/> !--> 
     </Grid>
 </Page>

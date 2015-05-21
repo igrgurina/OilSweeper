@@ -37,5 +37,10 @@ namespace MainScreen
         {
             Frame.Navigate(typeof(EducationPage), educationContext);
         }
+
+        private void Image_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(AboutPage));
+        }
     }
 }

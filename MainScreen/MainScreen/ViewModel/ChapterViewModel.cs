@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using MainScreen.Annotations;
+using Windows.UI.Xaml;
 
 namespace MainScreen.ViewModel
 {
@@ -78,6 +79,7 @@ namespace MainScreen.ViewModel
                 if (Equals(value, _questions)) return;
                 _questions = value;
                 OnPropertyChanged();
+                OnPropertyChanged("QuestionsAvailable");
             }
         }
 
@@ -86,6 +88,14 @@ namespace MainScreen.ViewModel
         {
             var handler = PropertyChanged;
             if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        public Visibility QuestionsAvailable
+        {
+            get
+            {
+                return (Questions != null && Questions.Count > 0) ? Visibility.Visible : Visibility.Collapsed;
+            }
         }
     }
 }

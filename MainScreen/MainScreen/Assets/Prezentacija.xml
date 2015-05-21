@@ -270,7 +270,7 @@
 					</Text>
 				</Slide>
 				<Slide>
-					<PageNumber>1</PageNumber>
+					<PageNumber>3</PageNumber>
 					<Title>Sjeverni Jadran</Title>
 					<Thumbnail>Assets/jadran.png</Thumbnail>
 					<Image>Assets/jadran.png</Image>
@@ -303,7 +303,6 @@
 						<Option>Sjeverni Jadran</Option>
 						<Option>Peklenica</Option>
 						<Option>Ferdinandovac</Option>
-						<Option>Đeletovci</Option>
 					</Options>
 					<Correct>Peklenica</Correct>
 				</Question>
@@ -315,7 +314,6 @@
 						<Option>50-ih godina 20. stoljeća</Option>
 						<Option>60-ih godina 20. stoljeća</Option>
 						<Option>70-ih godina 20. stoljeća</Option>
-						<Option>Niti jedan odgovor nije točan</Option>
 					</Options>
 					<Correct>70-ih godina 20. stoljeća</Correct>
 				</Question>
@@ -327,7 +325,6 @@
 						<Option>70-ih godina 20.stoljeća</Option>
 						<Option>80-ih godina 20.stoljeća</Option>
 						<Option>90-ih godina 20.stoljeća</Option>
-						<Option>U prvom desetljeću 21.stoljeća</Option>
 					</Options>
 					<Correct>80-ih godina 20.stoljeća</Correct>
 				</Question>
@@ -438,7 +435,6 @@
 						<Option>Zagorje, Slavonija i Dalmacija</Option>
 						<Option>Podravina, Lika i Istra</Option>
 						<Option>Hrvatski dio Panonskog bazena, Dinaridi i Jadransko podmorje</Option>
-						<Option>NIti jedan odgovor nije točan</Option>
 					</Options>
 					<Correct>Hrvatski dio Panonskog bazena, Dinaridi i Jadransko podmorje</Correct>
 				</Question>
@@ -450,7 +446,6 @@
 						<Option>Kupska, Neretvanska, Koranska i Sutlanska</Option>
 						<Option>Murska, Dravska, Savska te Slavonsko-srijemska</Option>
 						<Option>Baranjska, Zagorska, Lička i Dunavska</Option>
-						<Option>Niti jedan odgovor nije točan</Option>
 					</Options>
 					<Correct>Murska, Dravska, Savska te Slavonsko-srijemska</Correct>
 				</Question>
@@ -462,7 +457,6 @@
 						<Option>Manji od 20.000</Option>
 						<Option>Točno 40.000</Option>
 						<Option>Veći od 54.000</Option>
-						<Option>Veći od 100.000</Option>
 					</Options>
 					<Correct>Veći od 54.000</Correct>
 				</Question>
@@ -470,7 +464,7 @@
 		</Chapter>
 		<Chapter>
 			<ChapterNumber>6</ChapterNumber>
-			<Title>Prerada i veleprodaja ugljikovodika u Hrvatskoj</Title>
+			<Title>Prerada ugljikovodika u Hrvatskoj</Title>
 			<Thumbnail>Assets/refinery.png</Thumbnail>
 			<Slides>
 				<Slide>
@@ -532,7 +526,7 @@
 				</Slide>	
 				<Slide>
 					<PageNumber>5</PageNumber>
-					<Title>JANAF d.d. Zagreb – transport nafte</Title>
+					<Title>JANAF – transport nafte 1.dio</Title>
 					<Thumbnail>Assets/janaf.png</Thumbnail>
 					<Image>Assets/janaf.png</Image>
 					<Text>
@@ -549,7 +543,7 @@
 				</Slide>
 				<Slide>
 					<PageNumber>6</PageNumber>
-					<Title>JANAF d.d. Zagreb – transport nafte</Title>
+					<Title>JANAF – transport nafte 2.dio</Title>
 					<Thumbnail>Assets/janaf.png</Thumbnail>
 					<Image>Assets/janaf.png</Image>
 					<Text>
@@ -572,7 +566,6 @@
 						<Option>Rijeka i Sisak</Option>
 						<Option>Zadar i Osijek</Option>
 						<Option>Zagreb i Pula</Option>
-						<Option>Slavonski Brod i Šibenik</Option>
 					</Options>
 					<Correct>Rijeka i Sisak</Correct>
 				</Question>
@@ -584,7 +577,6 @@
 						<Option>Jedna</Option>
 						<Option>Dvije</Option>
 						<Option>Tri</Option>
-						<Option>Četiri</Option>
 					</Options>
 					<Correct>Dvije</Correct>
 				</Question>
@@ -596,7 +588,6 @@
 						<Option>1959.</Option>
 						<Option>1969.</Option>
 						<Option>1979.</Option>
-						<Option>1989.</Option>
 					</Options>
 					<Correct>1979.</Correct>
 				</Question>

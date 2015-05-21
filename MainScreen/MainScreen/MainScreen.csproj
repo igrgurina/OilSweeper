@@ -80,9 +80,10 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <Content Include="Assets\back_image.png" />
-    <Content Include="Assets\ecology.png" />
-    <Content Include="Assets\front_image.png" />
+    <Content Include="Assets\backward.png" />
+    <Content Include="Assets\back_button.png" />
+    <Content Include="Assets\forward.png" />
+    <Content Include="Assets\game.png" />
     <Content Include="Assets\IMG_Slide1.jpg" />
     <Content Include="Assets\IMG_Slide2.jpg" />
     <Content Include="Assets\IMG_Slide3.jpg" />
@@ -94,10 +95,9 @@
     <Content Include="Assets\IMG_Slide9.jpg" />
     <Content Include="Assets\jadran.png" />
     <Content Include="Assets\janaf.png" />
-    <Content Include="Assets\learn_image.png" />
+    <Content Include="Assets\learn.png" />
     <Content Include="Assets\logo.png" />
     <Content Include="Assets\maziva.png" />
-    <Content Include="Assets\next_image.png" />
     <Content Include="Assets\offshore_platform.png" />
     <Content Include="Assets\OilSweeper.png" />
     <Content Include="Assets\OilSweeper_150x150.scale-100.png" />
@@ -111,15 +111,13 @@
     <Content Include="Assets\panonska_polja.png" />
     <Content Include="Assets\panonski_bazen.png" />
     <Content Include="Assets\peklenica.png" />
-    <Content Include="Assets\play_image.png" />
     <Content Include="Assets\plin_hrvatska.png" />
     <Content Include="Assets\popis_polja.png" />
     <Content Include="Assets\Prezentacija.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\quiz_image.png" />
+    <Content Include="Assets\quiz_button.png" />
     <Content Include="Assets\refinery.png" />
-    <Content Include="Assets\return.png" />
     <Content Include="Assets\rijeka.png" />
     <Content Include="Assets\sisak.png" />
     <Content Include="Assets\sjeverni_jadran.png" />
@@ -142,7 +140,6 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Icon.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
@@ -151,6 +148,9 @@
     <Content Include="Scripts\npm.js" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutPage.xaml.cs">
+      <DependentUpon>AboutPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -197,6 +197,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="AboutPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ChapterPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
