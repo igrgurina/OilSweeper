@@ -472,6 +472,24 @@
             neprobavljivog za biljojedne kukce toga razdoblja.
           </Explanation>
         </Question>
+		
+		<Question>
+          <QuestionId>7</QuestionId>
+          <Text>Oceani u Proterozoiku bili su zelenkaste boje zbog ...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>3</Difficulty>
+          <Options>
+            <Option>otopljenog trakastog željeza.</Option>
+            <Option>željezovog (II, III) oksida.</Option>
+            <Option>ugljične kiseline.</Option>
+          </Options>
+          <Correct>otopljenog trakastog željeza.</Correct>
+          <Explanation>
+             Oceani su u Proterozoiku bili zelenkaste boje zbog velikih količina otopljenog slobodnog željeza. Željezov (II, III) 
+			 oksid pojavio se tek poslije "Velike Oksidacije", a oceani su se gotovo u potpunosti neutralizirali još tijekom Arhaika.
+          </Explanation>
+        </Question>
+		
       </Questions>
     </Chapter>
 
@@ -483,7 +501,7 @@
       <Slides>
         <Slide>
           <PageNumber>1</PageNumber>
-          <Title>Nakupljanje na dnu</Title>
+          <Title>200 milijuna god. p.n.e.</Title>
           <Thumbnail>Assets/TMB_Slide15.jpg</Thumbnail>
           <Image>Assets/IMG_Slide15.jpg</Image>
           <Text>
@@ -496,7 +514,7 @@
 
         <Slide>
           <PageNumber>2</PageNumber>
-          <Title>Diferencijacija slojeva</Title>
+          <Title>200 milijuna god. p.n.e.</Title>
           <Thumbnail>Assets/TMB_Slide16.jpg</Thumbnail>
           <Image>Assets/IMG_Slide16.jpg</Image>
           <Text>
@@ -509,7 +527,7 @@
 
         <Slide>
           <PageNumber>3</PageNumber>
-          <Title>Varijacije nafte</Title>
+          <Title>200 milijuna god. p.n.e.</Title>
           <Thumbnail>Assets/TMB_Slide17.jpg</Thumbnail>
           <Image>Assets/IMG_Slide17.jpg</Image>
           <Text>
@@ -522,19 +540,19 @@
 
         <Slide>
           <PageNumber>4</PageNumber>
-          <Title>Prvi prerađivači nafte</Title>
+          <Title>200 milijuna god. p.n.e.</Title>
           <Thumbnail>Assets/TMB_Slide18.jpg</Thumbnail>
           <Image>Assets/IMG_Slide18.jpg</Image>
           <Text>
             Kape podzemnih šupljina nisu u potpunosti nepropusne, te podliježu kao i svi ostali reljefni oblici izrazitim i dugotrajnim
             tektonskim procesima zbog čega su se događala brojna prirodna istjecanja. Jedni od prvih korisnika nafte bili su američki domoroci koji
-            su naftu pronađenu na površini mora koristili za izradu vodonepropusnih kanua i ljekovitih preparata.
+            su naftu koristili za izradu vodonepropusnih kanua i ljekovitih preparata.
           </Text>
         </Slide>
 
         <Slide>
           <PageNumber>5</PageNumber>
-          <Title>Lokacije ležišta</Title>
+          <Title>200 milijuna god. p.n.e.</Title>
           <Thumbnail>Assets/TMB_Slide19.jpg</Thumbnail>
           <Image>Assets/IMG_Slide19.jpg</Image>
           <Text>
@@ -547,7 +565,7 @@
 
         <Slide>
           <PageNumber>6</PageNumber>
-          <Title>Sastav nafte</Title>
+          <Title>200 milijuna god. p.n.e.</Title>
           <Thumbnail>Assets/TMB_Slide20.jpg</Thumbnail>
           <Image>Assets/IMG_Slide20.jpg</Image>
           <Text>
@@ -593,7 +611,7 @@
         <Question>
 
           <QuestionId>3</QuestionId>
-          <Text>Vodu u nalazištima nate možemo naći pri ...</Text>
+          <Text>Vodu u nalazištima nafte možemo naći pri ...</Text>
           <Image>IMG_Question1.jpg</Image>
           <Difficulty>2</Difficulty>
           <Options>
@@ -627,7 +645,7 @@
           <QuestionId>5</QuestionId>
           <Text>Na velikim dubinama nalazi se ...</Text>
           <Image>IMG_Question1.jpg</Image>
-          <Difficulty>2</Difficulty>
+          <Difficulty>3</Difficulty>
           <Options>
             <Option>viskoznija nafta.</Option>
             <Option>kiselija nafta.</Option>
@@ -643,17 +661,18 @@
           <QuestionId>6</QuestionId>
           <Text>Prvi prerađivači nafte bili su ...</Text>
           <Image>IMG_Question1.jpg</Image>
-          <Difficulty>2</Difficulty>
+          <Difficulty>3</Difficulty>
           <Options>
-            <Option>stari egipćani.</Option>
-            <Option>američki domoroci.</Option>
+            <Option>stari Egipćani.</Option>
+            <Option>Indijanci.</Option>
             <Option>Arapi.</Option>
           </Options>
-          <Correct>američki domoroci.</Correct>
+          <Correct>Indijanci.</Correct>
           <Explanation>
             Prvi obrađivači nafte bili su američki domoroci (Indijanci) koji su je koristili za izradu kanua i ljekovitih preparata.
           </Explanation>
         </Question>
+		
         <Question>
           <QuestionId>7</QuestionId>
           <Text>Nalazišta nafte najčešće se nalaze ispod naslaga ...</Text>
@@ -669,12 +688,30 @@
             Nalazišta nafte načešće se nalaze ispod sedimentnih stijena, jer je i sama nafta velikim dijelom nastala procesom sedimentacije.
           </Explanation>
         </Question>
+		
+		<Question>
+          <QuestionId>8</QuestionId>
+          <Text>U organskim otapalima topiva smjesa koja se ekstrahira iz naftom natopljenog kamenja jest ...</Text>
+          <Image>IMG_Question1.jpg</Image>
+          <Difficulty>3</Difficulty>
+          <Options>
+            <Option>bazalt.</Option>
+            <Option>kerogen.</Option>
+            <Option>bitumen.</Option>
+          </Options>
+          <Correct>bitumen.</Correct>
+          <Explanation>
+                Smjesa koja se može izlučiti iz naftom natopljenog kamenja jest bitumen. Kerogen je također smjesa u sastavu nafte, ali nije topiv 
+				u organskim otapalima. Bazalt jest vrsta ekstruzivne magmatske stijene.
+          </Explanation>
+        </Question>
+		
       </Questions>
     </Chapter>
 
     <Chapter>
       <ChapterNumber>5</ChapterNumber>
-      <Title>Hrvatska povijest ugljikovodika</Title>
+      <Title>Povijest ugljikovodika u Hrvatskoj</Title>
       <Thumbnail>Assets/oil_rig.png</Thumbnail>
       <Slides>
         <Slide>
@@ -899,7 +936,7 @@
     </Chapter>
     <Chapter>
       <ChapterNumber>7</ChapterNumber>
-      <Title>Hrvatska prerada ugljikovodika</Title>
+      <Title>Prerada ugljikovodika u Hrvatskoj</Title>
       <Thumbnail>Assets/refinery_image.png</Thumbnail>
       <Slides>
         <Slide>
@@ -1029,7 +1066,7 @@
       </Questions>
     </Chapter>
     <Chapter>
-      <ChapterNumber>8</ChapterNumber>
+      <ChapterNumber>7</ChapterNumber>
       <Title>Budućnost Hrvatske - ugljikovodici</Title>
       <Thumbnail>Assets/offshore_platform.png</Thumbnail>
       <Slides>
