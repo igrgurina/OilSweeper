@@ -96,7 +96,9 @@
     <Content Include="Assets\IMG_Slide16.jpg" />
     <Content Include="Assets\IMG_Slide17.jpg" />
     <Content Include="Assets\IMG_Slide18.jpg" />
+    <Content Include="Assets\IMG_Slide19.jpg" />
     <Content Include="Assets\IMG_Slide2.jpg" />
+    <Content Include="Assets\IMG_Slide20.jpg" />
     <Content Include="Assets\IMG_Slide3.jpg" />
     <Content Include="Assets\IMG_Slide4.jpg" />
     <Content Include="Assets\IMG_Slide5.jpg" />
@@ -152,7 +154,9 @@
     <Content Include="Assets\TMB_Slide16.jpg" />
     <Content Include="Assets\TMB_Slide17.jpg" />
     <Content Include="Assets\TMB_Slide18.jpg" />
+    <Content Include="Assets\TMB_Slide19.jpg" />
     <Content Include="Assets\TMB_Slide2.jpg" />
+    <Content Include="Assets\TMB_Slide20.jpg" />
     <Content Include="Assets\TMB_Slide3.jpg" />
     <Content Include="Assets\TMB_Slide4.jpg" />
     <Content Include="Assets\TMB_Slide5.jpg" />
