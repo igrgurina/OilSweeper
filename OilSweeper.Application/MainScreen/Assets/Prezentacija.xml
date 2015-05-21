@@ -415,9 +415,9 @@
 					<Options>
 						<Option>riba oklopnjača</Option>
 					    <Option>amonit</Option>
-					    <Option>pterodaktil.</Option>
+					    <Option>pterodaktil</Option>
 					</Options>
-					<Correct>pterodaktil.</Correct>
+					<Correct>pterodaktil</Correct>
 					<Explanation>
 					    Pterodaktil, osim što nije bio morska životinja, se pojavio puno kasnije od organizama iz čijeg su 
 						organskog materijala nastala fosilna goriva.
@@ -432,9 +432,9 @@
 					<Options>
 						<Option>50%</Option>
 					    <Option>75%</Option>
-					    <Option>95% svih vrsta na planeti.</Option>
+					    <Option>95% svih vrsta na planeti</Option>
 					</Options>
-					<Correct>95% svih vrsta na planeti.</Correct>
+					<Correct>95% svih vrsta na planeti</Correct>
 					<Explanation>
 					    Za vrijeme "Velikog Izumiranja" izumrlo je 95% svih vrsta na planeti i riječ je o najvećem masovnom 
 						izumiranju vrsta u povijesti Zemlje.
@@ -443,17 +443,34 @@
 				
 				<Question>
 					<QuestionId>5</QuestionId>
-					<Text>"Veliko izumiranje zbilo se na međi"...</Text>
+					<Text>"Veliko izumiranje"" zbilo se na međi...</Text>
 					<Image>IMG_Question1.jpg</Image>
 					<Difficulty>3</Difficulty>
 					<Options>
 						<Option>Perma i Trijasa</Option>
 					    <Option>Jure i Krede</Option>
-					    <Option>Devona i Karbona.</Option>
+					    <Option>Devona i Karbona</Option>
 					</Options>
 					<Correct>Perma i Trijasa</Correct>
 					<Explanation>
 					    "Veliko Izumiranje" zbilo se na prijelazu iz Perma u Trijas i označava početak Mezozoika.
+					</Explanation>
+				</Question>
+				
+				<Question>
+					<QuestionId>6</QuestionId>
+					<Text>Iznimno otporan materijal koji je očuvao biljne ostatke dovoljno dugo za nastanak ugljena jest...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>4</Difficulty>
+					<Options>
+						<Option>lignin</Option>
+					    <Option>kerogen</Option>
+					    <Option>celuloza</Option>
+					</Options>
+					<Correct>lignin</Correct>
+					<Explanation>
+					    Stablaste karbonske biljke bile su građene od lignita, polisaharida iznimno otpornog na degradirajuće procese i 
+						neprobavljivog za biljojedne kukce toga razdoblja.
 					</Explanation>
 				</Question>
 			</Questions>
@@ -461,6 +478,198 @@
 		
 		<Chapter>
 			<ChapterNumber>4</ChapterNumber>
+			<Title>	Nastanak fosilnih goriva</Title>
+			<Thumbnail>Assets/TMB_Chapter4.jpg</Thumbnail>
+			
+			<Slides>
+				<Slide>
+			    <PageNumber>1</PageNumber>
+					<Title>200 milijuna god. p.n.e.</Title>
+					<Thumbnail>Assets/TMB_Slide15.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide15.jpg</Image>
+					<Text>
+						Nakupivši se na dnu oceana mrtvi organizmi bivaju zatrpani muljem i sitnim kamenjem. S vremenom se 
+						nakupljeni mulj solidificira u krupnije kamene naslage što uzrokuje znatno viši tlak na raspadnuti 
+						organski materijal. Toneći u dublje slojeve Zemlje temperatura se konstantno povećava i spaja organske 
+						molekule u sve veće lance.
+					</Text>
+				</Slide>
+				
+				<Slide>
+			    <PageNumber>2</PageNumber>
+					<Title>200 milijuna god. p.n.e.</Title>
+					<Thumbnail>Assets/TMB_Slide16.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide16.jpg</Image>
+					<Text>
+						Vapor iz stijena i organskih materijala uzdiže se i prolazi kroz pore sedimentnih stijena, te se 
+						akumulira u šupljinama koje će s vremenom postati rezervoari plina. Kompleksniji i teži 
+						hidrokarbonati ostaju upijeni u nakupinama stijena tvoreći strukture slične namočenim spužvama. 
+						Agregati se diferenciraju u tri sloja - voda na dnu, nafta u sredini i plin na vrhu.
+					</Text>
+				</Slide>
+				
+				<Slide>
+			    <PageNumber>3</PageNumber>
+					<Title>200 milijuna god. p.n.e.</Title>
+					<Thumbnail>Assets/TMB_Slide17.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide17.jpg</Image>
+					<Text>
+						Nastala nafta može varirati po gustoći, boji i kemijskom sastavu. Uobičajena je crna ili tamno smeđa boja 
+						mada nisu rijetki i slučajevi žućkastih, pa čak i zelenkastih nijansi nafte. Ovisno o količinama sumpora 
+						nafta se dijeli na "kiselu" sa visokim udjelom sumpora i "slatku" sa niskim udjelom sumpora. Ovisno o 
+						gustoći nafta se dijeli na tešku i laganu. Što je nafta gušća teža je, a samim time i skuplja za refinirati.					
+					</Text>
+				</Slide>
+				
+				<Slide>
+			    <PageNumber>4</PageNumber>
+					<Title>200 milijuna god. p.n.e.</Title>
+					<Thumbnail>Assets/TMB_Slide18.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide18.jpg</Image>
+					<Text>
+						Kape podzemnih šupljina nisu u potpunosti nepropusne, te podliježu kao i svi ostali reljefni oblici izrazitim i dugotrajnim 
+						tektonskim procesima zbog čega su se događala brojna prirodna istjecanja. Jedni od prvih korisnika nafte bili su američki domoroci koji 
+						su naftu koristili za izradu vodonepropusnih kanua i ljekovitih preparata.
+					</Text>
+				</Slide>
+				
+				<Slide>
+			    <PageNumber>5</PageNumber>
+					<Title>200 milijuna god. p.n.e.</Title>
+					<Thumbnail>Assets/TMB_Slide19.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide19.jpg</Image>
+					<Text>
+						Naftu je moguće naći u raznim vrstama i dubinama ležišta. Dubine variraju od nekoliko desetaka metara do preko 5 
+						kilometara. Veća dubina poželjno je svojstvo nalazišta, jer sprječava dotok kisika koji po gledištu kvalitete 
+						može znatno degradirati naftu. S druge strane povećani tlak dubokih nalazišta može uzrokovati probleme pri bušenju 
+						kao što su erupcije nafte i plina.
+					</Text>
+				</Slide>
+				
+				<Slide>
+			    <PageNumber>6</PageNumber>
+					<Title>200 milijuna god. p.n.e.</Title>
+					<Thumbnail>Assets/TMB_Slide20.jpg</Thumbnail>
+					<Image>Assets/IMG_Slide20.jpg</Image>
+					<Text>
+						Organska tvar u nafti sadržana je u dvije vrste smjese - kerogen i bitumen. Bitumen predstavlja dio organske tvari 
+						kojeg je moguće ekstrahirati iz stijena organskim otapalima. Kerogen nije topiv u organskim otapalima, te se zbog 
+						toga nalazi u samoj nafti i definira njezina svojstva. Postoji sveukupno 4 vrste kerogena.
+					</Text>
+				</Slide>
+			</Slides>
+			
+			<Question>
+					<QuestionId>1</QuestionId>
+					<Text>Naftu većinom čini smjesa koja se naziva...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>3</Difficulty>
+					<Options>
+						<Option>kerogen</Option>
+					    <Option>bitumen</Option>
+					    <Option>lignin</Option>
+					</Options>
+					<Correct>kerogen</Correct>
+					<Explanation>
+					    Naftu većinom čini kerogen, smjesa sa većinskim udjelom ugljika i vodika. U malim koncentracijama 
+						pojavljuju se kisik dušik i sumpor.
+					</Explanation>
+				</Question>
+				
+				<QuestionId>2</QuestionId>
+					<Text>Element kojeg nema u sirovoj nafti jest...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>2</Difficulty>
+					<Options>
+						<Option>ugljik</Option>
+					    <Option>dušik</Option>
+					    <Option>olovo</Option>
+					</Options>
+					<Correct>olovo</Correct>
+					<Explanation>
+					    Sirova nafta sadrži većinski ugljik, manjinski sumpor, ali olova u njoj nema.
+					</Explanation>
+				</Question>
+				
+				<QuestionId>3</QuestionId>
+					<Text>Vodu u nalazištima nate možemo naći pri...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>2</Difficulty>
+					<Options>
+						<Option>vrhu</Option>
+					    <Option>sredini</Option>
+					    <Option>dnu</Option>
+					</Options>
+					<Correct>dnu</Correct>
+					<Explanation>
+					    U nalazištima nafte voda se nalazi na dnu, nafta pri sredini, a plin na vrhu.
+					</Explanation>
+				</Question>
+				
+				<QuestionId>4</QuestionId>
+					<Text>Kisela nafta bogata je...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>2</Difficulty>
+					<Options>
+						<Option>sumporom</Option>
+					    <Option>dušikom</Option>
+					    <Option>kisikom</Option>
+					</Options>
+					<Correct>sumporom</Correct>
+					<Explanation>
+					    Kisela nafta bogata je sumporom. Suprotnost predstavlja slatka nafta siromašna ili pak bez sumpora.
+					</Explanation>
+				</Question>
+				
+				<QuestionId>5</QuestionId>
+					<Text>Na velikim dubinama nalazi se...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>2</Difficulty>
+					<Options>
+						<Option>viskoznija nafta</Option>
+					    <Option>kiselija nafta</Option>
+					    <Option>degradiranijaa nafta</Option>
+					</Options>
+					<Correct>viskoznija nafta</Correct>
+					<Explanation>
+					    Nalazištima velike dubine pripada viskoznija nafta zbog bolje izolacije, veće temperature i tlaka kojima je izložena.
+					</Explanation>
+				</Question>
+				
+				<QuestionId>6</QuestionId>
+					<Text>Prvi prerađivači nafte bili su...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>2</Difficulty>
+					<Options>
+						<Option>stari egipćani</Option>
+					    <Option>američki domoroci</Option>
+					    <Option>Arapi</Option>
+					</Options>
+					<Correct>američki domoroci</Correct>
+					<Explanation>
+					    Prvi obrađivači nafte bili su američki domoroci (Indijanci) koji su je koristili za izradu kanua i ljekovitih preparata.
+					</Explanation>
+				</Question>
+				
+				<QuestionId>7</QuestionId>
+					<Text>Nalazišta nafte najčešće se nalaze ispod naslaga...</Text>
+					<Image>IMG_Question1.jpg</Image>
+					<Difficulty>2</Difficulty>
+					<Options>
+						<Option>sedimentnih stijena</Option>
+					    <Option>metamorfnih stijena</Option>
+					    <Option>vulkanskih stijena</Option>
+					</Options>
+					<Correct>sedimentnih stijena</Correct>
+					<Explanation>
+					    Nalazišta nafte načešće se nalaze ispod sedimentnih stijena, jer je i sama nafta velikim dijelom nastala procesom sedimentacije.
+					</Explanation>
+				</Question>
+			</Questions>
+		</Chapter>
+		
+		<Chapter>
+			<ChapterNumber>5</ChapterNumber>
 			<Title>Povijest ugljikovodika u Hrvatskoj</Title>
 			<Thumbnail>Assets/oil_rig.png</Thumbnail>
 			<Slides>
@@ -553,7 +762,7 @@
 			</Questions>
 		</Chapter>
 		<Chapter>
-			<ChapterNumber>5</ChapterNumber>
+			<ChapterNumber>6</ChapterNumber>
 			<Title>Naftnogeološke okolnosti Hrvatske</Title>
 			<Thumbnail>Assets/oil_pump.png</Thumbnail>
 			<Slides>
@@ -685,7 +894,7 @@
 			</Questions>
 		</Chapter>
 		<Chapter>
-			<ChapterNumber>6</ChapterNumber>
+			<ChapterNumber>7</ChapterNumber>
 			<Title>Prerada ugljikovodika u Hrvatskoj</Title>
 			<Thumbnail>Assets/refinery_image.png</Thumbnail>
 			<Slides>
