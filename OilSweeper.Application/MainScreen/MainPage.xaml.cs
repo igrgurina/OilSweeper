@@ -1,4 +1,5 @@
-﻿using Windows.UI.Xaml.Controls;
+﻿using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Navigation;
 using Engine.Models;
@@ -30,7 +31,7 @@ namespace MainScreen
 
         private void play_image_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            Frame.Navigate(typeof(GamePage));
+             Frame.Navigate(typeof(GamePage));
         }
 
         private void learn_image_Tapped(object sender, TappedRoutedEventArgs e)
