@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -61,14 +62,20 @@ namespace MainScreen
             if (canClick)
             {
                 Button a = (Button)sender;
-                if (a.DataContext.ToString() == Questions.ElementAt(i).Correct)
+                QuestionViewModel question = Questions.ElementAt(i);
+                if (a.DataContext.ToString() == question.Correct)
                 {
                     a.Background = new SolidColorBrush(Windows.UI.Colors.Green);
 
                     Correct.Visibility =
-                        Explanation.Visibility =
-                        ExplanationLabel.Visibility =
+                        //Explanation.Visibility =
+                        //ExplanationLabel.Visibility =
                         Next.Visibility = Visibility.Visible;
+                    // handle empty explanation
+                    Explanation.Visibility =
+                        ExplanationLabel.Visibility =
+                        String.IsNullOrEmpty(question.Explanation) ? Visibility.Collapsed : Visibility.Visible;
+
                     canClick = false;
                 }
                 else

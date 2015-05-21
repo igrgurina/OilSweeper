@@ -16,10 +16,10 @@
         <Image HorizontalAlignment="Center" Height="250" Margin="0" VerticalAlignment="Top" Width="250" Source="Assets/OilSweeper.png" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Tapped="Image_Tapped"/>
 
         <TextBlock x:Name="oilSweeper_txtBlock" HorizontalAlignment="Center" Margin="0,240,0,0" TextWrapping="Wrap" Text="OilSweeper" VerticalAlignment="Top" FontSize="44" FontFamily="Calibri" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
-        <TextBlock x:Name="play_txtBlock" HorizontalAlignment="Left" Margin="85,350,0,0" TextWrapping="Wrap" Text="Igraj" VerticalAlignment="Top" FontSize="30" FontFamily="Calibri" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
-        <TextBlock x:Name="learn_txtBlock" HorizontalAlignment="Left" Margin="260,350,0,0" TextWrapping="Wrap" Text="Nauči" VerticalAlignment="Top" FontSize="30" FontFamily="Calibri" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
+        <TextBlock x:Name="play_txtBlock" HorizontalAlignment="Left" Margin="95,350,0,0" TextWrapping="Wrap" Text="Igraj" VerticalAlignment="Top" FontSize="30" FontFamily="Calibri" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
+        <TextBlock x:Name="learn_txtBlock" HorizontalAlignment="Right" Margin="0,350,75,0" TextWrapping="Wrap" Text="Nauči" VerticalAlignment="Top" FontSize="30" FontFamily="Calibri" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
         <Image x:Name="play_image" HorizontalAlignment="Left" Height="140" Margin="45,390,0,0" VerticalAlignment="Top" Width="140" Source="Assets/game.png" Tapped="play_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
-        <Image x:Name="learn_image" HorizontalAlignment="Left" Height="140" Margin="225,410,0,0" VerticalAlignment="Top" Width="140" Source="Assets/learn.png" Tapped="learn_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
+        <Image x:Name="learn_image" HorizontalAlignment="Right" Height="140" Margin="0,410,45,0" VerticalAlignment="Top" Width="140" Source="Assets/learn.png" Tapped="learn_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
         
     </Grid>
 </Page>
