@@ -12,12 +12,12 @@
     </Page.Background>
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="74,300,0,0" TextWrapping="Wrap" Text="Tim: OPEC" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30"/>
-        <TextBlock HorizontalAlignment="Left" Margin="15,355,20,0" TextWrapping="Wrap" Text="Voditelj: Ivan Kovačević" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30"/>
-        <TextBlock HorizontalAlignment="Left" Margin="30,410,0,0" TextWrapping="Wrap" Text="Članovi: Ivan Grgurina" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30"/>
-        <TextBlock HorizontalAlignment="Left" Margin="140,455,0,0" TextWrapping="Wrap" Text="Andrej Jurić" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30"/>
-        <TextBlock HorizontalAlignment="Left" Margin="140,500,0,0" TextWrapping="Wrap" Text="Božidar Marković" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30"/>
-        <TextBlock HorizontalAlignment="Left" Margin="140,545,0,0" TextWrapping="Wrap" Text="Davor Nekić" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="68,300,0,0" TextWrapping="Wrap" Text="Tim: OPEC" VerticalAlignment="Top" FontFamily="Calibri" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,355,20,0" TextWrapping="Wrap" Text="Voditelj: Ivan Kovačević" VerticalAlignment="Top" FontFamily="Calibri" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="24,410,0,0" TextWrapping="Wrap" Text="Članovi: Ivan Grgurina" VerticalAlignment="Top" FontFamily="Calibri" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="126,455,0,0" TextWrapping="Wrap" Text="Andrej Jurić" VerticalAlignment="Top" FontFamily="Calibri" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="126,500,0,0" TextWrapping="Wrap" Text="Božidar Marković" VerticalAlignment="Top" FontFamily="Calibri" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="126,545,0,0" TextWrapping="Wrap" Text="Davor Nekić" VerticalAlignment="Top" FontFamily="Calibri" FontSize="30"/>
         <Image HorizontalAlignment="Center" Height="250" Margin="0" VerticalAlignment="Top" Width="250" Source="Assets/OilSweeper.png"/>
     </Grid>
 </Page>

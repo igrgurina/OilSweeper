@@ -14,21 +14,21 @@
     <Grid DataContext="{Binding}">
         <ScrollViewer Margin="20,20,20,90">
             <StackPanel>
-                <TextBlock Text="{Binding Text}" FontSize="28" HorizontalAlignment="Left" TextWrapping="Wrap" MaxHeight="200" Margin="0,10,0,0" FontFamily="Comic Sans MS"/>
+                <TextBlock Text="{Binding Text}" FontSize="30" HorizontalAlignment="Left" TextWrapping="Wrap" MaxHeight="200" Margin="0,10,0,0" FontFamily="Calibri"/>
                 <ListView Margin="0,20,0,0" FontSize="24" ItemsSource="{Binding Options}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <Button Click="Answer_OnClick" FontSize="24" Margin="5,0" HorizontalAlignment="Stretch" FontFamily="Comic Sans MS" >
-                                <TextBlock Text="{Binding}" TextWrapping="Wrap" Margin="10" FontFamily="Comic Sans MS" FontSize="20" Width="320"/>
+                            <Button Click="Answer_OnClick" FontSize="30" Margin="5,0" HorizontalAlignment="Stretch" FontFamily="Calibri" >
+                                <TextBlock Text="{Binding}" TextWrapping="Wrap" Margin="10" FontFamily="Calibri" FontSize="24" Width="320"/>
                             </Button>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-                <TextBlock Visibility="Collapsed" x:Name="Correct" Text="Odgovor je točan!" FontSize="28" Foreground="#FF47EA17" Margin="5,10,0,0" FontFamily="Comic Sans MS"></TextBlock>
+                <TextBlock Visibility="Collapsed" x:Name="Correct" Text="Odgovor je točan!" FontSize="30" Foreground="#FF47EA17" Margin="5,10,0,0" FontFamily="Calibri"></TextBlock>
                 <Button x:Name="Next" Visibility="Collapsed" Click="NextQuestion" FontSize="25" Margin="5,10,0,5" HorizontalAlignment="Right" VerticalAlignment="Bottom" >
-                    <TextBlock Text="Iduće pitanje" TextWrapping="Wrap" Margin="10"/>
+                    <TextBlock Text="Iduće pitanje" TextWrapping="Wrap" Margin="10" FontFamily="Calibri" FontSize="30"/>
                 </Button>
-                <TextBlock x:Name="Explanation" TextWrapping="Wrap" MaxHeight="200" Visibility="Collapsed" Text="{Binding Explanation}" FontSize="20" Margin="5,15,0,0" TextAlignment="Justify" FontFamily="Comic Sans MS" HorizontalAlignment="Left"></TextBlock>
+                <TextBlock x:Name="Explanation" TextWrapping="Wrap" MaxHeight="200" Visibility="Collapsed" Text="{Binding Explanation}" FontSize="24" Margin="5,15,0,0" TextAlignment="Justify" FontFamily="Calibri" HorizontalAlignment="Left"></TextBlock>
             </StackPanel>
         </ScrollViewer>
         <Image HorizontalAlignment="Left" Height="70" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="70" Source="Assets/back_button.png" Tapped="back_image_Tapped" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
